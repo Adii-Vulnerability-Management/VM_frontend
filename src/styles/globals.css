@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* in your global CSS */
+/* @import "react-select/dist/react-select.css"; */
+@import "codemirror/lib/codemirror.css";
+/* styles/globals.css */
+
+/* Global font settings */
+html, body, div, p {
+  font-family: 'Roboto', sans-serif; /* Default font for the body */
+}
+
+/* Use Lato for headings with explicit sizes */
+h1 {
+  font-family: 'Lato', sans-serif;
+  @apply text-4xl font-bold; /* Use Tailwind's 4xl size for h1 */
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  @apply text-3xl font-semibold; /* Use Tailwind's 3xl size for h2 */
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  @apply text-2xl font-semibold; /* Use Tailwind's 2xl size for h3 */
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  @apply text-xl font-medium; /* Use Tailwind's xl size for h4 */
+}
+
+h5, h6 {
+  font-family: 'Lato', sans-serif;
+  @apply text-lg font-medium; /* Use Tailwind's lg size for h5 and h6 */
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #050038;
+  color: #ffffff;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #007ACC;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color: #005A99;
+}
+
+.btn-primary:active {
+  background-color: #004F8A;
+  box-shadow: 0 4px 6px rgba(0, 122, 204, 0.4); /* Light blue shadow */
+}
+
+.btn-secondary {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+}
+
+.btn-secondary:hover {
+  background-color: #388E3C;
+}
+
+.btn-secondary:active {
+  background-color: #2E7D32;
+}
+
+.btn-danger {
+  background-color: #FF5722;
+  color: #FFFFFF;
+}
+
+.btn-danger:hover {
+  background-color: #E64A19;
+}
+
+.btn-danger:active {
+  background-color: #D84315;
+}
+
+/* Heading Colors */
+h1, h2 {
+  color: #050038; /* Dark, bold for major headings */
+}
+
+h3, h4 {
+  color: #333333; /* Dark gray for subheadings */
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover {
+  color: #007ACC; /* Blue hover for headings */
+}
+
+/* Card/Accordion Background */
+.card, .accordion {
+  background-color: #F8F9FA; /* Light gray background */
+  border: 1px solid #E0E0E0; /* Subtle gray border */
+}
+
+/* Tab/Navigation Active State */
+.tab-active {
+  background-color: #007ACC;
+  color: #FFFFFF;
+}
+
+.tab-active:hover {
+  background-color: #005A99;
+}
+
+/* Inactive tab text color */
+.tab-inactive {
+  color: #333333;
+}
+
+.tab-inactive:hover {
+  color: #007ACC; /* Hover effect for inactive tabs */
+}
+
+/* General Text Colors */
+.text-primary {
+  color: #333333;
+}
+
+.text-secondary {
+  color: #757575;
+}
+
+/* Background and Page Styles */
+.page-background {
+  background-color: #F4F4F9;
+}
+
+.card-background {
+  background-color: #FFFFFF;
+}
+
+.modal-background {
+  background-color: #FFFFFF;
+}
+
+/* styles/globals.css or another global stylesheet */
+.modal-open #root, /* Replace #root with your main content wrapper if different */
+.modal-open body {
+  filter: blur(5px); /* Apply blur effect */
+  pointer-events: none; /* Disable interactions */
+}
+
+.modal-open .fixed {
+  filter: none;
+  pointer-events: auto; /* Enable interactions for modal */
+}
+
+@keyframes help-glow {
+  0%, 100% {
+    box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.3),
+                0 0 15px 4px rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 12px 3px rgba(255, 255, 255, 0.5),
+                0 0 20px 6px rgba(255, 255, 255, 0.3);
+  }
+}
+
+.animate-help-glow {
+  animation: help-glow 2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-help-glow {
+    animation: none;
+  }
+}

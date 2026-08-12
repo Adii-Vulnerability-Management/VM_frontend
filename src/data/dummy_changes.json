@@ -1,0 +1,1527 @@
+[
+  {
+    "_id": "7eee6182-b9cc-4d58-867c-07ecb10995f4",
+    "changeTitle": "Change Request #1",
+    "changeRequester": "Alice",
+    "departmentOrBusinessUnit": "Sales",
+    "changeType": "Emergency",
+    "changePriority": "Critical",
+    "changeCategory": "Process",
+    "requiresCabApproval": "No",
+    "riskLevel": "Low",
+    "plannedStartDateTime": "2024-11-10T12:06:21.530872",
+    "plannedEndDateTime": "2024-11-11T12:06:21.530872",
+    "serviceImpacted": [
+      "API",
+      "Email"
+    ],
+    "environmentImpacted": [
+      "Prod",
+      "QA"
+    ],
+    "detailedChangeDescription": "Detailed description for change #1.",
+    "businessJustification": "Business justification for change #1.",
+    "financialImpact": "$4709",
+    "dependencies": [
+      "Change C"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #1.",
+    "performanceTestingPlan": "Performance plan #1.",
+    "stepByStepImplementation": "Step-by-step plan for change #1.",
+    "postChangeNotifications": "Notify stakeholders for change #1.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #1.",
+    "affectedUsers": "89 users",
+    "downtimeDuration": "2 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor X"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition A"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #1.",
+    "estimatedRollbackTime": "1 hours",
+    "responsiblePersonForRollback": "Bob",
+    "downtimeNotificationPlan": "Notify users before downtime for change #1.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool B"
+    ],
+    "rolesAndResponsibilities": [
+      "Role A",
+      "Role C"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "Pending",
+    "closureDate": "2024-11-12T12:06:21.530872",
+    "closedBy": "Evan",
+    "auditTrailCompleted": "No"
+  },
+  {
+    "_id": "bfb528f6-d073-40df-9a69-5f44013d1233",
+    "changeTitle": "Change Request #2",
+    "changeRequester": "Bob",
+    "departmentOrBusinessUnit": "Sales",
+    "changeType": "Standard",
+    "changePriority": "High",
+    "changeCategory": "Infrastructure",
+    "requiresCabApproval": "Yes",
+    "riskLevel": "High",
+    "plannedStartDateTime": "2024-11-13T12:06:21.530872",
+    "plannedEndDateTime": "2024-11-14T12:06:21.530872",
+    "serviceImpacted": [
+      "Database",
+      "Email"
+    ],
+    "environmentImpacted": [
+      "Dev",
+      "Prod"
+    ],
+    "detailedChangeDescription": "Detailed description for change #2.",
+    "businessJustification": "Business justification for change #2.",
+    "financialImpact": "$9063",
+    "dependencies": [
+      "Change A"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #2.",
+    "performanceTestingPlan": "Performance plan #2.",
+    "stepByStepImplementation": "Step-by-step plan for change #2.",
+    "postChangeNotifications": "Notify stakeholders for change #2.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #2.",
+    "affectedUsers": "82 users",
+    "downtimeDuration": "2 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Y"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition A"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #2.",
+    "estimatedRollbackTime": "1 hours",
+    "responsiblePersonForRollback": "Charlie",
+    "downtimeNotificationPlan": "Notify users before downtime for change #2.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool B"
+    ],
+    "rolesAndResponsibilities": [
+      "Role C",
+      "Role B"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "On Hold",
+    "closureDate": "2024-11-15T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "No"
+  },
+  {
+    "_id": "cb2934cc-87aa-4063-8ca7-4b46579944b8",
+    "changeTitle": "Change Request #3",
+    "changeRequester": "Bob",
+    "departmentOrBusinessUnit": "Operations",
+    "changeType": "Normal",
+    "changePriority": "High",
+    "changeCategory": "Software",
+    "requiresCabApproval": "No",
+    "riskLevel": "Medium",
+    "plannedStartDateTime": "2024-11-16T12:06:21.530872",
+    "plannedEndDateTime": "2024-11-17T12:06:21.530872",
+    "serviceImpacted": [
+      "API",
+      "Email"
+    ],
+    "environmentImpacted": [
+      "Prod",
+      "QA"
+    ],
+    "detailedChangeDescription": "Detailed description for change #3.",
+    "businessJustification": "Business justification for change #3.",
+    "financialImpact": "$5820",
+    "dependencies": [
+      "Change C"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #3.",
+    "performanceTestingPlan": "Performance plan #3.",
+    "stepByStepImplementation": "Step-by-step plan for change #3.",
+    "postChangeNotifications": "Notify stakeholders for change #3.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #3.",
+    "affectedUsers": "12 users",
+    "downtimeDuration": "4 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor X"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition A"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #3.",
+    "estimatedRollbackTime": "2 hours",
+    "responsiblePersonForRollback": "Bob",
+    "downtimeNotificationPlan": "Notify users before downtime for change #3.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool B"
+    ],
+    "rolesAndResponsibilities": [
+      "Role B",
+      "Role C"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "In Progress",
+    "closureDate": "2024-11-18T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "No"
+  },
+  {
+    "_id": "eb0df937-56dc-4fd8-82c6-9e70a67a7237",
+    "changeTitle": "Change Request #4",
+    "changeRequester": "Bob",
+    "departmentOrBusinessUnit": "Finance",
+    "changeType": "Standard",
+    "changePriority": "Medium",
+    "changeCategory": "Software",
+    "requiresCabApproval": "Yes",
+    "riskLevel": "High",
+    "plannedStartDateTime": "2024-11-19T12:06:21.530872",
+    "plannedEndDateTime": "2024-11-20T12:06:21.530872",
+    "serviceImpacted": [
+      "Database",
+      "Website"
+    ],
+    "environmentImpacted": [
+      "Prod",
+      "Dev"
+    ],
+    "detailedChangeDescription": "Detailed description for change #4.",
+    "businessJustification": "Business justification for change #4.",
+    "financialImpact": "$8948",
+    "dependencies": [
+      "Change A"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #4.",
+    "performanceTestingPlan": "Performance plan #4.",
+    "stepByStepImplementation": "Step-by-step plan for change #4.",
+    "postChangeNotifications": "Notify stakeholders for change #4.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #4.",
+    "affectedUsers": "91 users",
+    "downtimeDuration": "2 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Y"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #4.",
+    "estimatedRollbackTime": "2 hours",
+    "responsiblePersonForRollback": "Alice",
+    "downtimeNotificationPlan": "Notify users before downtime for change #4.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool B"
+    ],
+    "rolesAndResponsibilities": [
+      "Role B",
+      "Role C"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "In Progress",
+    "closureDate": "2024-11-21T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "5954ea6e-a140-453c-9796-8cb6a07e2a89",
+    "changeTitle": "Change Request #5",
+    "changeRequester": "Diana",
+    "departmentOrBusinessUnit": "Operations",
+    "changeType": "Normal",
+    "changePriority": "High",
+    "changeCategory": "Software",
+    "requiresCabApproval": "No",
+    "riskLevel": "High",
+    "plannedStartDateTime": "2024-11-22T12:06:21.530872",
+    "plannedEndDateTime": "2024-11-23T12:06:21.530872",
+    "serviceImpacted": [
+      "Database",
+      "Website"
+    ],
+    "environmentImpacted": [
+      "QA",
+      "Prod"
+    ],
+    "detailedChangeDescription": "Detailed description for change #5.",
+    "businessJustification": "Business justification for change #5.",
+    "financialImpact": "$1904",
+    "dependencies": [
+      "Change C"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #5.",
+    "performanceTestingPlan": "Performance plan #5.",
+    "stepByStepImplementation": "Step-by-step plan for change #5.",
+    "postChangeNotifications": "Notify stakeholders for change #5.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #5.",
+    "affectedUsers": "91 users",
+    "downtimeDuration": "3 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor X"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition A"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #5.",
+    "estimatedRollbackTime": "3 hours",
+    "responsiblePersonForRollback": "Bob",
+    "downtimeNotificationPlan": "Notify users before downtime for change #5.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool B"
+    ],
+    "rolesAndResponsibilities": [
+      "Role A",
+      "Role B"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "In Progress",
+    "closureDate": "2024-11-24T12:06:21.530872",
+    "closedBy": "Evan",
+    "auditTrailCompleted": "No"
+  },
+  {
+    "_id": "0b4227c6-aa84-4051-8d1b-abb4cfbaa4a3",
+    "changeTitle": "Change Request #6",
+    "changeRequester": "Alice",
+    "departmentOrBusinessUnit": "Operations",
+    "changeType": "Standard",
+    "changePriority": "Critical",
+    "changeCategory": "Process",
+    "requiresCabApproval": "No",
+    "riskLevel": "High",
+    "plannedStartDateTime": "2024-11-25T12:06:21.530872",
+    "plannedEndDateTime": "2024-11-26T12:06:21.530872",
+    "serviceImpacted": [
+      "API",
+      "Database"
+    ],
+    "environmentImpacted": [
+      "Prod",
+      "Dev"
+    ],
+    "detailedChangeDescription": "Detailed description for change #6.",
+    "businessJustification": "Business justification for change #6.",
+    "financialImpact": "$6823",
+    "dependencies": [
+      "Change C"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #6.",
+    "performanceTestingPlan": "Performance plan #6.",
+    "stepByStepImplementation": "Step-by-step plan for change #6.",
+    "postChangeNotifications": "Notify stakeholders for change #6.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #6.",
+    "affectedUsers": "93 users",
+    "downtimeDuration": "2 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Z"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition A"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #6.",
+    "estimatedRollbackTime": "2 hours",
+    "responsiblePersonForRollback": "Charlie",
+    "downtimeNotificationPlan": "Notify users before downtime for change #6.",
+    "toolsSoftwareHardwareRequired": [
+      "Hardware C"
+    ],
+    "rolesAndResponsibilities": [
+      "Role A",
+      "Role C"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "In Progress",
+    "closureDate": "2024-11-27T12:06:21.530872",
+    "closedBy": "Evan",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "bc2c11d8-2198-4b9b-90ed-74e43ebaa013",
+    "changeTitle": "Change Request #7",
+    "changeRequester": "Bob",
+    "departmentOrBusinessUnit": "IT",
+    "changeType": "Standard",
+    "changePriority": "High",
+    "changeCategory": "Infrastructure",
+    "requiresCabApproval": "Yes",
+    "riskLevel": "Low",
+    "plannedStartDateTime": "2024-11-28T12:06:21.530872",
+    "plannedEndDateTime": "2024-11-29T12:06:21.530872",
+    "serviceImpacted": [
+      "Database",
+      "Email"
+    ],
+    "environmentImpacted": [
+      "QA",
+      "Dev"
+    ],
+    "detailedChangeDescription": "Detailed description for change #7.",
+    "businessJustification": "Business justification for change #7.",
+    "financialImpact": "$2110",
+    "dependencies": [
+      "Change B"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #7.",
+    "performanceTestingPlan": "Performance plan #7.",
+    "stepByStepImplementation": "Step-by-step plan for change #7.",
+    "postChangeNotifications": "Notify stakeholders for change #7.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #7.",
+    "affectedUsers": "92 users",
+    "downtimeDuration": "1 hours",
+    "serviceDowntimeExpected": "Yes",
+    "thirdPartyVendorsInvolved": [
+      "Vendor X"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition A"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #7.",
+    "estimatedRollbackTime": "2 hours",
+    "responsiblePersonForRollback": "Alice",
+    "downtimeNotificationPlan": "Notify users before downtime for change #7.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool B"
+    ],
+    "rolesAndResponsibilities": [
+      "Role C",
+      "Role A"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "In Progress",
+    "closureDate": "2024-11-30T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "0e9bb07a-7bfa-4d55-bb32-31a07979167d",
+    "changeTitle": "Change Request #8",
+    "changeRequester": "Evan",
+    "departmentOrBusinessUnit": "HR",
+    "changeType": "Emergency",
+    "changePriority": "Low",
+    "changeCategory": "Infrastructure",
+    "requiresCabApproval": "No",
+    "riskLevel": "Medium",
+    "plannedStartDateTime": "2024-12-01T12:06:21.530872",
+    "plannedEndDateTime": "2024-12-02T12:06:21.530872",
+    "serviceImpacted": [
+      "API",
+      "Database"
+    ],
+    "environmentImpacted": [
+      "Prod",
+      "Dev"
+    ],
+    "detailedChangeDescription": "Detailed description for change #8.",
+    "businessJustification": "Business justification for change #8.",
+    "financialImpact": "$6918",
+    "dependencies": [
+      "Change A"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #8.",
+    "performanceTestingPlan": "Performance plan #8.",
+    "stepByStepImplementation": "Step-by-step plan for change #8.",
+    "postChangeNotifications": "Notify stakeholders for change #8.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #8.",
+    "affectedUsers": "91 users",
+    "downtimeDuration": "1 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Z"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #8.",
+    "estimatedRollbackTime": "1 hours",
+    "responsiblePersonForRollback": "Bob",
+    "downtimeNotificationPlan": "Notify users before downtime for change #8.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool A"
+    ],
+    "rolesAndResponsibilities": [
+      "Role A",
+      "Role B"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "In Progress",
+    "closureDate": "2024-12-03T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "4492e186-1a49-408e-931e-02d1c2daa9f6",
+    "changeTitle": "Change Request #9",
+    "changeRequester": "Diana",
+    "departmentOrBusinessUnit": "Operations",
+    "changeType": "Normal",
+    "changePriority": "Low",
+    "changeCategory": "Infrastructure",
+    "requiresCabApproval": "Yes",
+    "riskLevel": "Low",
+    "plannedStartDateTime": "2024-12-04T12:06:21.530872",
+    "plannedEndDateTime": "2024-12-05T12:06:21.530872",
+    "serviceImpacted": [
+      "Email",
+      "API"
+    ],
+    "environmentImpacted": [
+      "QA",
+      "Dev"
+    ],
+    "detailedChangeDescription": "Detailed description for change #9.",
+    "businessJustification": "Business justification for change #9.",
+    "financialImpact": "$7063",
+    "dependencies": [
+      "Change A"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #9.",
+    "performanceTestingPlan": "Performance plan #9.",
+    "stepByStepImplementation": "Step-by-step plan for change #9.",
+    "postChangeNotifications": "Notify stakeholders for change #9.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #9.",
+    "affectedUsers": "59 users",
+    "downtimeDuration": "1 hours",
+    "serviceDowntimeExpected": "Yes",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Z"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #9.",
+    "estimatedRollbackTime": "1 hours",
+    "responsiblePersonForRollback": "Bob",
+    "downtimeNotificationPlan": "Notify users before downtime for change #9.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool A"
+    ],
+    "rolesAndResponsibilities": [
+      "Role C",
+      "Role A"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "In Progress",
+    "closureDate": "2024-12-06T12:06:21.530872",
+    "closedBy": "Evan",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "e8653a20-66bb-4068-a561-a3e3b9bcddc6",
+    "changeTitle": "Change Request #10",
+    "changeRequester": "Evan",
+    "departmentOrBusinessUnit": "Operations",
+    "changeType": "Normal",
+    "changePriority": "Medium",
+    "changeCategory": "Infrastructure",
+    "requiresCabApproval": "No",
+    "riskLevel": "High",
+    "plannedStartDateTime": "2024-12-07T12:06:21.530872",
+    "plannedEndDateTime": "2024-12-08T12:06:21.530872",
+    "serviceImpacted": [
+      "Email",
+      "Database"
+    ],
+    "environmentImpacted": [
+      "Prod",
+      "Dev"
+    ],
+    "detailedChangeDescription": "Detailed description for change #10.",
+    "businessJustification": "Business justification for change #10.",
+    "financialImpact": "$4743",
+    "dependencies": [
+      "Change B"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #10.",
+    "performanceTestingPlan": "Performance plan #10.",
+    "stepByStepImplementation": "Step-by-step plan for change #10.",
+    "postChangeNotifications": "Notify stakeholders for change #10.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #10.",
+    "affectedUsers": "68 users",
+    "downtimeDuration": "1 hours",
+    "serviceDowntimeExpected": "Yes",
+    "thirdPartyVendorsInvolved": [
+      "Vendor X"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #10.",
+    "estimatedRollbackTime": "1 hours",
+    "responsiblePersonForRollback": "Charlie",
+    "downtimeNotificationPlan": "Notify users before downtime for change #10.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool B"
+    ],
+    "rolesAndResponsibilities": [
+      "Role B",
+      "Role C"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "On Hold",
+    "closureDate": "2024-12-09T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "0b55a512-80e3-4f95-af64-229ee13fbe44",
+    "changeTitle": "Change Request #11",
+    "changeRequester": "Evan",
+    "departmentOrBusinessUnit": "IT",
+    "changeType": "Normal",
+    "changePriority": "Low",
+    "changeCategory": "Process",
+    "requiresCabApproval": "No",
+    "riskLevel": "Medium",
+    "plannedStartDateTime": "2024-12-10T12:06:21.530872",
+    "plannedEndDateTime": "2024-12-11T12:06:21.530872",
+    "serviceImpacted": [
+      "API",
+      "Website"
+    ],
+    "environmentImpacted": [
+      "QA",
+      "Prod"
+    ],
+    "detailedChangeDescription": "Detailed description for change #11.",
+    "businessJustification": "Business justification for change #11.",
+    "financialImpact": "$6915",
+    "dependencies": [
+      "Change C"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #11.",
+    "performanceTestingPlan": "Performance plan #11.",
+    "stepByStepImplementation": "Step-by-step plan for change #11.",
+    "postChangeNotifications": "Notify stakeholders for change #11.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #11.",
+    "affectedUsers": "15 users",
+    "downtimeDuration": "1 hours",
+    "serviceDowntimeExpected": "Yes",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Y"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #11.",
+    "estimatedRollbackTime": "1 hours",
+    "responsiblePersonForRollback": "Bob",
+    "downtimeNotificationPlan": "Notify users before downtime for change #11.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool A"
+    ],
+    "rolesAndResponsibilities": [
+      "Role B",
+      "Role A"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "Completed",
+    "closureDate": "2024-12-12T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "d6b230de-c0fc-42f4-aa01-90998f0dfed5",
+    "changeTitle": "Change Request #12",
+    "changeRequester": "Evan",
+    "departmentOrBusinessUnit": "IT",
+    "changeType": "Emergency",
+    "changePriority": "Low",
+    "changeCategory": "Process",
+    "requiresCabApproval": "No",
+    "riskLevel": "High",
+    "plannedStartDateTime": "2024-12-13T12:06:21.530872",
+    "plannedEndDateTime": "2024-12-14T12:06:21.530872",
+    "serviceImpacted": [
+      "API",
+      "Database"
+    ],
+    "environmentImpacted": [
+      "Dev",
+      "Prod"
+    ],
+    "detailedChangeDescription": "Detailed description for change #12.",
+    "businessJustification": "Business justification for change #12.",
+    "financialImpact": "$5387",
+    "dependencies": [
+      "Change B"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #12.",
+    "performanceTestingPlan": "Performance plan #12.",
+    "stepByStepImplementation": "Step-by-step plan for change #12.",
+    "postChangeNotifications": "Notify stakeholders for change #12.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #12.",
+    "affectedUsers": "56 users",
+    "downtimeDuration": "3 hours",
+    "serviceDowntimeExpected": "Yes",
+    "thirdPartyVendorsInvolved": [
+      "Vendor X"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #12.",
+    "estimatedRollbackTime": "3 hours",
+    "responsiblePersonForRollback": "Charlie",
+    "downtimeNotificationPlan": "Notify users before downtime for change #12.",
+    "toolsSoftwareHardwareRequired": [
+      "Hardware C"
+    ],
+    "rolesAndResponsibilities": [
+      "Role A",
+      "Role B"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "Pending",
+    "closureDate": "2024-12-15T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "dbea060c-74d0-4ab9-bf9f-e97faf839cd4",
+    "changeTitle": "Change Request #13",
+    "changeRequester": "Charlie",
+    "departmentOrBusinessUnit": "Operations",
+    "changeType": "Standard",
+    "changePriority": "Medium",
+    "changeCategory": "Process",
+    "requiresCabApproval": "Yes",
+    "riskLevel": "Medium",
+    "plannedStartDateTime": "2024-12-16T12:06:21.530872",
+    "plannedEndDateTime": "2024-12-17T12:06:21.530872",
+    "serviceImpacted": [
+      "API",
+      "Website"
+    ],
+    "environmentImpacted": [
+      "QA",
+      "Prod"
+    ],
+    "detailedChangeDescription": "Detailed description for change #13.",
+    "businessJustification": "Business justification for change #13.",
+    "financialImpact": "$7320",
+    "dependencies": [
+      "Change A"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #13.",
+    "performanceTestingPlan": "Performance plan #13.",
+    "stepByStepImplementation": "Step-by-step plan for change #13.",
+    "postChangeNotifications": "Notify stakeholders for change #13.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #13.",
+    "affectedUsers": "80 users",
+    "downtimeDuration": "2 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Z"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #13.",
+    "estimatedRollbackTime": "3 hours",
+    "responsiblePersonForRollback": "Charlie",
+    "downtimeNotificationPlan": "Notify users before downtime for change #13.",
+    "toolsSoftwareHardwareRequired": [
+      "Hardware C"
+    ],
+    "rolesAndResponsibilities": [
+      "Role A",
+      "Role C"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "Completed",
+    "closureDate": "2024-12-18T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "19a2b1b5-e21e-4fa0-b1b9-1efbcf6534b8",
+    "changeTitle": "Change Request #14",
+    "changeRequester": "Evan",
+    "departmentOrBusinessUnit": "Sales",
+    "changeType": "Normal",
+    "changePriority": "High",
+    "changeCategory": "Software",
+    "requiresCabApproval": "Yes",
+    "riskLevel": "Medium",
+    "plannedStartDateTime": "2024-12-19T12:06:21.530872",
+    "plannedEndDateTime": "2024-12-20T12:06:21.530872",
+    "serviceImpacted": [
+      "Database",
+      "Email"
+    ],
+    "environmentImpacted": [
+      "Dev",
+      "QA"
+    ],
+    "detailedChangeDescription": "Detailed description for change #14.",
+    "businessJustification": "Business justification for change #14.",
+    "financialImpact": "$8424",
+    "dependencies": [
+      "Change B"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #14.",
+    "performanceTestingPlan": "Performance plan #14.",
+    "stepByStepImplementation": "Step-by-step plan for change #14.",
+    "postChangeNotifications": "Notify stakeholders for change #14.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #14.",
+    "affectedUsers": "31 users",
+    "downtimeDuration": "1 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor X"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition A"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #14.",
+    "estimatedRollbackTime": "3 hours",
+    "responsiblePersonForRollback": "Alice",
+    "downtimeNotificationPlan": "Notify users before downtime for change #14.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool A"
+    ],
+    "rolesAndResponsibilities": [
+      "Role A",
+      "Role C"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "In Progress",
+    "closureDate": "2024-12-21T12:06:21.530872",
+    "closedBy": "Evan",
+    "auditTrailCompleted": "No"
+  },
+  {
+    "_id": "1a93134e-a151-40cc-84dd-7effcd40f17f",
+    "changeTitle": "Change Request #15",
+    "changeRequester": "Evan",
+    "departmentOrBusinessUnit": "HR",
+    "changeType": "Standard",
+    "changePriority": "High",
+    "changeCategory": "Infrastructure",
+    "requiresCabApproval": "No",
+    "riskLevel": "High",
+    "plannedStartDateTime": "2024-12-22T12:06:21.530872",
+    "plannedEndDateTime": "2024-12-23T12:06:21.530872",
+    "serviceImpacted": [
+      "Email",
+      "API"
+    ],
+    "environmentImpacted": [
+      "QA",
+      "Prod"
+    ],
+    "detailedChangeDescription": "Detailed description for change #15.",
+    "businessJustification": "Business justification for change #15.",
+    "financialImpact": "$2004",
+    "dependencies": [
+      "Change C"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #15.",
+    "performanceTestingPlan": "Performance plan #15.",
+    "stepByStepImplementation": "Step-by-step plan for change #15.",
+    "postChangeNotifications": "Notify stakeholders for change #15.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #15.",
+    "affectedUsers": "61 users",
+    "downtimeDuration": "2 hours",
+    "serviceDowntimeExpected": "Yes",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Z"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition A"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #15.",
+    "estimatedRollbackTime": "1 hours",
+    "responsiblePersonForRollback": "Charlie",
+    "downtimeNotificationPlan": "Notify users before downtime for change #15.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool B"
+    ],
+    "rolesAndResponsibilities": [
+      "Role A",
+      "Role C"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "On Hold",
+    "closureDate": "2024-12-24T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "2fec7bc8-2c63-47de-b5e8-2a61a559c076",
+    "changeTitle": "Change Request #16",
+    "changeRequester": "Charlie",
+    "departmentOrBusinessUnit": "Sales",
+    "changeType": "Normal",
+    "changePriority": "Critical",
+    "changeCategory": "Software",
+    "requiresCabApproval": "Yes",
+    "riskLevel": "High",
+    "plannedStartDateTime": "2024-12-25T12:06:21.530872",
+    "plannedEndDateTime": "2024-12-26T12:06:21.530872",
+    "serviceImpacted": [
+      "Email",
+      "Website"
+    ],
+    "environmentImpacted": [
+      "Dev",
+      "Prod"
+    ],
+    "detailedChangeDescription": "Detailed description for change #16.",
+    "businessJustification": "Business justification for change #16.",
+    "financialImpact": "$8414",
+    "dependencies": [
+      "Change A"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #16.",
+    "performanceTestingPlan": "Performance plan #16.",
+    "stepByStepImplementation": "Step-by-step plan for change #16.",
+    "postChangeNotifications": "Notify stakeholders for change #16.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #16.",
+    "affectedUsers": "30 users",
+    "downtimeDuration": "2 hours",
+    "serviceDowntimeExpected": "Yes",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Y"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #16.",
+    "estimatedRollbackTime": "1 hours",
+    "responsiblePersonForRollback": "Alice",
+    "downtimeNotificationPlan": "Notify users before downtime for change #16.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool A"
+    ],
+    "rolesAndResponsibilities": [
+      "Role A",
+      "Role B"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "On Hold",
+    "closureDate": "2024-12-27T12:06:21.530872",
+    "closedBy": "Evan",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "fa906f28-9df0-47c1-a123-c0c72911a075",
+    "changeTitle": "Change Request #17",
+    "changeRequester": "Bob",
+    "departmentOrBusinessUnit": "Finance",
+    "changeType": "Standard",
+    "changePriority": "High",
+    "changeCategory": "Software",
+    "requiresCabApproval": "Yes",
+    "riskLevel": "Medium",
+    "plannedStartDateTime": "2024-12-28T12:06:21.530872",
+    "plannedEndDateTime": "2024-12-29T12:06:21.530872",
+    "serviceImpacted": [
+      "Email",
+      "Database"
+    ],
+    "environmentImpacted": [
+      "QA",
+      "Prod"
+    ],
+    "detailedChangeDescription": "Detailed description for change #17.",
+    "businessJustification": "Business justification for change #17.",
+    "financialImpact": "$9601",
+    "dependencies": [
+      "Change B"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #17.",
+    "performanceTestingPlan": "Performance plan #17.",
+    "stepByStepImplementation": "Step-by-step plan for change #17.",
+    "postChangeNotifications": "Notify stakeholders for change #17.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #17.",
+    "affectedUsers": "53 users",
+    "downtimeDuration": "2 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Y"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #17.",
+    "estimatedRollbackTime": "3 hours",
+    "responsiblePersonForRollback": "Charlie",
+    "downtimeNotificationPlan": "Notify users before downtime for change #17.",
+    "toolsSoftwareHardwareRequired": [
+      "Hardware C"
+    ],
+    "rolesAndResponsibilities": [
+      "Role C",
+      "Role A"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "Completed",
+    "closureDate": "2024-12-30T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "No"
+  },
+  {
+    "_id": "1d0307ae-2c14-4bba-bc38-b26687c45c09",
+    "changeTitle": "Change Request #18",
+    "changeRequester": "Alice",
+    "departmentOrBusinessUnit": "Finance",
+    "changeType": "Standard",
+    "changePriority": "Low",
+    "changeCategory": "Software",
+    "requiresCabApproval": "Yes",
+    "riskLevel": "High",
+    "plannedStartDateTime": "2024-12-31T12:06:21.530872",
+    "plannedEndDateTime": "2025-01-01T12:06:21.530872",
+    "serviceImpacted": [
+      "Database",
+      "Email"
+    ],
+    "environmentImpacted": [
+      "Prod",
+      "Dev"
+    ],
+    "detailedChangeDescription": "Detailed description for change #18.",
+    "businessJustification": "Business justification for change #18.",
+    "financialImpact": "$8228",
+    "dependencies": [
+      "Change A"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #18.",
+    "performanceTestingPlan": "Performance plan #18.",
+    "stepByStepImplementation": "Step-by-step plan for change #18.",
+    "postChangeNotifications": "Notify stakeholders for change #18.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #18.",
+    "affectedUsers": "94 users",
+    "downtimeDuration": "4 hours",
+    "serviceDowntimeExpected": "Yes",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Y"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #18.",
+    "estimatedRollbackTime": "3 hours",
+    "responsiblePersonForRollback": "Charlie",
+    "downtimeNotificationPlan": "Notify users before downtime for change #18.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool B"
+    ],
+    "rolesAndResponsibilities": [
+      "Role B",
+      "Role A"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "In Progress",
+    "closureDate": "2025-01-02T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "No"
+  },
+  {
+    "_id": "72e95477-bf3c-4a7a-b628-a957eba890d6",
+    "changeTitle": "Change Request #19",
+    "changeRequester": "Charlie",
+    "departmentOrBusinessUnit": "Operations",
+    "changeType": "Normal",
+    "changePriority": "High",
+    "changeCategory": "Software",
+    "requiresCabApproval": "No",
+    "riskLevel": "High",
+    "plannedStartDateTime": "2025-01-03T12:06:21.530872",
+    "plannedEndDateTime": "2025-01-04T12:06:21.530872",
+    "serviceImpacted": [
+      "Database",
+      "Website"
+    ],
+    "environmentImpacted": [
+      "Prod",
+      "Dev"
+    ],
+    "detailedChangeDescription": "Detailed description for change #19.",
+    "businessJustification": "Business justification for change #19.",
+    "financialImpact": "$5033",
+    "dependencies": [
+      "Change A"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #19.",
+    "performanceTestingPlan": "Performance plan #19.",
+    "stepByStepImplementation": "Step-by-step plan for change #19.",
+    "postChangeNotifications": "Notify stakeholders for change #19.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #19.",
+    "affectedUsers": "16 users",
+    "downtimeDuration": "2 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Y"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #19.",
+    "estimatedRollbackTime": "3 hours",
+    "responsiblePersonForRollback": "Bob",
+    "downtimeNotificationPlan": "Notify users before downtime for change #19.",
+    "toolsSoftwareHardwareRequired": [
+      "Hardware C"
+    ],
+    "rolesAndResponsibilities": [
+      "Role C",
+      "Role B"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "Completed",
+    "closureDate": "2025-01-05T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "No"
+  },
+  {
+    "_id": "97e0ab36-565f-4713-b749-b0af95b2f168",
+    "changeTitle": "Change Request #20",
+    "changeRequester": "Charlie",
+    "departmentOrBusinessUnit": "Sales",
+    "changeType": "Emergency",
+    "changePriority": "Low",
+    "changeCategory": "Software",
+    "requiresCabApproval": "No",
+    "riskLevel": "High",
+    "plannedStartDateTime": "2025-01-06T12:06:21.530872",
+    "plannedEndDateTime": "2025-01-07T12:06:21.530872",
+    "serviceImpacted": [
+      "API",
+      "Website"
+    ],
+    "environmentImpacted": [
+      "QA",
+      "Prod"
+    ],
+    "detailedChangeDescription": "Detailed description for change #20.",
+    "businessJustification": "Business justification for change #20.",
+    "financialImpact": "$5311",
+    "dependencies": [
+      "Change B"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #20.",
+    "performanceTestingPlan": "Performance plan #20.",
+    "stepByStepImplementation": "Step-by-step plan for change #20.",
+    "postChangeNotifications": "Notify stakeholders for change #20.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #20.",
+    "affectedUsers": "13 users",
+    "downtimeDuration": "3 hours",
+    "serviceDowntimeExpected": "Yes",
+    "thirdPartyVendorsInvolved": [
+      "Vendor X"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition A"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #20.",
+    "estimatedRollbackTime": "2 hours",
+    "responsiblePersonForRollback": "Bob",
+    "downtimeNotificationPlan": "Notify users before downtime for change #20.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool B"
+    ],
+    "rolesAndResponsibilities": [
+      "Role C",
+      "Role B"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "In Progress",
+    "closureDate": "2025-01-08T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "No"
+  },
+  {
+    "_id": "f1938c07-7337-4c58-9d51-cdc3b52521e6",
+    "changeTitle": "Change Request #21",
+    "changeRequester": "Charlie",
+    "departmentOrBusinessUnit": "Finance",
+    "changeType": "Emergency",
+    "changePriority": "Low",
+    "changeCategory": "Software",
+    "requiresCabApproval": "Yes",
+    "riskLevel": "Medium",
+    "plannedStartDateTime": "2025-01-09T12:06:21.530872",
+    "plannedEndDateTime": "2025-01-10T12:06:21.530872",
+    "serviceImpacted": [
+      "API",
+      "Email"
+    ],
+    "environmentImpacted": [
+      "Prod",
+      "QA"
+    ],
+    "detailedChangeDescription": "Detailed description for change #21.",
+    "businessJustification": "Business justification for change #21.",
+    "financialImpact": "$9251",
+    "dependencies": [
+      "Change A"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #21.",
+    "performanceTestingPlan": "Performance plan #21.",
+    "stepByStepImplementation": "Step-by-step plan for change #21.",
+    "postChangeNotifications": "Notify stakeholders for change #21.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #21.",
+    "affectedUsers": "53 users",
+    "downtimeDuration": "3 hours",
+    "serviceDowntimeExpected": "Yes",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Z"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition A"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #21.",
+    "estimatedRollbackTime": "2 hours",
+    "responsiblePersonForRollback": "Charlie",
+    "downtimeNotificationPlan": "Notify users before downtime for change #21.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool B"
+    ],
+    "rolesAndResponsibilities": [
+      "Role A",
+      "Role C"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "Pending",
+    "closureDate": "2025-01-11T12:06:21.530872",
+    "closedBy": "Diana",
+    "auditTrailCompleted": "No"
+  },
+  {
+    "_id": "f85b183b-1441-40d9-b9f9-2189b85baaf0",
+    "changeTitle": "Change Request #22",
+    "changeRequester": "Bob",
+    "departmentOrBusinessUnit": "Sales",
+    "changeType": "Normal",
+    "changePriority": "Low",
+    "changeCategory": "Process",
+    "requiresCabApproval": "Yes",
+    "riskLevel": "Low",
+    "plannedStartDateTime": "2025-01-12T12:06:21.530872",
+    "plannedEndDateTime": "2025-01-13T12:06:21.530872",
+    "serviceImpacted": [
+      "API",
+      "Website"
+    ],
+    "environmentImpacted": [
+      "Prod",
+      "QA"
+    ],
+    "detailedChangeDescription": "Detailed description for change #22.",
+    "businessJustification": "Business justification for change #22.",
+    "financialImpact": "$6097",
+    "dependencies": [
+      "Change C"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #22.",
+    "performanceTestingPlan": "Performance plan #22.",
+    "stepByStepImplementation": "Step-by-step plan for change #22.",
+    "postChangeNotifications": "Notify stakeholders for change #22.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #22.",
+    "affectedUsers": "62 users",
+    "downtimeDuration": "1 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Z"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #22.",
+    "estimatedRollbackTime": "2 hours",
+    "responsiblePersonForRollback": "Alice",
+    "downtimeNotificationPlan": "Notify users before downtime for change #22.",
+    "toolsSoftwareHardwareRequired": [
+      "Hardware C"
+    ],
+    "rolesAndResponsibilities": [
+      "Role C",
+      "Role B"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "Pending",
+    "closureDate": "2025-01-14T12:06:21.530872",
+    "closedBy": "Evan",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "4cae0086-c11b-44d8-9772-6922c8594590",
+    "changeTitle": "Change Request #23",
+    "changeRequester": "Bob",
+    "departmentOrBusinessUnit": "HR",
+    "changeType": "Standard",
+    "changePriority": "High",
+    "changeCategory": "Software",
+    "requiresCabApproval": "No",
+    "riskLevel": "Medium",
+    "plannedStartDateTime": "2025-01-15T12:06:21.530872",
+    "plannedEndDateTime": "2025-01-16T12:06:21.530872",
+    "serviceImpacted": [
+      "Database",
+      "Website"
+    ],
+    "environmentImpacted": [
+      "Dev",
+      "Prod"
+    ],
+    "detailedChangeDescription": "Detailed description for change #23.",
+    "businessJustification": "Business justification for change #23.",
+    "financialImpact": "$2800",
+    "dependencies": [
+      "Change A"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #23.",
+    "performanceTestingPlan": "Performance plan #23.",
+    "stepByStepImplementation": "Step-by-step plan for change #23.",
+    "postChangeNotifications": "Notify stakeholders for change #23.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #23.",
+    "affectedUsers": "90 users",
+    "downtimeDuration": "2 hours",
+    "serviceDowntimeExpected": "Yes",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Z"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition A"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #23.",
+    "estimatedRollbackTime": "3 hours",
+    "responsiblePersonForRollback": "Bob",
+    "downtimeNotificationPlan": "Notify users before downtime for change #23.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool A"
+    ],
+    "rolesAndResponsibilities": [
+      "Role B",
+      "Role C"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "Pending",
+    "closureDate": "2025-01-17T12:06:21.530872",
+    "closedBy": "Evan",
+    "auditTrailCompleted": "Yes"
+  },
+  {
+    "_id": "605b1f5b-f386-48d1-b5a4-98e81a3becd0",
+    "changeTitle": "Change Request #24",
+    "changeRequester": "Charlie",
+    "departmentOrBusinessUnit": "Sales",
+    "changeType": "Emergency",
+    "changePriority": "Low",
+    "changeCategory": "Process",
+    "requiresCabApproval": "Yes",
+    "riskLevel": "Medium",
+    "plannedStartDateTime": "2025-01-18T12:06:21.530872",
+    "plannedEndDateTime": "2025-01-19T12:06:21.530872",
+    "serviceImpacted": [
+      "API",
+      "Email"
+    ],
+    "environmentImpacted": [
+      "Dev",
+      "QA"
+    ],
+    "detailedChangeDescription": "Detailed description for change #24.",
+    "businessJustification": "Business justification for change #24.",
+    "financialImpact": "$7287",
+    "dependencies": [
+      "Change B"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #24.",
+    "performanceTestingPlan": "Performance plan #24.",
+    "stepByStepImplementation": "Step-by-step plan for change #24.",
+    "postChangeNotifications": "Notify stakeholders for change #24.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #24.",
+    "affectedUsers": "69 users",
+    "downtimeDuration": "1 hours",
+    "serviceDowntimeExpected": "No",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Z"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #24.",
+    "estimatedRollbackTime": "3 hours",
+    "responsiblePersonForRollback": "Charlie",
+    "downtimeNotificationPlan": "Notify users before downtime for change #24.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool B"
+    ],
+    "rolesAndResponsibilities": [
+      "Role C",
+      "Role B"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "On Hold",
+    "closureDate": "2025-01-20T12:06:21.530872",
+    "closedBy": "Evan",
+    "auditTrailCompleted": "No"
+  },
+  {
+    "_id": "3c749c5e-fe94-43c4-8a16-4e7402c8173f",
+    "changeTitle": "Change Request #25",
+    "changeRequester": "Bob",
+    "departmentOrBusinessUnit": "Finance",
+    "changeType": "Normal",
+    "changePriority": "Low",
+    "changeCategory": "Software",
+    "requiresCabApproval": "No",
+    "riskLevel": "Low",
+    "plannedStartDateTime": "2025-01-21T12:06:21.530872",
+    "plannedEndDateTime": "2025-01-22T12:06:21.530872",
+    "serviceImpacted": [
+      "API",
+      "Email"
+    ],
+    "environmentImpacted": [
+      "QA",
+      "Prod"
+    ],
+    "detailedChangeDescription": "Detailed description for change #25.",
+    "businessJustification": "Business justification for change #25.",
+    "financialImpact": "$2918",
+    "dependencies": [
+      "Change C"
+    ],
+    "rollbackStrategy": "Rollback strategy for change #25.",
+    "performanceTestingPlan": "Performance plan #25.",
+    "stepByStepImplementation": "Step-by-step plan for change #25.",
+    "postChangeNotifications": "Notify stakeholders for change #25.",
+    "complianceOrRegulatoryImpact": "Compliance notes for change #25.",
+    "affectedUsers": "20 users",
+    "downtimeDuration": "3 hours",
+    "serviceDowntimeExpected": "Yes",
+    "thirdPartyVendorsInvolved": [
+      "Vendor Z"
+    ],
+    "preRequisitesOrPreConditions": [
+      "Condition B"
+    ],
+    "riskMitigationPlan": "Mitigation steps for change #25.",
+    "estimatedRollbackTime": "1 hours",
+    "responsiblePersonForRollback": "Alice",
+    "downtimeNotificationPlan": "Notify users before downtime for change #25.",
+    "toolsSoftwareHardwareRequired": [
+      "Tool A"
+    ],
+    "rolesAndResponsibilities": [
+      "Role C",
+      "Role A"
+    ],
+    "reviewerComments": "",
+    "changeOutcome": "",
+    "issuesEncountered": "",
+    "lessonsLearned": "",
+    "documentationUpdatesRequired": "",
+    "closureStatus": "Pending",
+    "closureDate": "2025-01-23T12:06:21.530872",
+    "closedBy": "Evan",
+    "auditTrailCompleted": "Yes"
+  }
+]

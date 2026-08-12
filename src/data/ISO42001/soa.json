@@ -1,0 +1,16 @@
+[
+  {
+    "Control ID": "A.1.1",
+    "Title": "Access Control Policy",
+    "Applicability": "Mandatory",
+    "Status": "Implemented",
+    "Justification": "Aligned with corporate policy"
+  },
+  {
+    "Control ID": "A.2.3",
+    "Title": "Cryptographic Key Management",
+    "Applicability": "Optional",
+    "Status": "Under Review",
+    "Justification": "Pending procurement of HSM"
+  }
+]

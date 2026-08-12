@@ -1,0 +1,288 @@
+{
+  "module": "Privacy",
+  "subModule": "Appendix",
+  "menu": "AppendixA1",
+  "version": "0.0",
+  "steps": [
+    {
+      "id": "company_information",
+      "tab": "Company",
+      "heading": "Company Information",
+      "subheading": "",
+      "description": "",
+      "fields": [
+        {
+          "id": 1,
+          "label": "Company Name",
+          "type": "text",
+          "name": "companyName",
+          "placeholder": "Enter company name",
+          "required": true,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 2,
+          "label": "Address 1",
+          "type": "text",
+          "name": "address1",
+          "placeholder": "Enter address line 1",
+          "required": true,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 3,
+          "label": "Address 2",
+          "type": "text",
+          "name": "address2",
+          "placeholder": "Enter address line 2",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 4,
+          "label": "City",
+          "type": "text",
+          "name": "city",
+          "placeholder": "Enter city",
+          "required": true,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 5,
+          "label": "State",
+          "type": "text",
+          "name": "state",
+          "placeholder": "Enter state",
+          "required": true,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 6,
+          "label": "Division",
+          "type": "text",
+          "name": "division",
+          "placeholder": "Enter division",
+          "required": true,
+          "visible": true,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "risk_assessment",
+      "tab": "Assessment",
+      "heading": "Risk Assessment Details",
+      "subheading": "",
+      "description": "",
+      "fields": [
+        {
+          "id": 7,
+          "label": "Domain",
+          "type": "text",
+          "name": "domain",
+          "placeholder": "Enter domain (or use Appendix A-2)",
+          "required": true,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 8,
+          "label": "Purpose",
+          "type": "text",
+          "name": "purpose",
+          "placeholder": "Enter purpose (or use Appendix A-2)",
+          "required": true,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 9,
+          "label": "Risk Description",
+          "type": "text",
+          "name": "riskDescription",
+          "placeholder": "Enter risk description (or use Appendix A-2)",
+          "required": true,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 10,
+          "label": "Severity Score",
+          "type": "select",
+          "name": "severityScore",
+          "placeholder": "Select Severity Score",
+          "required": true,
+          "visible": true,
+          "enabled": true,
+          "options": ["1", "2", "3"]
+        },
+        {
+          "id": 11,
+          "label": "Severity Score Details",
+          "type": "text",
+          "name": "severityScoreDetails",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "readonly": true
+        },
+        {
+          "id": 12,
+          "label": "Likelihood Score",
+          "type": "select",
+          "name": "likelihoodScore",
+          "placeholder": "Select Likelihood Score",
+          "required": true,
+          "visible": true,
+          "enabled": true,
+          "options": ["1", "2", "3"]
+        },
+        {
+          "id": 13,
+          "label": "Likelihood Score Details",
+          "type": "text",
+          "name": "likelihoodScoreDetails",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "readonly": true
+        },
+        {
+          "id": 14,
+          "label": "Impact",
+          "type": "text",
+          "name": "impact",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "readonly": true
+        },
+        {
+          "id": 15,
+          "label": "Mitigation / Existing Control",
+          "type": "textarea",
+          "name": "mitigation",
+          "placeholder": "Enter mitigation or existing control details",
+          "required": true,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 16,
+          "label": "Revised Severity Score",
+          "type": "select",
+          "name": "revisedSeverityScore",
+          "placeholder": "Select Revised Severity Score",
+          "required": true,
+          "visible": true,
+          "enabled": true,
+          "options": ["1", "2", "3"]
+        },
+        {
+          "id": 17,
+          "label": "Revised Severity Details",
+          "type": "text",
+          "name": "revisedSeverityScoreDetails",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "readonly": true
+        },
+        {
+          "id": 18,
+          "label": "Revised Likelihood Score",
+          "type": "select",
+          "name": "revisedLikelihoodScore",
+          "placeholder": "Select Revised Likelihood Score",
+          "required": true,
+          "visible": true,
+          "enabled": true,
+          "options": ["1", "2", "3"]
+        },
+        {
+          "id": 19,
+          "label": "Revised Likelihood Details",
+          "type": "text",
+          "name": "revisedLikelihoodScoreDetails",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "readonly": true
+        },
+        {
+          "id": 20,
+          "label": "Revised Impact",
+          "type": "text",
+          "name": "revisedImpact",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "readonly": true
+        },
+        {
+          "id": 21,
+          "label": "Residual Risk",
+          "type": "text",
+          "name": "residualRisk",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "readonly": true
+        },
+        {
+          "id": 22,
+          "label": "Rationale & Consequences",
+          "type": "textarea",
+          "name": "rationaleConsequences",
+          "placeholder": "Explain rationale and potential consequences",
+          "required": true,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 23,
+          "label": "Assessment of Residual Current Risk",
+          "type": "textarea",
+          "name": "residualCurrentRiskAssessment",
+          "placeholder": "Assess current level of residual risk",
+          "required": true,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 24,
+          "label": "Recommended Mitigations / Privacy Enhancements",
+          "type": "textarea",
+          "name": "recommendedMitigationsOrPrivacyEnhancements",
+          "placeholder": "List additional mitigations or enhancements",
+          "required": true,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 25,
+          "label": "Residual Risk After New Safeguards",
+          "type": "select",
+          "name": "residualRiskNewSafeguards",
+          "placeholder": "Select risk level",
+          "required": true,
+          "visible": true,
+          "enabled": true,
+          "options": ["Low", "Medium", "High"]
+        }
+      ]
+    }
+  ]
+}

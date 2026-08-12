@@ -1,0 +1,441 @@
+{
+  "module": "Risk Management",
+  "subModule": "Cybersecurity",
+  "menu": "Asset Based Simplified",
+  "version": "0.0",
+  "steps": [
+    {
+      "id": "asset_overview",
+      "tab": "Asset",
+      "heading": "Asset ",
+      "subheading": "",
+      "description": "",
+      "fields": [
+        {
+          "id": 1,
+          "label": "Select Asset Class",
+          "type": "select",
+          "name": "assetClass",
+          "placeholder": "Select",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["Hardware", "Software", "Network", "Data", "People"]
+        },
+        {
+          "id": 2,
+          "label": "Select Asset",
+          "type": "select",
+          "name": "asset",
+          "placeholder": "Select",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["Option 1", "Option 2", "Option 3"]
+        },
+        {
+          "id": 3,
+          "label": "Select Threat",
+          "type": "select",
+          "name": "threat",
+          "placeholder": "Select",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["Hardware", "Software", "Network", "Data", "People"]
+        },
+        {
+          "id": 4,
+          "label": "Select Vulnerability",
+          "type": "select",
+          "name": "vulnerability",
+          "placeholder": "Select",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["Option 1", "Option 2", "Option 3"]
+        }
+      ]
+    },
+    {
+      "id": "asset_risk_calc",
+      "tab": "Asset",
+      "heading": "Calculate Risk",
+      "subheading": "",
+      "description": "",
+      "fields": [
+        {
+          "id": 5,
+          "label": "Select Confidentiality",
+          "type": "select",
+          "name": "confidentiality",
+          "placeholder": "Select",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["High", "Medium", "Low"]
+        },
+        {
+          "id": 6,
+          "label": "Select Integrity",
+          "type": "select",
+          "name": "integrity",
+          "placeholder": "Select",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["High", "Medium", "Low"]
+        },
+        {
+          "id": 7,
+          "label": "Select Availability",
+          "type": "select",
+          "name": "availability",
+          "placeholder": "Select",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["High", "Medium", "Low"]
+        },
+        {
+          "id": 8,
+          "label": "Impact Value",
+          "type": "text",
+          "name": "impactValue",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 9,
+          "label": "Select Likelihood Value",
+          "type": "select",
+          "name": "likelihoodValue",
+          "placeholder": "Select",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["Rare", "Unlikely", "Likely"]
+        },
+        {
+          "id": 10,
+          "label": "Impact",
+          "type": "text",
+          "name": "impact",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 11,
+          "label": "Likelihood",
+          "type": "text",
+          "name": "likelihood",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 12,
+          "label": "Total Risk Value",
+          "type": "calculated",
+          "name": "totalRisk",
+          "dependsOn": ["impact", "likelihood"],
+          "formula": "impact * likelihood ",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+
+        {
+          "id": 13,
+          "label": "Inherent Risk",
+          "type": "text",
+          "name": "inherentRisk",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "control_section",
+      "tab": "Control",
+      "heading": "Controls",
+      "subheading": "",
+      "description": "",
+      "fields": [
+        {
+          "id": 14,
+          "label": "Control ID",
+          "type": "select",
+          "name": "controlId",
+          "placeholder": "Select",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["CTRL-01", "CTRL-02", "CTRL-03"]
+        },
+        {
+          "id": 15,
+          "label": "Control in Place",
+          "type": "select",
+          "name": "controlInPlace",
+          "placeholder": "Choose…",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["Yes", "No", "Partial"]
+        },
+        {
+          "id": 16,
+          "label": "Controls Operational",
+          "type": "select",
+          "name": "controlsOperational",
+          "placeholder": "Choose…",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["Yes", "No", "Partial"]
+        },
+        {
+          "id": 17,
+          "label": "Revised Confidentiality",
+          "type": "select",
+          "name": "revisedConfidentiality",
+          "placeholder": "Choose…",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["High", "Medium", "Low"]
+        },
+        {
+          "id": 18,
+          "label": "Revised Integrity",
+          "type": "select",
+          "name": "revisedIntegrity",
+          "placeholder": "Choose…",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["High", "Medium", "Low"]
+        },
+        {
+          "id": 19,
+          "label": "Revised Availability",
+          "type": "select",
+          "name": "revisedAvailability",
+          "placeholder": "Choose…",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["High", "Medium", "Low"]
+        },
+        {
+          "id": 20,
+          "label": "Revised Impact Value",
+          "type": "text",
+          "name": "revisedImpactValue",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 21,
+          "label": "Revised Impact",
+          "type": "text",
+          "name": "revisedImpact",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 22,
+          "label": "Revised Likelihood Value",
+          "type": "select",
+          "name": "revisedLikelihoodValue",
+          "placeholder": "Choose…",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["Rare", "Unlikely", "Likely"]
+        },
+        {
+          "id": 23,
+          "label": "Revised Likelihood",
+          "type": "text",
+          "name": "revisedLikelihood",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 24,
+          "label": "Revised Residual Value",
+          "type": "text",
+          "name": "revisedResidualValue",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 25,
+          "label": "Residual Risk",
+          "type": "text",
+          "name": "residualRisk",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "risk_treatment",
+      "tab": "Risk",
+      "heading": "Risk Treatment Plan",
+      "subheading": "",
+      "description": "",
+      "fields": [
+        {
+          "id": 26,
+          "label": "Risk Treatment",
+          "type": "text",
+          "name": "riskTreatment",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 27,
+          "label": "Risk Mitigation Plan",
+          "type": "text",
+          "name": "riskMitigationPlan",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 28,
+          "label": "Asset Owner",
+          "type": "text",
+          "name": "assetOwner",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 29,
+          "label": "Risk Owner",
+          "type": "text",
+          "name": "riskOwner",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "residual_mitigation",
+      "tab": "Risk",
+      "heading": "Residual Risk Mitigation",
+      "subheading": "",
+      "description": "",
+      "fields": [
+        {
+          "id": 30,
+          "label": "Mitigation Plan Implementation Date",
+          "type": "date",
+          "name": "mitigationStartDate",
+          "placeholder": "mm/dd/yyyy",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 31,
+          "label": "Plan Implementation Complete Date",
+          "type": "date",
+          "name": "mitigationCompleteDate",
+          "placeholder": "mm/dd/yyyy",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 32,
+          "label": "Mitigation Testing",
+          "type": "select",
+          "name": "mitigationTesting",
+          "placeholder": "Choose…",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["Yes", "No"]
+        },
+        {
+          "id": 33,
+          "label": "Operational Effectiveness",
+          "type": "text",
+          "name": "operationalEffectiveness",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 34,
+          "label": "Evidence Upload",
+          "type": "file",
+          "name": "evidenceUpload",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "recalculate_residual",
+      "tab": "Risk",
+      "heading": "Recalculate Residual Risk",
+      "subheading": "",
+      "description": "",
+      "fields": [
+        {
+          "id": 35,
+          "label": "Recalculate Residual Risk",
+          "type": "text",
+          "name": "recalculateResidualRisk",
+          "placeholder": "",
+          "required": false,
+          "visible": true,
+          "enabled": true
+        },
+        {
+          "id": 36,
+          "label": "Risk After Remediation",
+          "type": "select",
+          "name": "riskAfterRemediation",
+          "placeholder": "Choose…",
+          "required": false,
+          "visible": true,
+          "enabled": true,
+          "options": ["Accept", "Transfer", "Mitigate", "Avoid"]
+        }
+      ]
+    }
+  ]
+}

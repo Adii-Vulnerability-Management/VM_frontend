@@ -1,0 +1,1002 @@
+[
+  {
+    "_id": "fd695a6c-d8c3-420a-92f5-29c29f66b09d",
+    "sessionId": "6b0ce459-8d35-4aa3-93b0-c54d53b1bb50",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Canada",
+    "createdAt": "2025-04-21T23:04:53Z",
+    "ip": "180.147.102.97",
+    "owner": "2e81e52e6d834799a757d731",
+    "ownerEmail": "john.doe@example.com",
+    "ownerUserId": 281,
+    "updatedAt": "2025-04-22T00:00:04Z"
+  },
+  {
+    "_id": "144826af-580a-43fb-bb75-a370a9279a81",
+    "sessionId": "36d82223-950d-4c17-ac0e-e8813e16be7c",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Canada",
+    "createdAt": "2025-03-01T21:53:24Z",
+    "ip": "102.141.164.98",
+    "owner": "14fb8ba0a6e745d8b18535c3",
+    "ownerEmail": "jane.smith@example.com",
+    "ownerUserId": 144,
+    "updatedAt": "2025-03-01T22:03:41Z"
+  },
+  {
+    "_id": "177af5e4-3a0a-45d4-ae36-e32be8c96a6f",
+    "sessionId": "d5c50c33-ff74-4403-ad84-06d4f1c99344",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "United Kingdom",
+    "createdAt": "2025-04-16T21:15:04Z",
+    "ip": "198.168.67.157",
+    "owner": "4f0295e19b6b4eccb54cf159",
+    "ownerEmail": "michael.johnson@dummy.net",
+    "ownerUserId": 615,
+    "updatedAt": "2025-04-16T21:15:58Z"
+  },
+  {
+    "_id": "01cbc8bc-bfca-42da-a692-2089d8c88ff7",
+    "sessionId": "56ca6c51-e0da-4180-b9ed-ce7867963f4a",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Netherlands",
+    "createdAt": "2025-01-16T11:07:24Z",
+    "ip": "43.57.107.27",
+    "owner": "ddffcc27cff04b0ea9672d46",
+    "ownerEmail": "emily.davis@example.com",
+    "ownerUserId": 465,
+    "updatedAt": "2025-01-16T11:58:39Z"
+  },
+  {
+    "_id": "85ade1c1-aa2e-4cde-8601-d3b69e015917",
+    "sessionId": "73adc81e-5bad-411e-97e4-9ce5cff986e2",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Australia",
+    "createdAt": "2025-03-03T22:30:54Z",
+    "ip": "246.69.216.5",
+    "owner": "1b58018d5ba044de997f9988",
+    "ownerEmail": "daniel.martinez@example.com",
+    "ownerUserId": 817,
+    "updatedAt": "2025-03-03T23:04:49Z"
+  },
+  {
+    "_id": "5b597c8c-d2e5-480f-a21a-e1b638408d08",
+    "sessionId": "d5271222-12e6-4fcd-8988-fc86658125bd",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Australia",
+    "createdAt": "2025-02-08T02:18:18Z",
+    "ip": "209.78.93.67",
+    "owner": "53fe5a9520fa49c78e24c268",
+    "ownerEmail": "olivia.brown@mail.com",
+    "ownerUserId": 567,
+    "updatedAt": "2025-02-08T02:50:25Z"
+  },
+  {
+    "_id": "d04fedf7-7f2e-44ba-8b21-66c684b0db02",
+    "sessionId": "3d77f33c-55af-43e0-9860-88c634961999",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "United States",
+    "createdAt": "2025-03-06T16:48:10Z",
+    "ip": "48.130.99.20",
+    "owner": "4882d6fa32fe451e86a56229",
+    "ownerEmail": "matthew.wilson@dummy.net",
+    "ownerUserId": 260,
+    "updatedAt": "2025-03-06T17:31:35Z"
+  },
+  {
+    "_id": "d795e6bd-0c75-4f69-b7ee-ce01b09ef04d",
+    "sessionId": "78e775b5-38b6-41dc-ba95-420d798b6c69",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "France",
+    "createdAt": "2025-03-22T00:48:25Z",
+    "ip": "247.66.201.183",
+    "owner": "9b700267fb39424883b2a627",
+    "ownerEmail": "sophia.taylor@example.com",
+    "ownerUserId": 390,
+    "updatedAt": "2025-03-22T01:01:44Z"
+  },
+  {
+    "_id": "d7c15b74-3d3d-4d68-b631-81a6798c6809",
+    "sessionId": "85822ebb-1d16-441e-8e04-f6b365bd40ef",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Netherlands",
+    "createdAt": "2025-03-30T15:11:13Z",
+    "ip": "89.18.202.38",
+    "owner": "d3255d5ec7ab470493d3c1da",
+    "ownerEmail": "david.anderson@mail.com",
+    "ownerUserId": 836,
+    "updatedAt": "2025-03-30T15:28:20Z"
+  },
+  {
+    "_id": "43add1cb-1e25-4595-9407-68aa5bc4652b",
+    "sessionId": "cfb60ea9-5134-4d09-b0e0-b30de0bdc938",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": false,
+      "Analytics": true,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": true
+    },
+    "countryName": "France",
+    "createdAt": "2025-03-31T10:50:25Z",
+    "ip": "50.127.174.56",
+    "owner": "b9d58176aa284590821dd9bd",
+    "ownerEmail": "isabella.thomas@mail.com",
+    "ownerUserId": 762,
+    "updatedAt": "2025-03-31T11:41:48Z"
+  },
+  {
+    "_id": "5aec8221-bdc5-4f80-a4fb-1b026e5d1022",
+    "sessionId": "95797497-8d7b-4fd8-8f2e-554dcbd1a340",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Japan",
+    "createdAt": "2025-02-27T04:14:44Z",
+    "ip": "200.237.254.206",
+    "owner": "08bfbf5562d7439baf3168d1",
+    "ownerEmail": "james.jackson@dummy.net",
+    "ownerUserId": 980,
+    "updatedAt": "2025-02-27T04:52:17Z"
+  },
+  {
+    "_id": "29e6ff8c-6ab0-4d5d-81bb-bf685b375073",
+    "sessionId": "1eb04c06-820c-4c62-bbdf-0236ff26dc44",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Japan",
+    "createdAt": "2025-02-02T07:35:45Z",
+    "ip": "189.192.194.53",
+    "owner": "5da52db0958d4beb805910c4",
+    "ownerEmail": "mia.white@example.com",
+    "ownerUserId": 184,
+    "updatedAt": "2025-02-02T08:34:49Z"
+  },
+  {
+    "_id": "e9da548e-68c1-46b0-b67f-3a858dc93ffb",
+    "sessionId": "50a154d4-6fed-48fb-bb86-2972699a43f0",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Germany",
+    "createdAt": "2025-04-01T17:35:39Z",
+    "ip": "21.32.139.19",
+    "owner": "83feef184d66494980eebf33",
+    "ownerEmail": "robert.harris@mail.com",
+    "ownerUserId": 7,
+    "updatedAt": "2025-04-01T18:30:46Z"
+  },
+  {
+    "_id": "e703decb-5343-44f3-9a5e-7604e9082ddb",
+    "sessionId": "41271467-d860-4c62-932f-b9466a40ff71",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "France",
+    "createdAt": "2025-02-03T11:34:25Z",
+    "ip": "145.172.1.61",
+    "owner": "22aa89993b384abc8adf46dc",
+    "ownerEmail": "charlotte.martin@dummy.net",
+    "ownerUserId": 603,
+    "updatedAt": "2025-02-03T11:39:11Z"
+  },
+  {
+    "_id": "72dededa-501f-4919-8cab-58fb7ab9634c",
+    "sessionId": "1367e4f1-08b1-459d-9155-e4d9cc0c3463",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": true,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": true,
+      "Others": false
+    },
+    "countryName": "Japan",
+    "createdAt": "2025-04-20T23:56:55Z",
+    "ip": "108.77.7.133",
+    "owner": "65b4901c73774a03b29c45f5",
+    "ownerEmail": "joseph.thompson@dummy.net",
+    "ownerUserId": 276,
+    "updatedAt": "2025-04-21T00:02:46Z"
+  },
+  {
+    "_id": "84a71e61-b6b3-456f-8725-72550bee8138",
+    "sessionId": "c8ed56d2-f319-4907-ba11-8477b3bb4032",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Brazil",
+    "createdAt": "2025-03-28T10:16:23Z",
+    "ip": "10.84.26.77",
+    "owner": "ef093c79429744b385decc67",
+    "ownerEmail": "amelia.garcia@example.com",
+    "ownerUserId": 437,
+    "updatedAt": "2025-03-28T10:42:36Z"
+  },
+  {
+    "_id": "b530730d-a6c8-41d4-87c8-05d3d3533fe0",
+    "sessionId": "d05b00a8-2fa6-49f5-9b9e-9cc0e349591f",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Netherlands",
+    "createdAt": "2025-03-26T09:24:00Z",
+    "ip": "143.40.99.255",
+    "owner": "2abb10e6796044bd86d80c77",
+    "ownerEmail": "charles.martinez@mail.com",
+    "ownerUserId": 378,
+    "updatedAt": "2025-03-26T10:05:25Z"
+  },
+  {
+    "_id": "da9104da-761d-470a-b9bc-631d047dac88",
+    "sessionId": "dd52fb98-dc39-4ea2-9603-a34ac83d521e",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "United States",
+    "createdAt": "2025-01-21T16:06:08Z",
+    "ip": "171.20.0.201",
+    "owner": "21dce7b2d24c4077a5183984",
+    "ownerEmail": "evelyn.robinson@test.org",
+    "ownerUserId": 587,
+    "updatedAt": "2025-01-21T16:38:39Z"
+  },
+  {
+    "_id": "c6bc80a1-e7a1-4501-9c05-006c0ef072ee",
+    "sessionId": "fdf2fe0d-f706-40ed-ac69-9e79e3c68a7b",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": false,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": false,
+      "Others": true
+    },
+    "countryName": "United States",
+    "createdAt": "2025-01-05T03:28:34Z",
+    "ip": "93.88.152.251",
+    "owner": "f6894ba747d641bf8ebedc30",
+    "ownerEmail": "thomas.clark@mail.com",
+    "ownerUserId": 78,
+    "updatedAt": "2025-01-05T04:17:16Z"
+  },
+  {
+    "_id": "5fe2e3d4-3d9b-47eb-a488-a66f940644a4",
+    "sessionId": "f3d077b6-5e03-4777-a950-b55365ce941c",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": true
+    },
+    "countryName": "Brazil",
+    "createdAt": "2025-02-13T20:29:01Z",
+    "ip": "183.122.234.101",
+    "owner": "83b899dd6f364ffbb4259e01",
+    "ownerEmail": "abigail.rodriguez@dummy.net",
+    "ownerUserId": 762,
+    "updatedAt": "2025-02-13T21:19:42Z"
+  },
+  {
+    "_id": "81185a47-8ead-456f-8a50-628f4f47b269",
+    "sessionId": "c56b932d-0e2f-4fef-8779-ad50bcbbdf7e",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "India",
+    "createdAt": "2025-04-24T16:34:20Z",
+    "ip": "205.139.191.136",
+    "owner": "578e5b7869dd4e859f1fc1f9",
+    "ownerEmail": "christopher.lewis@mail.com",
+    "ownerUserId": 379,
+    "updatedAt": "2025-04-24T17:27:51Z"
+  },
+  {
+    "_id": "c03d507b-0d78-41fa-ba83-212ce9710cac",
+    "sessionId": "1e032edd-c6d0-44c1-b115-6b4352e1f014",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": false,
+      "Analytics": true,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": true
+    },
+    "countryName": "Canada",
+    "createdAt": "2025-01-17T19:38:46Z",
+    "ip": "132.81.180.65",
+    "owner": "5571c14badb64057bfa04f8f",
+    "ownerEmail": "harper.lee@mail.com",
+    "ownerUserId": 874,
+    "updatedAt": "2025-01-17T20:12:36Z"
+  },
+  {
+    "_id": "1dc36363-b285-4dfc-a4f4-38ce06e3be17",
+    "sessionId": "ec7e3bae-2541-4d62-b4c8-73255ccee567",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "France",
+    "createdAt": "2025-03-20T10:04:17Z",
+    "ip": "237.139.156.95",
+    "owner": "84a9530fedd94b1c86d42d4b",
+    "ownerEmail": "andrew.walker@mail.com",
+    "ownerUserId": 340,
+    "updatedAt": "2025-03-20T10:44:12Z"
+  },
+  {
+    "_id": "5242702f-fac3-47c0-8349-d89ee076c3fc",
+    "sessionId": "bf9ae1da-ba61-4555-9fcc-4718b70a16b4",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "United States",
+    "createdAt": "2025-03-06T22:47:31Z",
+    "ip": "121.58.118.166",
+    "owner": "61349daa52fe47f4bf8c07ca",
+    "ownerEmail": "elizabeth.hall@example.com",
+    "ownerUserId": 310,
+    "updatedAt": "2025-03-06T22:54:42Z"
+  },
+  {
+    "_id": "1162ef1f-f09d-453a-9bfc-468dbd467785",
+    "sessionId": "af2b4f8f-1db3-4c25-beec-467e5dc52426",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Canada",
+    "createdAt": "2025-01-09T10:48:16Z",
+    "ip": "23.21.27.101",
+    "owner": "e38c8eaed7c142cb9426c490",
+    "ownerEmail": "joshua.allen@dummy.net",
+    "ownerUserId": 540,
+    "updatedAt": "2025-01-09T11:12:45Z"
+  },
+  {
+    "_id": "1914a92a-9eeb-467b-a3f0-57fe13fabc4e",
+    "sessionId": "09a8c6a3-a043-4ed0-a041-45f5759f30e7",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Japan",
+    "createdAt": "2025-02-25T23:50:17Z",
+    "ip": "96.236.28.208",
+    "owner": "ce8d745ac005440c8e7b188f",
+    "ownerEmail": "ella.young@dummy.net",
+    "ownerUserId": 332,
+    "updatedAt": "2025-02-26T00:26:34Z"
+  },
+  {
+    "_id": "24fe9cc5-49f5-431f-8bb3-95a2a401e079",
+    "sessionId": "bfa060ca-bced-427b-8c20-5ad91fc1ce83",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Japan",
+    "createdAt": "2025-01-29T02:57:14Z",
+    "ip": "140.150.49.98",
+    "owner": "1447f35ec0fb480dbb050839",
+    "ownerEmail": "nicholas.hernandez@dummy.net",
+    "ownerUserId": 196,
+    "updatedAt": "2025-01-29T03:09:47Z"
+  },
+  {
+    "_id": "cdd0157d-71b3-4831-a531-6f99d1f06247",
+    "sessionId": "fbb3ae29-2acf-49a2-bf0a-4aba225d1352",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "United States",
+    "createdAt": "2025-04-04T17:02:36Z",
+    "ip": "48.195.58.66",
+    "owner": "30f16fcacdf9467d8213ab94",
+    "ownerEmail": "avery.king@test.org",
+    "ownerUserId": 712,
+    "updatedAt": "2025-04-04T17:27:30Z"
+  },
+  {
+    "_id": "14d14ca9-440c-4e4d-abfd-8f7c4ceb26c3",
+    "sessionId": "779665a9-7438-4bd0-8d3d-faa3e808027c",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Brazil",
+    "createdAt": "2025-01-24T16:54:20Z",
+    "ip": "32.119.212.66",
+    "owner": "0046d797aeeb455fbde0af33",
+    "ownerEmail": "brian.wright@mail.com",
+    "ownerUserId": 570,
+    "updatedAt": "2025-01-24T17:44:59Z"
+  },
+  {
+    "_id": "139acfc5-a176-4029-8c33-3d00082e849f",
+    "sessionId": "e4d1b1ee-af1c-4c28-ae1b-d941dc095cc3",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "India",
+    "createdAt": "2025-01-14T20:50:49Z",
+    "ip": "89.49.235.11",
+    "owner": "b295d174d2a947ce9e2e9767",
+    "ownerEmail": "sofia.scott@test.org",
+    "ownerUserId": 137,
+    "updatedAt": "2025-01-14T21:43:52Z"
+  },
+  {
+    "_id": "174eadf6-4ee0-45ae-850b-6828634b390c",
+    "sessionId": "eaf07016-7ec3-4f3c-8ead-bfd2aaa628df",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Australia",
+    "createdAt": "2025-01-05T18:07:33Z",
+    "ip": "43.27.30.231",
+    "owner": "893cf9888ce94c6099d712bf",
+    "ownerEmail": "kevin.green@example.com",
+    "ownerUserId": 796,
+    "updatedAt": "2025-01-05T18:13:13Z"
+  },
+  {
+    "_id": "83f25e5f-42da-4f87-a587-b18be53e239b",
+    "sessionId": "98e42040-fa32-48ad-9996-7f5e9b85796e",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": true,
+      "Others": false
+    },
+    "countryName": "France",
+    "createdAt": "2025-04-13T13:44:30Z",
+    "ip": "174.61.17.126",
+    "owner": "02360c3c134c4d42bcb0a65a",
+    "ownerEmail": "chloe.adams@example.com",
+    "ownerUserId": 162,
+    "updatedAt": "2025-04-13T13:58:54Z"
+  },
+  {
+    "_id": "8d11aaec-e796-46e5-badc-3e2f1a858dd4",
+    "sessionId": "8c5a5e54-de4a-485d-8621-0bdb623e1d0e",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Australia",
+    "createdAt": "2025-02-07T11:49:16Z",
+    "ip": "229.21.232.216",
+    "owner": "3c23e90084604ac4a5efd489",
+    "ownerEmail": "steven.baker@dummy.net",
+    "ownerUserId": 51,
+    "updatedAt": "2025-02-07T12:04:25Z"
+  },
+  {
+    "_id": "c16dddfa-93b2-4c6b-8783-f4b2f69295e7",
+    "sessionId": "9515fb16-b9b0-4284-a857-e7794e752432",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "France",
+    "createdAt": "2025-02-26T11:44:45Z",
+    "ip": "198.49.63.157",
+    "owner": "dbe65321346f457aa67fc8dc",
+    "ownerEmail": "grace.nelson@dummy.net",
+    "ownerUserId": 986,
+    "updatedAt": "2025-02-26T11:52:18Z"
+  },
+  {
+    "_id": "6875bcf4-cba8-4852-9b2f-1bd1820254e8",
+    "sessionId": "f4a34e3a-5d14-4b44-b0e8-e58f28286d30",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": false,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Japan",
+    "createdAt": "2025-01-05T13:11:25Z",
+    "ip": "144.41.212.181",
+    "owner": "fe88250c03484a77ae653fe9",
+    "ownerEmail": "edward.hill@example.com",
+    "ownerUserId": 406,
+    "updatedAt": "2025-01-05T13:35:57Z"
+  },
+  {
+    "_id": "a24a38f1-0f78-403b-aeac-38424f4abf1c",
+    "sessionId": "70bb996e-6d71-489b-9c73-cede09a8a9bc",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": true
+    },
+    "countryName": "United States",
+    "createdAt": "2025-03-09T23:36:07Z",
+    "ip": "188.193.79.230",
+    "owner": "a4cd740f38bb4c87aad8fa45",
+    "ownerEmail": "victoria.campbell@dummy.net",
+    "ownerUserId": 747,
+    "updatedAt": "2025-03-09T23:52:34Z"
+  },
+  {
+    "_id": "460fbf81-3c24-4087-b42b-6a832cb9d382",
+    "sessionId": "67f9c3a4-aa67-4978-93e6-37ac847ca17e",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Australia",
+    "createdAt": "2025-01-24T04:23:15Z",
+    "ip": "84.206.159.53",
+    "owner": "40d3214071f9425c81b02c28",
+    "ownerEmail": "patrick.mitchell@example.com",
+    "ownerUserId": 3,
+    "updatedAt": "2025-01-24T05:16:39Z"
+  },
+  {
+    "_id": "3cb9df15-1192-400d-8cb8-b8103ee441fc",
+    "sessionId": "b86cfc67-8493-48b4-a7f4-6a9f84f7dfb9",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Germany",
+    "createdAt": "2025-04-22T02:31:41Z",
+    "ip": "37.123.221.247",
+    "owner": "7c3cd3f0bb0941e4bc12bd7b",
+    "ownerEmail": "aubrey.carter@mail.com",
+    "ownerUserId": 861,
+    "updatedAt": "2025-04-22T03:28:01Z"
+  },
+  {
+    "_id": "fa9cc461-4ce5-4e9f-83e4-d712ff58f68e",
+    "sessionId": "f6f4be06-af97-44b3-abf6-98972696610b",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Canada",
+    "createdAt": "2025-02-14T02:22:56Z",
+    "ip": "250.211.45.77",
+    "owner": "88f263530e5144fd975ad2cf",
+    "ownerEmail": "benjamin.roberts@example.com",
+    "ownerUserId": 202,
+    "updatedAt": "2025-02-14T02:47:29Z"
+  },
+  {
+    "_id": "bd990ef7-e0b4-4355-99e0-ec7ec8b46813",
+    "sessionId": "febf9aca-4b00-4676-aad3-08b36fcf004b",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Canada",
+    "createdAt": "2025-01-08T07:51:35Z",
+    "ip": "149.193.34.236",
+    "owner": "fee66572a4834e48ac71f01d",
+    "ownerEmail": "zoey.perez@test.org",
+    "ownerUserId": 992,
+    "updatedAt": "2025-01-08T08:46:20Z"
+  },
+  {
+    "_id": "7cb11386-22ee-4183-95ea-2a08488b085c",
+    "sessionId": "3137b582-400f-4733-aee1-097d28a68276",
+    "__v": 0,
+    "actiontype": "Customize",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Germany",
+    "createdAt": "2025-02-03T07:16:41Z",
+    "ip": "195.65.235.18",
+    "owner": "e04e08931a3d4452be7a25b7",
+    "ownerEmail": "justin.turner@test.org",
+    "ownerUserId": 822,
+    "updatedAt": "2025-02-03T08:12:51Z"
+  },
+  {
+    "_id": "375c0265-f22f-44bd-8922-10c42e8f2497",
+    "sessionId": "82734602-b3cf-43bc-8971-4159f7a10f6e",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Brazil",
+    "createdAt": "2025-03-30T07:13:43Z",
+    "ip": "100.71.98.149",
+    "owner": "daba5c94a40d4f3ab8dcbf77",
+    "ownerEmail": "lily.phillips@dummy.net",
+    "ownerUserId": 255,
+    "updatedAt": "2025-03-30T08:04:11Z"
+  },
+  {
+    "_id": "02c7e8ab-73b1-4741-9867-fc0f389825ff",
+    "sessionId": "d5714528-e5d1-4e15-861c-e14d208dfcf8",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "United States",
+    "createdAt": "2025-04-29T11:01:36Z",
+    "ip": "145.166.146.182",
+    "owner": "edff91076e6a4589bcc0e908",
+    "ownerEmail": "aaron.parker@example.com",
+    "ownerUserId": 232,
+    "updatedAt": "2025-04-29T11:14:46Z"
+  },
+  {
+    "_id": "eac91c1d-805f-49e4-b854-b191a03af118",
+    "sessionId": "d1857e4c-68f4-4b95-b96f-241d1f49885b",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "United Kingdom",
+    "createdAt": "2025-02-03T02:27:18Z",
+    "ip": "185.77.130.241",
+    "owner": "564057d5b1204ab0b8fd848d",
+    "ownerEmail": "penelope.evans@example.com",
+    "ownerUserId": 751,
+    "updatedAt": "2025-02-03T03:01:10Z"
+  },
+  {
+    "_id": "040d1f40-719f-470a-97cc-59eaf28fa833",
+    "sessionId": "f7e1b7b5-588d-4eaa-8f97-232b65f02125",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Germany",
+    "createdAt": "2025-03-22T06:36:54Z",
+    "ip": "7.202.98.160",
+    "owner": "8f43964e2030471eb6ff853d",
+    "ownerEmail": "eric.edwards@test.org",
+    "ownerUserId": 56,
+    "updatedAt": "2025-03-22T06:38:15Z"
+  },
+  {
+    "_id": "aa2c8ed0-fe86-4ae0-8e8e-cd5dd21cb6ce",
+    "sessionId": "c0e0185f-ccb3-493c-a6fe-4823dfb600d1",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Netherlands",
+    "createdAt": "2025-03-13T12:59:56Z",
+    "ip": "243.129.53.191",
+    "owner": "e613d1dda9db41fc9aff04ab",
+    "ownerEmail": "hannah.collins@dummy.net",
+    "ownerUserId": 556,
+    "updatedAt": "2025-03-13T13:10:13Z"
+  },
+  {
+    "_id": "96676c1c-dd48-4e5e-aa49-4e4f9493b3c6",
+    "sessionId": "57c9a5e3-c63f-4f74-926b-2abd3ce8c3eb",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "United Kingdom",
+    "createdAt": "2025-04-09T07:17:55Z",
+    "ip": "110.43.14.226",
+    "owner": "78cfc0c6282a46ff8dafede7",
+    "ownerEmail": "sean.stewart@test.org",
+    "ownerUserId": 785,
+    "updatedAt": "2025-04-09T08:16:28Z"
+  },
+  {
+    "_id": "17b3d056-773b-473f-b20b-576d10e4852b",
+    "sessionId": "2753b34d-7173-4ba2-9397-b6019feb5ece",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Australia",
+    "createdAt": "2025-01-15T16:03:29Z",
+    "ip": "38.127.208.180",
+    "owner": "1e3a542cc4394b7b9deec8cd",
+    "ownerEmail": "anna.sanchez@mail.com",
+    "ownerUserId": 769,
+    "updatedAt": "2025-01-15T16:12:18Z"
+  },
+  {
+    "_id": "c656c09a-d62f-4d13-abcd-9026cfd52d20",
+    "sessionId": "d5876dfc-7051-4793-9127-a250d1c11a46",
+    "__v": 0,
+    "actiontype": "Reject All",
+    "consent": {
+      "Necessary": false,
+      "Analytics": false,
+      "Advertisement": false,
+      "Performance": false,
+      "Others": false
+    },
+    "countryName": "Brazil",
+    "createdAt": "2025-03-14T16:17:24Z",
+    "ip": "163.201.96.253",
+    "owner": "c729915984574656a47ccc37",
+    "ownerEmail": "kyle.morris@mail.com",
+    "ownerUserId": 514,
+    "updatedAt": "2025-03-14T17:04:35Z"
+  },
+  {
+    "_id": "d21385b9-a3e9-4e1f-a182-d6e02300eb54",
+    "sessionId": "5d87b1cf-a8c1-4dbe-9e28-cfefe931df47",
+    "__v": 0,
+    "actiontype": "Accept All",
+    "consent": {
+      "Necessary": true,
+      "Analytics": true,
+      "Advertisement": true,
+      "Performance": true,
+      "Others": true
+    },
+    "countryName": "Canada",
+    "createdAt": "2025-02-18T05:29:56Z",
+    "ip": "95.198.200.90",
+    "owner": "89fd77b722d44f1b859475b2",
+    "ownerEmail": "ella.rogers@example.com",
+    "ownerUserId": 72,
+    "updatedAt": "2025-02-18T06:15:48Z"
+  }
+]

@@ -1,0 +1,392 @@
+{
+    "module": "Privacy",
+    "subModule": "DPIA",
+    "menu": "DPIAV1",
+    "version": "0.0",
+    "steps": [
+      {
+        "id": "corporate_details",
+        "tab": "Corporate",
+    "heading": "Corporate Details",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 1, "label": "Company Name", "type": "text", "name": "companyName", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 2, "label": "Address 1", "type": "text", "name": "address1", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 3, "label": "Address 2", "type": "text", "name": "address2", "placeholder": "", "required": false, "visible": true, "enabled": true },
+          { "id": 4, "label": "City", "type": "text", "name": "city", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 5, "label": "State", "type": "text", "name": "state", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 6, "label": "ZIP", "type": "text", "name": "zip", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 7, "label": "Entity Level 1", "type": "text", "name": "entityLevel1", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 8, "label": "Entity Level 2", "type": "text", "name": "entityLevel2", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 9, "label": "Division", "type": "text", "name": "division", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 10, "label": "Unit", "type": "text", "name": "unit", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "personnel_information",
+        "tab": "Personnel",
+        "heading": "Personnel Information",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 11, "label": "Manager First Name", "type": "text", "name": "managerFirstName", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 12, "label": "Manager Last Name", "type": "text", "name": "managerLastName", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 13, "label": "Manager Title", "type": "text", "name": "managerTitle", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 14, "label": "Privacy Officer First Name", "type": "text", "name": "privacyOfficerFirstName", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 15, "label": "Privacy Officer Last Name", "type": "text", "name": "privacyOfficerLastName", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 16, "label": "Privacy Officer Title", "type": "text", "name": "privacyOfficerTitle", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 17, "label": "Executive First Name", "type": "text", "name": "executiveFirstName", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 18, "label": "Executive Last Name", "type": "text", "name": "executiveLastName", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 19, "label": "Executive Title", "type": "text", "name": "executiveTitle", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "compliance_information",
+        "tab": "Compliance",
+        "heading": "Compliance Information",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 20, "label": "PHI", "type": "select", "name": "phi", "placeholder": "YES/NO", "required": true, "visible": true, "enabled": true, "options": ["yes", "no"] },
+          { "id": 21, "label": "PII", "type": "select", "name": "pii", "placeholder": "YES/NO", "required": true, "visible": true, "enabled": true, "options": ["yes", "no"] },
+          { "id": 22, "label": "GDPR", "type": "select", "name": "gdpr", "placeholder": "YES/NO", "required": true, "visible": true, "enabled": true, "options": ["yes", "no"] },
+          { "id": 23, "label": "HIPAA", "type": "select", "name": "hipaa", "placeholder": "YES/NO", "required": true, "visible": true, "enabled": true, "options": ["yes", "no"] },
+          { "id": 24, "label": "Start Date", "type": "date", "name": "startDate", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 25, "label": "Closing Date", "type": "date", "name": "closingDate", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          {
+            "id": 26,
+            "label": "Budgeted Hours",
+            "type": "select",
+            "name": "budgetedHours",
+            "placeholder": "Select Hours",
+            "required": true,
+            "visible": true,
+            "enabled": true,
+            "options": ["Hardware", "Software", "Network", "Data", "People"]
+          },
+          {
+            "id": 27,
+            "label": "Actual Hours",
+            "type": "select",
+            "name": "actualHours",
+            "placeholder": "Select Hours",
+            "required": true,
+            "visible": true,
+            "enabled": true,
+            "options": ["Hardware", "Software", "Network", "Data", "People"]
+          },
+          { "id": 28, "label": "Approver First Name", "type": "text", "name": "approverFirstName", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 29, "label": "Approver Last Name", "type": "text", "name": "approverLastName", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 30, "label": "Approval Date", "type": "date", "name": "approvalDate", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 31, "label": "Additional Notes", "type": "textarea", "name": "additionalNotes", "placeholder": "Add key risks and highlights here.", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "executive_summary",
+        "tab": "Summary",
+        "heading": "Executive Summary",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 32, "label": "Executive Summary", "type": "textarea", "name": "executiveSummary", "placeholder": "Note the highlights...", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "general_administrative_details",
+        "tab": "Administrative",
+        "heading": "General Administrative Details",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 33, "label": "Description", "type": "textarea", "name": "generalAdministrativeDescription", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 34, "label": "Organization", "type": "text", "name": "generalAdministrativeOrganization", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 35, "label": "Work Unit", "type": "text", "name": "generalAdministrativeWorkUnit", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 36, "label": "Author Phone", "type": "text", "name": "generalAdministrativeAuthorPhone", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 37, "label": "Author Email", "type": "text", "name": "generalAdministrativeAuthorEmail", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 38, "label": "Executive Sponsor Phone", "type": "text", "name": "generalAdministrativeExecutiveSponsorPhone", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 39, "label": "Executive Sponsor Email", "type": "text", "name": "generalAdministrativeExecutiveSponsorEmail", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 40, "label": "Privacy Officer Phone", "type": "text", "name": "generalAdministrativePrivacyOfficerPhone", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 41, "label": "Privacy Officer Email", "type": "text", "name": "generalAdministrativePrivacyOfficerEmail", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 42, "label": "Next Review Date", "type": "date", "name": "generalAdministrativeDateOfLastReview", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "initiative_description",
+        "tab": "Scope",
+        "heading": "Initiative Description",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 43, "label": "Initiative Description", "type": "textarea", "name": "initiativeDescription", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "scope_of_pia",
+        "tab": "Scope",
+        "heading": "Scope of This PIA",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 44, "label": "Scope Description", "type": "textarea", "name": "scopeOfThisPiaDescription", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "related_documentation",
+        "tab": "Documentation",
+        "heading": "Related Documentation",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 45, "label": "Related Documentation", "type": "textarea", "name": "relatedDocumentation", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "collecting_personal_information",
+        "tab": "Collection",
+        "heading": "Collecting Personal Information",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 46, "label": "Collecting Personal Information", "type": "textarea", "name": "collectingPersonalInformation", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "implications_withdrawing_consent",
+        "tab": "Consent",
+        "heading": "Implications of Withdrawing Consent",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 47, "label": "Implications of Withdrawing Consent", "type": "textarea", "name": "implicationsOfWithdrawingConsent", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "notification_statement",
+        "tab": "Notification",
+        "heading": "Notification Statement",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 48, "label": "Notification Statement Summary", "type": "textarea", "name": "notificationStatementSummary", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 49, "label": "Notification Statement", "type": "textarea", "name": "notificationStatement", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 50, "label": "Position Name or Title", "type": "text", "name": "notStatementPosNamOrTitle", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 51, "label": "Mailing Address", "type": "text", "name": "notStatementMailAddress", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 52, "label": "Email", "type": "text", "name": "notStatementEmail", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 53, "label": "Phone Number", "type": "text", "name": "notStatementPhoneNumber", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "personal_information_inventory",
+        "tab": "Inventory",
+        "heading": "Personal Information Inventory",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          {
+            "id": 54,
+            "label": "Personal Information Inventory",
+            "type": "group",
+            "name": "rows",
+            "repeatable": true,
+            "required": true,
+            "visible": true,
+            "enabled": true,
+            "fields": [
+              { "id": 54.1, "label": "Data Element", "type": "text", "name": "dataElement", "placeholder": "", "required": true, "visible": true, "enabled": true },
+              { "id": 54.2, "label": "Sensitivity", "type": "select", "name": "sensitivity", "placeholder": "Select", "required": true, "visible": true, "enabled": true, "options": ["Low", "Medium", "High"] },
+              { "id": 54.3, "label": "Purposes", "type": "text", "name": "purposes", "placeholder": "", "required": true, "visible": true, "enabled": true },
+              { "id": 54.4, "label": "Role of User", "type": "text", "name": "roleOfUser", "placeholder": "", "required": true, "visible": true, "enabled": true },
+              { "id": 54.5, "label": "Third Party Disclosure", "type": "select", "name": "thirdPartyDisclosure", "placeholder": "Select", "required": true, "visible": true, "enabled": true, "options": ["Yes", "No"] },
+              { "id": 54.6, "label": "Purpose for Disclosure", "type": "text", "name": "purposeForDisclosure", "placeholder": "", "required": true, "visible": true, "enabled": true },
+              { "id": 54.7, "label": "Retention Period", "type": "text", "name": "retentionPeriod", "placeholder": "", "required": true, "visible": true, "enabled": true }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "personal_information_flow_table",
+        "tab": "Flow",
+        "heading": "Personal Information Flow Table/Diagram",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 55, "label": "Flow Table Description", "type": "textarea", "name": "flowTableDescription", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 56, "label": "Sample Steps Type", "type": "select", "name": "flowTableSampleStepsBelowType", "placeholder": "Select Type", "required": true, "visible": true, "enabled": true, "options": ["Collection", "Use", "Disclosure"] },
+          { "id": 57, "label": "Sample Steps PIPA Authority", "type": "text", "name": "flowTableSampleStepsBelowPipaAuthority", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 58, "label": "Client Completes Intake Form Type", "type": "select", "name": "flowTableClientCompletesIntakeFormType", "placeholder": "Select Type", "required": true, "visible": true, "enabled": true, "options": ["Collection", "Use", "Disclosure"] },
+          { "id": 59, "label": "Client Intake PIPA Authority", "type": "text", "name": "flowTableClientCompletesIntakeFormPipaAuthority", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 60, "label": "Create Patient Chart Type", "type": "select", "name": "flowTableCreatePatientChartType", "placeholder": "Select Type", "required": true, "visible": true, "enabled": true, "options": ["Collection", "Use", "Disclosure"] },
+          { "id": 61, "label": "Patient Chart PIPA Authority", "type": "text", "name": "flowTableCreatePatientChartPipaAuthority", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 62, "label": "Review Chart Type", "type": "select", "name": "flowTableReviewChartProvideTreatmentType", "placeholder": "Select Type", "required": true, "visible": true, "enabled": true, "options": ["Collection", "Use", "Disclosure"] },
+          { "id": 63, "label": "Review Chart PIPA Authority", "type": "text", "name": "flowTableReviewChartProvideTreatmentPipaAuthority", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 64, "label": "Issue Billing Type", "type": "select", "name": "issueBillingType", "placeholder": "Select Type", "required": true, "visible": true, "enabled": true, "options": ["Collection", "Use", "Disclosure"] },
+          { "id": 65, "label": "Issue Billing PIPA Authority", "type": "text", "name": "issueBillingPipaAuthority", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 66, "label": "Client Provides Insurance Information Type", "type": "select", "name": "clientProvidesInsurenceInformationType", "placeholder": "Select Type", "required": true, "visible": true, "enabled": true, "options": ["Collection", "Use", "Disclosure"] },
+          { "id": 67, "label": "Client Insurance PIPA Authority", "type": "text", "name": "clientProvidesInsurenceInformationPipaAuthority", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "sample_flow_diagram",
+        "tab": "Flow",
+        "heading": "Sample Flow Diagram",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          {
+            "id": 68,
+            "label": "Flow Diagram Uploads",
+            "type": "file",
+            "name": "documents",
+            "placeholder": "",
+            "required": false,
+            "visible": true,
+            "enabled": true,
+            "multiple": true
+          }
+        ]
+      },
+      {
+        "id": "security_measures",
+        "tab": "Security",
+        "heading": "Security Measures",
+        "subheading": "",
+        "description": "Physical, technical, and administrative security measures.",
+        "fields": [
+          {
+            "id": 69,
+            "label": "Security Rows",
+            "type": "group",
+            "name": "securityRows",
+            "repeatable": true,
+            "required": true,
+            "visible": true,
+            "enabled": true,
+            "fields": [
+              { "id": 69.1, "label": "Type", "type": "text", "name": "type", "placeholder": "", "required": true, "visible": true, "enabled": true },
+              { "id": 69.2, "label": "Storage Device", "type": "text", "name": "storageDevice", "placeholder": "", "required": true, "visible": true, "enabled": true },
+              { "id": 69.3, "label": "Security Measure", "type": "text", "name": "securityMeasure", "placeholder": "", "required": true, "visible": true, "enabled": true }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "monitoring_compliance",
+        "tab": "Compliance",
+        "heading": "Monitoring Compliance",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 70, "label": "Describe How You Monitor Compliance", "type": "textarea", "name": "pleaseDescribeHowYouMonitorCompliance", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "access_accuracy_correction_retention",
+        "tab": "Compliance",
+        "heading": "Access, Accuracy, Correction & Retention",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 71, "label": "Access Accuracy Correction Retention", "type": "textarea", "name": "accessAccuracyCorrectionRetention", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "request_personal_information",
+        "tab": "Compliance",
+        "heading": "How Can Individuals Request Their Own Personal Information?",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 72, "label": "Request Personal Information", "type": "textarea", "name": "howCanIndividualsRequestTheirOwnPersonalInformation", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "update_correct_annotate",
+        "tab": "Compliance",
+        "heading": "Updating/Correcting/Annotating Personal Information",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 73, "label": "Update/Correct/Annotate Info", "type": "textarea", "name": "howCanAnIndividualHaveTheirPersonalInformationUpdatedCorrectedAnnotated", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "legal_business_requirement",
+        "tab": "Retention",
+        "heading": "Legal / Business Requirement & Retention",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          {
+            "id": 74,
+            "label": "Legal or Business Requirement for Information and Retention",
+            "type": "textarea",
+            "name": "whatIsYourLegalOrBusinessRequirementForTheInformationANDHowLongMustYouRetainInformationToMeetThisRequirement",
+            "placeholder": "",
+            "required": true,
+            "visible": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "disposal_after_retention",
+        "tab": "Retention",
+        "heading": "Disposal After Retention",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          {
+            "id": 75,
+            "label": "Disposal Process",
+            "type": "textarea",
+            "name": "howWillYourOrganizationDisposeOfThePersonalInformationAfterTheRetentionPeriodIsCompleted",
+            "placeholder": "",
+            "required": true,
+            "visible": true,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": "privacy_office_comments",
+        "tab": "Comments",
+        "heading": "Privacy Office Comments",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 76, "label": "Privacy Office Comments", "type": "textarea", "name": "PrivacyOfficeComments", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "more_information",
+        "tab": "Misc",
+        "heading": "More Information",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 77, "label": "More Information", "type": "textarea", "name": "moreInformation", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      },
+      {
+        "id": "signatures",
+        "tab": "Approval",
+        "heading": "Signatures",
+        "subheading": "",
+        "description": "",
+        "fields": [
+          { "id": 78, "label": "Signature Summary", "type": "textarea", "name": "signatureSummary", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 79, "label": "Manager Name", "type": "text", "name": "managerName", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 80, "label": "Manager Signature", "type": "text", "name": "managerSignature", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 81, "label": "Manager Signature Date", "type": "date", "name": "managerSignatureDate", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 82, "label": "Data Privacy Officer Name", "type": "text", "name": "dataPrivacyOfficerName", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 83, "label": "Data Privacy Officer Signature", "type": "text", "name": "dataPrivacyOfficerSignature", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 84, "label": "Data Privacy Officer Date", "type": "date", "name": "dataPrivacyOfficerDate", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 85, "label": "Executive Director Name", "type": "text", "name": "executiveDirectorName", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 86, "label": "Executive Director Signature", "type": "text", "name": "executiveDirectorSignature", "placeholder": "", "required": true, "visible": true, "enabled": true },
+          { "id": 87, "label": "Executive Director Date", "type": "date", "name": "executiveDirectorDate", "placeholder": "", "required": true, "visible": true, "enabled": true }
+        ]
+      }
+    ]
+  }
+  

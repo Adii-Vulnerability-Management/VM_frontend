@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tpl-01",
+    "name": "New Policy Assignment",
+    "subject": "A new policy has been assigned to you",
+    "body": "<p>Hello {{user_name}},<br/><br/>A new policy <strong>{{policy_name}}</strong> has been assigned to you. Please review it by {{due_date}}.<br/><br/>Thank you,<br/>GRC Team</p>"
+  },
+  {
+    "id": "tpl-02",
+    "name": "Incident Report Submitted",
+    "subject": "Your incident report has been received",
+    "body": "<p>Dear {{user_name}},<br/><br/>We have received your incident report (ID: {{incident_id}}). Our team will review it and update you soon.<br/><br/>Regards,<br/>GRC Support</p>"
+  },
+  {
+    "id": "tpl-03",
+    "name": "Audit Schedule Notification",
+    "subject": "Upcoming audit scheduled",
+    "body": "<p>Hello {{user_name}},<br/><br/>Your department is scheduled for an audit on {{audit_date}}. Please prepare the necessary documents.<br/><br/>Best,<br/>Audit Team</p>"
+  },
+  {
+    "id": "tpl-04",
+    "name": "Risk Assessment Reminder",
+    "subject": "Reminder: Risk assessment due",
+    "body": "<p>Hi {{user_name}},<br/><br/>This is a reminder to complete the risk assessment for {{asset_name}} by {{due_date}}.<br/><br/>Thanks,<br/>Risk Management</p>"
+  },
+  {
+    "id": "tpl-05",
+    "name": "Control Testing Notification",
+    "subject": "Control testing in progress",
+    "body": "<p>Dear {{user_name}},<br/><br/>Control testing for {{control_name}} has started. Please ensure availability for queries.<br/><br/>Regards,<br/>Control Testing Team</p>"
+  },
+  {
+    "id": "tpl-06",
+    "name": "Policy Expiry Alert",
+    "subject": "Policy expiring soon",
+    "body": "<p>Hello {{user_name}},<br/><br/>The policy <strong>{{policy_name}}</strong> will expire on {{expiry_date}}. Please initiate renewal.<br/><br/>Thank you,<br/>GRC Admin</p>"
+  },
+  {
+    "id": "tpl-07",
+    "name": "Compliance Task Reminder",
+    "subject": "Action required: Compliance task",
+    "body": "<p>Hi {{user_name}},<br/><br/>Your compliance task <strong>{{task_name}}</strong> is due on {{due_date}}. Kindly complete it.<br/><br/>Regards,<br/>Compliance Team</p>"
+  },
+  {
+    "id": "tpl-08",
+    "name": "Data Protection Notice",
+    "subject": "Important: Data protection update",
+    "body": "<p>Dear {{user_name}},<br/><br/>We have updated our data protection procedures. Please review the changes here: {{link}}.<br/><br/>Best,<br/>Data Privacy Office</p>"
+  },
+  {
+    "id": "tpl-09",
+    "name": "Third-Party Risk Reminder",
+    "subject": "Please assess third-party risk",
+    "body": "<p>Hello {{user_name}},<br/><br/>Please complete the risk assessment for vendor <strong>{{vendor_name}}</strong> by {{due_date}}.<br/><br/>Thanks,<br/>GRC Team</p>"
+  },
+  {
+    "id": "tpl-10",
+    "name": "Regulatory Update Alert",
+    "subject": "New regulatory update available",
+    "body": "<p>Hi {{user_name}},<br/><br/>A new regulatory guideline <strong>{{regulation_name}}</strong> is now in effect. Please review.<br/><br/>Regards,<br/>Legal Compliance</p>"
+  },
+  {
+    "id": "tpl-11",
+    "name": "Security Awareness Training",
+    "subject": "Invitation: Security training session",
+    "body": "<p>Dear {{user_name}},<br/><br/>You are invited to a security awareness session on {{session_date}}. RSVP by {{rsvp_date}}.<br/><br/>Regards,<br/>Training Team</p>"
+  },
+  {
+    "id": "tpl-12",
+    "name": "Vendor Assessment Due",
+    "subject": "Vendor assessment due soon",
+    "body": "<p>Hello {{user_name}},<br/><br/>Your vendor assessment for <strong>{{vendor_name}}</strong> is due on {{due_date}}.<br/><br/>Thank you,<br/>Vendor Management</p>"
+  },
+  {
+    "id": "tpl-13",
+    "name": "Internal Audit Findings",
+    "subject": "Internal audit findings report",
+    "body": "<p>Hi {{user_name}},<br/><br/>The internal audit for {{department}} is complete. Find the report here: {{report_link}}.<br/><br/>Best,<br/>Internal Audit</p>"
+  },
+  {
+    "id": "tpl-14",
+    "name": "Management Review Summary",
+    "subject": "Quarterly management review",
+    "body": "<p>Dear {{user_name}},<br/><br/>The quarterly management review is scheduled for {{meeting_date}}. Please see the agenda.<br/><br/>Thanks,<br/>Management Office</p>"
+  },
+  {
+    "id": "tpl-15",
+    "name": "Policy Change Approval",
+    "subject": "Policy change approved",
+    "body": "<p>Hello {{user_name}},<br/><br/>Your requested change for policy <strong>{{policy_name}}</strong> has been approved.<br/><br/>Regards,<br/>GRC Admin</p>"
+  },
+  {
+    "id": "tpl-16",
+    "name": "Framework Health Check",
+    "subject": "Framework health check report",
+    "body": "<p>Hi {{user_name}},<br/><br/>The health check for GRC framework is available here: {{link}}.<br/><br/>Thank you,<br/>GRC Operations</p>"
+  },
+  {
+    "id": "tpl-17",
+    "name": "Compliance Dashboard Report",
+    "subject": "Monthly compliance dashboard",
+    "body": "<p>Dear {{user_name}},<br/><br/>Your monthly compliance dashboard is ready: {{dashboard_link}}.<br/><br/>Regards,<br/>Reporting Team</p>"
+  },
+  {
+    "id": "tpl-18",
+    "name": "CAPA Action Required",
+    "subject": "CAPA required for findings",
+    "body": "<p>Hello {{user_name}},<br/><br/>Please address the CAPA for finding <strong>{{finding_id}}</strong> by {{due_date}}.<br/><br/>Thanks,<br/>Quality Assurance</p>"
+  },
+  {
+    "id": "tpl-19",
+    "name": "Compliance Closure Confirmation",
+    "subject": "Compliance task closed",
+    "body": "<p>Hi {{user_name}},<br/><br/>Your compliance task <strong>{{task_name}}</strong> has been marked as closed.<br/><br/>Best,<br/>Compliance Team</p>"
+  },
+  {
+    "id": "tpl-20",
+    "name": "Quarterly GRC Newsletter",
+    "subject": "GRC Newsletter - Q{{quarter}}",
+    "body": "<p>Dear {{user_name}},<br/><br/>Welcome to the Q{{quarter}} GRC newsletter! Read the latest updates here: {{newsletter_link}}.<br/><br/>Cheers,<br/>GRC Communications</p>"
+  }
+]

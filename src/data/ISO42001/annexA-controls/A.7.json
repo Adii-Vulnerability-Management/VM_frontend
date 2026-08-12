@@ -1,0 +1,102 @@
+[
+  {
+    "id": "A.7",
+    "title": "ISO 42001 Annex A Control A.7 – Data for AI Systems",
+    "objective": "Ensure organisations recognise the pivotal role and impacts of data throughout the entire lifecycle of AI systems, including application, development, provision, and usage.",
+    "description": "ISO 42001 Annex A Control A.7 emphasises the importance of data for AI systems, focusing on defining, documenting, and implementing data management processes throughout their life cycles to ensure data quality, provenance, and preparation."
+  },
+  {
+    "id": "A.7.2",
+    "title": "Data for Development and Enhancement of AI System",
+    "subsections": [
+      {
+        "heading": "Defining and Documenting Processes for AI System Development",
+        "content": "Establish and document data management processes covering acquisition to disposal, addressing privacy, security, and representativeness of training data."
+      },
+      {
+        "heading": "Contribution of Effective Data Management to AI System Enhancement",
+        "content": "Effective data management ensures data integrity, representativeness, and transparency, improving AI performance and reliability."
+      },
+      {
+        "heading": "Challenges in Implementing Data Management Processes",
+        "content": "Challenges include data bias, quality assurance, and compliance with evolving regulations due to the complexity and volume of AI system data."
+      }
+    ]
+  },
+  {
+    "id": "A.7.3",
+    "title": "Acquisition of Data",
+    "subsections": [
+      {
+        "heading": "Considerations for Acquiring Data for AI Systems",
+        "content": "Identify data categories, quantities, sources (internal, purchased, open), and evaluate data rights and privacy implications for PII."
+      },
+      {
+        "heading": "Documenting the Selection of Data Used in AI Systems",
+        "content": "Record data source characteristics, subject demographics, previous uses, and document privacy and security compliance."
+      },
+      {
+        "heading": "Implications of Data Source and Quality on AI System Performance",
+        "content": "High-quality, representative data enhances reliability and accuracy, while poor-quality data leads to biased or inaccurate outcomes."
+      }
+    ]
+  },
+  {
+    "id": "A.7.4",
+    "title": "Quality of Data for AI Systems",
+    "subsections": [
+      {
+        "heading": "Defining Requirements for AI System Data Quality",
+        "content": "Define criteria such as accuracy, completeness, consistency, and relevance that data must meet before use."
+      },
+      {
+        "heading": "Strategies for Meeting Data Quality Requirements",
+        "content": "Implement data validation, cleaning, audits, normalization, and error detection to ensure data meets quality standards."
+      },
+      {
+        "heading": "Impact of Data Quality on AI System Reliability",
+        "content": "Reliable AI outputs depend on high-quality data; poor-quality data increases risk of flawed decisions and bias."
+      }
+    ]
+  },
+  {
+    "id": "A.7.5",
+    "title": "Data Provenance",
+    "subsections": [
+      {
+        "heading": "Importance of Data Provenance",
+        "content": "Ensure traceability and accountability by recording data origins, processing history, and responsible parties."
+      },
+      {
+        "heading": "Processes to Document Throughout Data and AI Lifecycle",
+        "content": "Document collection, transformation, usage, storage, source details, and rationale for changes for audit trails."
+      },
+      {
+        "heading": "Impact of Data Provenance on Transparency and Accountability",
+        "content": "Detailed provenance records support regulatory compliance and ethical AI by enabling clear explanations of AI decisions."
+      }
+    ]
+  },
+  {
+    "id": "A.7.6",
+    "title": "Data Preparation",
+    "subsections": [
+      {
+        "heading": "Defining Criteria for Data Preparation Methods",
+        "content": "Establish criteria ensuring data integrity, consistency, and relevance based on AI model nature and operational goals."
+      },
+      {
+        "heading": "Documenting Data Preparation Methods",
+        "content": "Detail techniques such as cleaning, normalization, labeling, encoding, and rationale for method selection."
+      },
+      {
+        "heading": "Addressing Common Data Preparation Challenges",
+        "content": "Manage missing data, mitigate bias, and maintain quality using robust methods and tools."
+      },
+      {
+        "heading": "Leveraging ISMS.online for Effective Data Preparation",
+        "content": "Use platform tools to streamline preparation, documentation, and compliance with ISO 42001 standards."
+      }
+    ]
+  }
+]

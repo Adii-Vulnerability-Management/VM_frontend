@@ -1,0 +1,97 @@
+[
+  {
+    "id": "GOVERN 1.1",
+    "title": "Governance Policy Framework",
+    "description": "AI systems may be subject to specific applicable legal and regulatory requirements. Some legal requirements can mandate (e.g., nondiscrimination, data privacy and security controls) documentation, disclosure, and increased AI system transparency. These requirements are complex and may not be applicable or differ across applications and contexts. For example, AI system testing processes for bias measurement, such as disparate impact, are not applied uniformly within the legal context. Disparate impact is broadly defined as a facially neutral policy or practice that disproportionately harms a group based on a protected trait. Notably, some modeling algorithms or debiasing techniques that rely on demographic information, could also come into tension with legal prohibitions on disparate treatment (i.e., intentional discrimination). Additionally, some intended users of AI systems may not have consistent or reliable access to fundamental internet technologies (a phenomenon widely described as the “digital divide”) or may experience difficulties interacting with AI systems due to disabilities or impairments. Such factors may mean different communities experience bias or other negative impacts when trying to access AI systems. Failure to address such design issues may pose legal risks, for example in employment related activities affecting persons with disabilities."
+  },
+  {
+    "id": "GOVERN 1.2",
+    "title": "Roles & Responsibilities",
+    "description": "Policies, processes, and procedures are central components of effective AI risk management and fundamental to individual and organizational accountability. All stakeholders benefit from policies, processes, and procedures which require preventing harm by design and default. Organizational policies and procedures will vary based on available resources and risk profiles, but can help systematize AI actor roles and responsibilities throughout the AI lifecycle. Without such policies, risk management can be subjective across the organization, and exacerbate rather than minimize risks over time. Policies, or summaries thereof, are understandable to relevant AI actors. Policies reflect an understanding of the underlying metrics, measurements, and tests that are necessary to support policy and AI system design, development, deployment and use. Lack of clear information about responsibilities and chains of command will limit the effectiveness of risk management."
+  },
+  {
+    "id": "GOVERN 1.3",
+    "title": "Risk Tolerance & Prioritization",
+    "description": "Risk management resources are finite in any organization. Adequate AI governance policies delineate the mapping, measurement, and prioritization of risks to allocate resources toward the most material issues for an AI system to ensure effective risk management. Policies may specify systematic processes for assigning mapped and measured risks to standardized risk scales. AI risk tolerances range from negligible to critical – from, respectively, almost no risk to risks that can result in irredeemable human, reputational, financial, or environmental losses. Risk tolerance rating policies consider different sources of risk, (e.g., financial, operational, safety and wellbeing, business, reputational, or model risks). A typical risk measurement approach entails the multiplication, or qualitative combination, of measured or estimated impact and likelihood of impacts into a risk score (risk ≈ impact × likelihood). This score is then placed on a risk scale. Scales for risk may be qualitative, such as red-amber-green (RAG), or may entail simulations or econometric approaches. Impact assessments are a common tool for understanding the severity of mapped risks. In the most fulsome AI risk management approaches, all models are assigned to a risk level."
+  },
+  {
+    "id": "GOVERN 1.4",
+    "title": "Policy Documentation & Transparency",
+    "description": "Clear policies and procedures relating to documentation and transparency facilitate and enhance efforts to communicate roles and responsibilities for the Map, Measure and Manage functions across the AI lifecycle. Standardized documentation can help organizations systematically integrate AI risk management processes and enhance accountability efforts. For example, by adding their contact information to a work product document, AI actors can improve communication, increase ownership of work products, and potentially enhance consideration of product quality. Documentation may generate downstream benefits related to improved system replicability and robustness. Proper documentation storage and access procedures allow for quick retrieval of critical information during a negative incident. Explainable machine learning efforts (models and explanatory methods) may bolster technical documentation practices by introducing additional information for review and interpretation by AI Actors."
+  },
+  {
+    "id": "GOVERN 1.5",
+    "title": "Continuous Monitoring & Incident Response",
+    "description": "AI systems are dynamic and may perform in unexpected ways once deployed or after deployment. Continuous monitoring is a risk management process for tracking unexpected issues and performance changes, in real time or at a specific frequency, across the AI system lifecycle. Incident response and “appeal and override” are commonly used processes in information technology management. These processes enable real-time flagging of potential incidents, and human adjudication of system outcomes. Establishing and maintaining incident response plans can reduce the likelihood of additive impacts during an AI incident. Smaller organizations which may not have fulsome governance programs can utilize incident response plans for addressing system failures, abuse or misuse."
+  },
+  {
+    "id": "GOVERN 1.6",
+    "title": "AI System Inventory",
+    "description": "An AI system inventory is an organized database of artifacts relating to an AI system or model. It may include system documentation, incident response plans, data dictionaries, links to implementation software or source code, names and contact information for relevant AI actors, or other information that may be helpful for model or system maintenance and incident response purposes. AI system inventories also enable a holistic view of organizational AI assets. A serviceable AI system inventory may allow for the quick resolution of specific queries for single models (e.g., “when was this model last refreshed?”) or high-level queries across all models (e.g., “how many models are currently deployed within our organization?” or “how many users are impacted by our models?”). AI system inventories are a common element of traditional model risk management approaches and can provide technical, business and risk management benefits. Typically inventories capture all organizational models or systems, as partial inventories may not provide the value of a full inventory."
+  },
+  {
+    "id": "GOVERN 1.7",
+    "title": "Decommissioning Policy",
+    "description": "Irregular or indiscriminate termination or deletion of models or AI systems may be inappropriate and increase organizational risk. For example, AI systems may be subject to regulatory requirements or implicated in future security or legal investigations. To maintain trust, organizations may consider establishing policies and processes for the systematic and deliberate decommissioning of AI systems. Typically, such policies consider user and community concerns, risks in dependent and linked systems, and security, legal or regulatory concerns. Decommissioned models or systems may be stored in a model inventory along with active models for an established length of time."
+  },
+  {
+    "id": "GOVERN 2.1",
+    "title": "Independent Testing & Evaluation",
+    "description": "The development of a risk-aware organizational culture starts with defining responsibilities. For example, under some risk management structures, professionals carrying out test and evaluation tasks are independent from AI system developers and report through risk management functions or directly to executives. This kind of structure may help counter implicit biases such as groupthink or sunk cost fallacy and bolster risk management functions, so efforts are not easily bypassed or ignored. Instilling a culture where AI system design and implementation decisions can be questioned and course-corrected by empowered AI actors can enhance organizations’ abilities to anticipate and effectively manage risks before they become ingrained."
+  },
+  {
+    "id": "GOVERN 2.2",
+    "title": "Training & Awareness",
+    "description": "To enhance AI risk management adoption and effectiveness, organizations are encouraged to identify and integrate appropriate training curricula into enterprise learning requirements. Through regular training, AI actors can maintain awareness of AI risk management goals and their role in achieving them; organizational policies, applicable laws and regulations, and industry best practices and norms."
+  },
+  {
+    "id": "GOVERN 2.3",
+    "title": "Executive Oversight",
+    "description": "Senior leadership and members of the C-Suite in organizations that maintain an AI portfolio should maintain awareness of AI risks, affirm the organizational appetite for such risks, and be responsible for managing those risks. Accountability ensures that a specific team and individual is responsible for AI risk management efforts. Some organizations grant authority and resources (human and budgetary) to a designated officer who ensures adequate performance of the institution’s AI portfolio (e.g., predictive modeling, machine learning)."
+  },
+  {
+    "id": "GOVERN 3.1",
+    "title": "Diverse Governance Team",
+    "description": "A diverse team that includes AI actors with diversity of experience, disciplines, and backgrounds to enhance organizational capacity and capability for anticipating risks is better equipped to carry out risk management. Consultation with external personnel may be necessary when internal teams lack a diverse range of lived experiences or disciplinary expertise. To extend the benefits of diversity, equity, and inclusion to both the users and AI actors, it is recommended that teams are composed of a diverse group of individuals who reflect a range of backgrounds, perspectives and expertise. Without commitment from senior leadership, beneficial aspects of team diversity and inclusion can be overridden by unstated organizational incentives that inadvertently conflict with the broader values of a diverse workforce."
+  },
+  {
+    "id": "GOVERN 3.2",
+    "title": "External Consultation",
+    "description": "Identifying and managing AI risks and impacts are enhanced when a broad set of perspectives and actors across the AI lifecycle—including technical, legal, compliance, social science, and human factors expertise—is engaged. AI actors include those who operate, use, or interact with AI systems for downstream tasks or monitor AI system performance. Effective risk management efforts include clear definitions and differentiation of the various human roles and responsibilities for AI system oversight and governance, and recognizing and clarifying differences between AI system overseers and those using or interacting with AI systems."
+  },
+  {
+    "id": "GOVERN 4.1",
+    "title": "C-Suite Accountability",
+    "description": "A risk culture and accompanying practices can help organizations effectively triage the most critical risks. Organizations in some industries implement three (or more) “lines of defense,” where separate teams are held accountable for different aspects of the system lifecycle, such as development, risk management, and auditing. While a traditional three-lines approach may be impractical for smaller organizations, leadership can commit to cultivating a strong risk culture through other means. For example, “effective challenge” is a culture-based practice that encourages critical thinking and questioning of important design and implementation decisions by experts with the authority and stature to make such changes. Red-teaming is another risk measurement and management approach. This practice consists of adversarial testing of AI systems under stress conditions to seek out failure modes or vulnerabilities in the system. Red-teams are composed of external experts or personnel who are independent from internal AI actors."
+  },
+  {
+    "id": "GOVERN 4.2",
+    "title": "Budget & Resources",
+    "description": "Organizational policies and procedures that equip AI actors with the processes, knowledge, and expertise needed to inform collaborative decisions about system deployment improve risk management. These decisions are closely tied to AI systems and organizational risk tolerance. Risk tolerance, established by organizational leadership, reflects the level and type of risk the organization will accept while conducting its mission and carrying out its strategy. When risks arise, resources are allocated based on the assessed risk of a given AI system. Organizations typically apply a risk tolerance approach where higher risk systems receive larger allocations of risk management resources and lower risk systems receive less resources."
+  },
+  {
+    "id": "GOVERN 4.3",
+    "title": "Governance Metrics",
+    "description": "Risk measurement and management can be complicated by how customers use or integrate third-party data or systems into AI products or services, particularly without sufficient internal governance structures and technical safeguards. Organizations usually engage multiple third parties for external expertise, data, software packages (both open source and commercial), and software and hardware platforms across the AI lifecycle. This engagement has beneficial uses and can increase complexities of risk management efforts. Organizational approaches to managing third-party (positive and negative) risk may be tailored to the resources, risk profile, and use case for each system. Organizations can apply governance approaches to third-party AI systems and data as they would for internal resources—including open source software, publicly available data, and commercially available models."
+  },
+  {
+    "id": "GOVERN 5.1",
+    "title": "Stakeholder Engagement",
+    "description": "To mitigate the potential harms of third-party system failures, organizations may implement policies and procedures that include redundancies for covering third-party functions. AI systems may not necessarily be the right solution for a given business task or problem. A standard risk management practice is to formally weigh an AI system’s negative risks against its benefits, and to determine if the AI system is an appropriate solution. Trade-offs among trustworthiness characteristics—such as deciding to deploy a system based on system performance vs system transparency—may require regular assessment throughout the AI lifecycle."
+  },
+  {
+    "id": "GOVERN 5.2",
+    "title": "Red-Teaming & Challenge",
+    "description": "Risk refers to the composite measure of an event’s probability of occurring and the magnitude (or degree) of the consequences of the corresponding events. The impacts, or consequences, of AI systems can be positive, negative, or both and can result in opportunities or risks. Organizational risk tolerances are often informed by several internal and external factors, including existing industry practices, organizational values, and legal or regulatory requirements. Since risk management resources are often limited, organizations usually assign them based on risk tolerance. AI risks that are deemed more serious receive more oversight attention and risk management resources."
+  },
+  {
+    "id": "GOVERN 6.1",
+    "title": "Third-Party Risk Management",
+    "description": "Outcomes from GOVERN-1, MAP-5 and MEASURE-2 can be used to address and document identified risks based on established risk tolerances. Organizations can follow existing regulations and guidelines for risk criteria, tolerances and responses established by organizational, domain, discipline, sector, or professional requirements. In lieu of such guidance, organizations can develop risk response plans based on strategies such as accepted model risk management, enterprise risk management, and information sharing and disclosure practices."
+  },
+  {
+    "id": "GOVERN 6.2",
+    "title": "Appropriate Use Analysis",
+    "description": "Organizations may choose to accept or transfer some of the documented risks from MAP and MANAGE 1.3 and 2.1. Such risks, known as residual risk, may affect downstream AI actors such as those engaged in system procurement or use. Transparent monitoring and managing residual risks enables cost-benefit analysis and the examination of potential values of AI systems versus their potential negative impacts."
+  }
+]

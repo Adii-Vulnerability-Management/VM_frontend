@@ -1,0 +1,6 @@
+[
+  { "id": "w1", "title": "Total Controls", "value": "128" },
+  { "id": "w2", "title": "Controls Implemented", "value": "95" },
+  { "id": "w3", "title": "Pending Reviews", "value": "12" },
+  { "id": "w4", "title": "Open Findings", "value": "8" }
+]

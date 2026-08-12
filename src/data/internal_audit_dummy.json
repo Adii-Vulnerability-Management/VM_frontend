@@ -1,0 +1,2716 @@
+[
+  {
+    "program": {
+      "_id": "68249868c68bf9bc36c5fff8",
+      "user": "6814b357867043693c431808",
+      "user_email": "anmol.s@kritikalhire.com",
+      "auditProgramName": "FY2025 Revenue Cycle Audit",
+      "date": "2025-05-15T00:00:00.000Z",
+      "preparedBy": "John Smith",
+      "authorizedBy": "John Doe",
+      "sections": [
+        {
+          "title": "Mission and Purpose",
+          "points": [
+            "Internal audit’s mission is to enhance and protect organizational value by providing risk-based and objective assurance, advice, and insight.",
+            "The internal audit’s purpose is to provide independent, objective assurance and consulting services designed to add value and improve the organization’s operations."
+          ],
+          "_id": "68249868c68bf9bc36c5fff9"
+        },
+        {
+          "title": "International Standards",
+          "points": [
+            "The internal audit activity will govern itself by adherence to the mandatory elements of The IIA’s International Professional Practices Framework (IPPF)..."
+          ],
+          "_id": "68249868c68bf9bc36c5fffa"
+        },
+        {
+          "title": "Authority",
+          "points": [
+            "A statement on the CAE’s functional and administrative reporting relationship in the organization.",
+            "A statement that the governing body will establish, maintain, and assure that the internal audit activity has sufficient authority..."
+          ],
+          "_id": "68249868c68bf9bc36c5fffb"
+        },
+        {
+          "title": "Independence and Objectivity",
+          "points": [
+            "A statement that the CAE will ensure that the internal audit activity remains free of conditions..."
+          ],
+          "_id": "68249868c68bf9bc36c5fffc"
+        },
+        {
+          "title": "Scope of Internal Audit Activities",
+          "points": [
+            "A statement that the scope of the internal audit activities encompasses, but is not limited to..."
+          ],
+          "_id": "68249868c68bf9bc36c5fffd"
+        },
+        {
+          "title": "Responsibility",
+          "points": [
+            "Submitting at least annually a risk-based internal audit plan."
+          ],
+          "_id": "68249868c68bf9bc36c5fffe"
+        },
+        {
+          "title": "Quality Assurance and Improvement Program",
+          "points": [
+            "A statement that the internal audit activity will maintain a quality assurance and improvement program..."
+          ],
+          "_id": "68249868c68bf9bc36c5ffff"
+        }
+      ],
+      "createdAt": "2025-05-14T13:19:36.859Z",
+      "updatedAt": "2025-05-14T13:19:36.859Z",
+      "__v": 0
+    },
+    "auditAreas": [
+      {
+        "_id": "68258c7ea29997b4171d1baa",
+        "user": "6814b357867043693c431808",
+        "user_email": "anmol.s@kritikalhire.com",
+        "programID": "68249868c68bf9bc36c5fff8",
+        "type": "Type 2",
+        "unit": {
+          "_id": "6814573a645c57ca96a8129e",
+          "user": "6814b357867043693c431808",
+          "user_email": "info@grc.io",
+          "name": "Mumbai",
+          "head": "john doe",
+          "location": "Thane",
+          "code": "MUM-IT",
+          "description": "Test",
+          "status": "Active",
+          "departments": ["68145752645c57ca96a812a3"],
+          "is_deleted": false,
+          "createdAt": "2025-05-02T05:25:14.573Z",
+          "updatedAt": "2025-05-02T05:27:18.469Z",
+          "__v": 0
+        },
+        "department": {
+          "_id": "681457526-45c5-7ca9-6a81-2a3f00000000",
+          "user": "6814b357-8670-4369-3c43-180800000000",
+          "user_email": "info@grc.io",
+          "departmentName": "Risk Management & Compliance",
+          "departmentHead": "Mark Brown",
+          "departmentContact": "9876543210",
+          "departmentEmail": "rmc@grc.io",
+          "departmentEmployees": "25",
+          "departmentLocation": "Mumbai, India",
+          "departmentCode": "RMC-2025",
+          "departmentFunctions": "Risk oversight",
+          "departmentRiskLevel": "Medium",
+          "departmentDescription": "Oversees risk management",
+          "auditFrequency": "Annual",
+          "complianceRequirements": "ISO27001, SOX",
+          "departmentStatus": "Active",
+          "parentDepartment": null,
+          "riskMitigationMeasures": "Regular audits",
+          "businessAreas": ["6814575d-645c-57ca-96a8-12aa00000000"],
+          "is_deleted": false,
+          "createdAt": "2025-05-02T05:25:38.108Z",
+          "updatedAt": "2025-05-02T05:27:28.830Z",
+          "__v": 0
+        },
+        "businessArea": {
+          "_id": "6814575d-645c-57ca-96a8-12aa00000000",
+          "user": "6814b357-8670-4369-3c43-180800000000",
+          "user_email": "anmol.s@kritikalhire.com",
+          "name": "Revenue Cycle",
+          "head": "David Lee",
+          "code": "RCY-2025",
+          "description": "Revenue generation processes",
+          "status": "Active",
+          "processAreas": ["681dcfab-d762-3e99-49ed-456d00000000"],
+          "is_deleted": false,
+          "createdAt": "2025-05-02T05:25:49.504Z",
+          "updatedAt": "2025-05-09T09:49:41.732Z",
+          "__v": 0
+        },
+        "processArea": {
+          "_id": "681dcfab-d762-3e99-49ed-456d00000000",
+          "user": "6814b357-8670-4369-3c43-180800000000",
+          "user_email": "anmol.s@kritikalhire.com",
+          "name": "Order to Cash",
+          "code": "O2C-2025",
+          "description": "Order processing & billing",
+          "status": "Active",
+          "is_deleted": false,
+          "lastAuditDate": "2025-05-07T00:00:00.000Z",
+          "auditStartDate": "2025-04-10T00:00:00.000Z",
+          "auditEndDate": "2025-05-24T00:00:00.000Z",
+          "createdAt": "2025-05-09T09:49:31.979Z",
+          "updatedAt": "2025-05-15T06:42:18.342Z",
+          "__v": 0
+        },
+        "overallAssuranceRating": "Medium",
+        "auditTopic": "Revenue Cycle Controls",
+        "residualRisk": "Medium",
+        "__v": 0,
+        "createdAt": "2025-05-15T06:41:02.041Z",
+        "updatedAt": "2025-05-15T08:58:20.639Z",
+        "auditRef": "RC-2025-001",
+        "auditType": "Financial",
+        "budget": "50000 USD",
+        "days": "30",
+        "keyContracts": "Contract A, Contract B",
+        "objective": "Evaluate revenue cycle controls",
+        "reportOutcome": "Report prepared",
+        "riskCategory": "Financial",
+        "riskDescription": "Revenue leakage",
+        "riskRef": "RISK-001",
+        "scope": "Full revenue cycle",
+        "area": "initiativesRoadmapPriorities",
+        "finalPriority": "High",
+        "justification": "Critical financial impact",
+        "priorityArea": "Finance",
+        "strategyPriority": "High",
+        "auditEndDate": "2025-06-15T00:00:00.000Z",
+        "auditStartDate": "2025-05-15T00:00:00.000Z",
+        "controls": [
+          {
+            "_id": "a57b0b56-9bf6-4c1a-9425-a19bafcd7734",
+            "user": "user_2430",
+            "email": "user1@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-001",
+            "name": "Control Name 1",
+            "description": "Description for control 1",
+            "status": "Effective",
+            "priority": "Medium",
+            "category": "Access Management",
+            "objective": "Ensure control objective 1 is met",
+            "processArea": "Process Area 1",
+            "todTests": [
+              {
+                "step": "step_1",
+                "artefact": "artefact_1",
+                "evidences": [],
+                "_id": "a32e15df-19fd-41e9-ad63-dd8c5b73c63e"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_1",
+                "artefact": "artefact_1",
+                "evidences": [],
+                "_id": "90163ecd-9f53-45ce-a3ba-235c8b5ecdfa"
+              }
+            ],
+            "assignedTo": "086ea2af-a2ab-4412-a6a1-edfede9f9861",
+            "reviewer": "c28017c0-410e-42b1-8c29-e98a28b21ead",
+            "approver": "a54a57ef-a3ef-4642-b6f6-5b57fd72bbb7",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-02-11T13:22:20.194620Z",
+            "updatedAt": "2025-04-29T13:22:20.194639Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "3298ef89-b75f-4fa6-9969-ddbe0e12a49f",
+            "user": "user_3745",
+            "email": "user2@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-002",
+            "name": "Control Name 2",
+            "description": "Description for control 2",
+            "status": "Remediation In Progress",
+            "priority": "Low",
+            "category": "Access Management",
+            "objective": "Ensure control objective 2 is met",
+            "processArea": "Process Area 3",
+            "todTests": [
+              {
+                "step": "step_2",
+                "artefact": "artefact_2",
+                "evidences": [],
+                "_id": "489f4daa-aa80-4de0-a1d2-70876c97c68c"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_2",
+                "artefact": "artefact_2",
+                "evidences": [],
+                "_id": "2fee26cd-42c3-46f0-8117-c4f52b3d15c9"
+              }
+            ],
+            "assignedTo": "0911f1bc-3fd7-4eac-aee5-436ee25f6c3b",
+            "reviewer": "bba46813-1f77-4cf8-a3a5-2545f64ca94e",
+            "approver": "5ef58af4-4352-4318-9ecb-b1a91544b600",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-26T13:22:20.194900Z",
+            "updatedAt": "2025-05-12T13:22:20.194922Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "8070c0b4-70cb-4d1e-9712-f1d95aa421f6",
+            "user": "user_6868",
+            "email": "user3@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-003",
+            "name": "Control Name 3",
+            "description": "Description for control 3",
+            "status": "Remediation In Progress",
+            "priority": "High",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 3 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_3",
+                "artefact": "artefact_3",
+                "evidences": [],
+                "_id": "07229c81-74f9-4112-969c-37d4e5bce1a1"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_3",
+                "artefact": "artefact_3",
+                "evidences": [],
+                "_id": "d363c2e6-7f84-4f53-99ff-645ddfce55e7"
+              }
+            ],
+            "assignedTo": "8c231e83-7ae6-4a9f-940d-0318349c89fc",
+            "reviewer": "aae2fd6b-db0c-48ad-8fba-03dd3a8c430d",
+            "approver": "f2928fbe-179b-4350-8a82-cedd861987d3",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-04T13:22:20.195123Z",
+            "updatedAt": "2025-03-29T13:22:20.195131Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "6516b743-b9e6-4f15-a39b-57afe23c0124",
+            "user": "user_6404",
+            "email": "user4@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-004",
+            "name": "Control Name 4",
+            "description": "Description for control 4",
+            "status": "Remediation In Progress",
+            "priority": "Medium",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 4 is met",
+            "processArea": "Process Area 2",
+            "todTests": [
+              {
+                "step": "step_4",
+                "artefact": "artefact_4",
+                "evidences": [],
+                "_id": "06a2cdcf-ebde-41c6-b99f-104edf3fecb4"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_4",
+                "artefact": "artefact_4",
+                "evidences": [],
+                "_id": "7bf56706-9807-4d32-be56-bcfbb259c6aa"
+              }
+            ],
+            "assignedTo": "869fe484-bba1-4d6a-9eab-7a7fd8d7d9ca",
+            "reviewer": "4e3b1acf-dde3-4a76-bd69-37e34db28002",
+            "approver": "a220fe92-3029-45fd-9076-64fc44491ebf",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-24T13:22:20.195337Z",
+            "updatedAt": "2025-04-28T13:22:20.195350Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "1f622765-ee26-43e9-b91d-709f27a4a669",
+            "user": "user_2256",
+            "email": "user5@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-005",
+            "name": "Control Name 5",
+            "description": "Description for control 5",
+            "status": "Effective",
+            "priority": "High",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 5 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_5",
+                "artefact": "artefact_5",
+                "evidences": [],
+                "_id": "249c3512-eee3-466f-a430-324d30b566c0"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_5",
+                "artefact": "artefact_5",
+                "evidences": [],
+                "_id": "68c75f93-f3b9-412a-845d-587bc9fbe681"
+              }
+            ],
+            "assignedTo": "9657162e-704f-4295-aa28-aea117d7ef6b",
+            "reviewer": "e0d0a55c-e984-4523-bd65-d2f2e500dcea",
+            "approver": "084dbd03-8c35-43f9-b979-0e3353275af2",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-02T13:22:20.195414Z",
+            "updatedAt": "2025-04-05T13:22:20.195419Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "6a95f0f7-1948-45fe-a596-75ffb1974a17",
+            "user": "user_3302",
+            "email": "user6@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-006",
+            "name": "Control Name 6",
+            "description": "Description for control 6",
+            "status": "Effective",
+            "priority": "Medium",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 6 is met",
+            "processArea": "Process Area 1",
+            "todTests": [
+              {
+                "step": "step_6",
+                "artefact": "artefact_6",
+                "evidences": [],
+                "_id": "d2af2f04-3f09-40a8-900b-123d08e161fd"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_6",
+                "artefact": "artefact_6",
+                "evidences": [],
+                "_id": "548c0b95-098a-4b24-9d60-8cc577d17870"
+              }
+            ],
+            "assignedTo": "789ecd08-4916-4c16-ba73-43a2dd9728d7",
+            "reviewer": "a53a6fee-fba6-4d70-9eb4-ba3700c7a0e6",
+            "approver": "35a1eb41-232b-4c8a-a888-ef311fed851e",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-19T13:22:20.195516Z",
+            "updatedAt": "2025-04-20T13:22:20.195524Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "ea51e690-2729-473f-b02b-295f40986835",
+            "user": "user_3954",
+            "email": "user7@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-007",
+            "name": "Control Name 7",
+            "description": "Description for control 7",
+            "status": "Remediation In Progress",
+            "priority": "Low",
+            "category": "Access Management",
+            "objective": "Ensure control objective 7 is met",
+            "processArea": "Process Area 3",
+            "todTests": [
+              {
+                "step": "step_7",
+                "artefact": "artefact_7",
+                "evidences": [],
+                "_id": "923934c6-9126-430c-9121-1280741deadd"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_7",
+                "artefact": "artefact_7",
+                "evidences": [],
+                "_id": "b48f926b-a805-41ce-ae38-fba019aab4d9"
+              }
+            ],
+            "assignedTo": "274cdab5-6fd6-48bb-9b48-b4741f06c7a0",
+            "reviewer": "881528ad-f8d5-4278-9978-5db678c29bf9",
+            "approver": "2b3f9359-ac67-47b4-ad20-6c809c52fba6",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-02-11T13:22:20.195962Z",
+            "updatedAt": "2025-03-27T13:22:20.195979Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "0cd67050-2935-4569-ba54-54b708e761ca",
+            "user": "user_3907",
+            "email": "user8@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-008",
+            "name": "Control Name 8",
+            "description": "Description for control 8",
+            "status": "Remediation In Progress",
+            "priority": "High",
+            "category": "Configuration",
+            "objective": "Ensure control objective 8 is met",
+            "processArea": "Process Area 1",
+            "todTests": [
+              {
+                "step": "step_8",
+                "artefact": "artefact_8",
+                "evidences": [],
+                "_id": "12b557be-9c1b-47cb-ad85-c200b1150962"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_8",
+                "artefact": "artefact_8",
+                "evidences": [],
+                "_id": "aca931e6-8d4e-4c50-bec1-f0962b209726"
+              }
+            ],
+            "assignedTo": "73d15ac8-8a0e-47af-adc2-d60efc6712a8",
+            "reviewer": "facb9ee8-cdc6-482f-ac8b-6d6ac6d808d8",
+            "approver": "762cfd80-b28a-47e7-ae28-4eda6cce5408",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-02-13T13:22:20.196306Z",
+            "updatedAt": "2025-04-13T13:22:20.196318Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "8cf82ec2-4cd0-416b-b69a-359d00454d06",
+            "user": "user_9006",
+            "email": "user9@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-009",
+            "name": "Control Name 9",
+            "description": "Description for control 9",
+            "status": "Ineffective",
+            "priority": "High",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 9 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_9",
+                "artefact": "artefact_9",
+                "evidences": [],
+                "_id": "a9862ed1-8107-41c8-8f16-0651d441c3ca"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_9",
+                "artefact": "artefact_9",
+                "evidences": [],
+                "_id": "d93973c4-0248-4e62-aa7d-a33f73369f28"
+              }
+            ],
+            "assignedTo": "fd906b8f-2e5e-4b45-8bfb-f201509136ec",
+            "reviewer": "6fa53fb4-9442-4ef5-b9ff-bfd1a124f4b3",
+            "approver": "81b957ca-ea8a-4c0d-abf0-980d697ed0e7",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-19T13:22:20.196376Z",
+            "updatedAt": "2025-05-15T13:22:20.196380Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "94c1cb93-1aa0-4b1a-a6b9-7212ef5347b1",
+            "user": "user_3094",
+            "email": "user10@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-010",
+            "name": "Control Name 10",
+            "description": "Description for control 10",
+            "status": "Ineffective",
+            "priority": "High",
+            "category": "Configuration",
+            "objective": "Ensure control objective 10 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_10",
+                "artefact": "artefact_10",
+                "evidences": [],
+                "_id": "c70d6380-2b69-4c56-9237-18f8a621029a"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_10",
+                "artefact": "artefact_10",
+                "evidences": [],
+                "_id": "e51e6dec-189e-4273-8ac5-9fe36392f950"
+              }
+            ],
+            "assignedTo": "e79f0b7c-6833-4c77-a7f2-e44a7a26602f",
+            "reviewer": "e460df93-487f-4663-94b9-ca749aacb0b7",
+            "approver": "16196ddc-731c-4ccb-803c-1635ca90f159",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-02-11T13:22:20.196425Z",
+            "updatedAt": "2025-04-06T13:22:20.196429Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "274f005f-4c9d-4eb0-bd5b-eefc084a42c8",
+            "user": "user_3425",
+            "email": "user11@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-011",
+            "name": "Control Name 11",
+            "description": "Description for control 11",
+            "status": "Ineffective",
+            "priority": "Low",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 11 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_11",
+                "artefact": "artefact_11",
+                "evidences": [],
+                "_id": "36ade605-36f7-44a0-a887-af635f9e0ccc"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_11",
+                "artefact": "artefact_11",
+                "evidences": [],
+                "_id": "0e6dd59a-1ca0-44db-87d9-f5f65853fecd"
+              }
+            ],
+            "assignedTo": "898f7eed-6d5a-4e1d-99d2-be3d5aebf02f",
+            "reviewer": "3d13b5bf-fdc5-4520-be11-60802546306a",
+            "approver": "6458fc23-824c-45a2-903b-ef438d6be594",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-28T13:22:20.196475Z",
+            "updatedAt": "2025-05-01T13:22:20.196479Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "4ceffcb3-c795-44ff-a50b-bff0e465390e",
+            "user": "user_8480",
+            "email": "user12@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-012",
+            "name": "Control Name 12",
+            "description": "Description for control 12",
+            "status": "Remediation In Progress",
+            "priority": "Low",
+            "category": "Configuration",
+            "objective": "Ensure control objective 12 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_12",
+                "artefact": "artefact_12",
+                "evidences": [],
+                "_id": "93c6e634-3991-4dbd-a325-e1f1aa75974b"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_12",
+                "artefact": "artefact_12",
+                "evidences": [],
+                "_id": "cde00dd4-e0ec-44b5-aaeb-bdbfb298dcb7"
+              }
+            ],
+            "assignedTo": "0706103e-bd17-4526-8724-d897f1c1d069",
+            "reviewer": "4533f8f0-ad17-4888-9902-56e41ab9bc2d",
+            "approver": "40331e80-b73f-4fd2-9763-0f79d5ca5fc7",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-08T13:22:20.196527Z",
+            "updatedAt": "2025-04-11T13:22:20.196530Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "e6c104cc-71b1-4292-91f8-b6cea45ebf66",
+            "user": "user_5215",
+            "email": "user13@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-013",
+            "name": "Control Name 13",
+            "description": "Description for control 13",
+            "status": "Ineffective",
+            "priority": "High",
+            "category": "Configuration",
+            "objective": "Ensure control objective 13 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_13",
+                "artefact": "artefact_13",
+                "evidences": [],
+                "_id": "c815d114-0952-403d-8e44-152dff4b1f5c"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_13",
+                "artefact": "artefact_13",
+                "evidences": [],
+                "_id": "4c00aaa4-c202-4088-811b-9165aadb5e4c"
+              }
+            ],
+            "assignedTo": "cb10eaf9-9165-4ee6-a464-511f56528649",
+            "reviewer": "77378a19-d4c6-4555-ab91-434aa002ce7e",
+            "approver": "a8865e2e-4df4-4ead-aaf7-d0420a94cf8d",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-25T13:22:20.196571Z",
+            "updatedAt": "2025-05-14T13:22:20.196575Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "1d971404-43c7-4c92-a9a7-74416149b5da",
+            "user": "user_3983",
+            "email": "user14@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-014",
+            "name": "Control Name 14",
+            "description": "Description for control 14",
+            "status": "Ineffective",
+            "priority": "Medium",
+            "category": "Access Management",
+            "objective": "Ensure control objective 14 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_14",
+                "artefact": "artefact_14",
+                "evidences": [],
+                "_id": "9d15a65f-a8c5-48ef-a503-4cd01689b222"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_14",
+                "artefact": "artefact_14",
+                "evidences": [],
+                "_id": "d849379f-48c5-4325-8017-672cbfe68a14"
+              }
+            ],
+            "assignedTo": "dab45193-7416-4810-b32a-336ea614587d",
+            "reviewer": "85851050-8d90-448f-9634-01eed158e4c4",
+            "approver": "ba73b6bb-9a0b-4c85-9aa3-a55172741038",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-26T13:22:20.196617Z",
+            "updatedAt": "2025-04-04T13:22:20.196620Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "bd96e53b-86c8-4023-8f55-8bb75fb60c1d",
+            "user": "user_3628",
+            "email": "user15@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-015",
+            "name": "Control Name 15",
+            "description": "Description for control 15",
+            "status": "Effective",
+            "priority": "High",
+            "category": "Access Management",
+            "objective": "Ensure control objective 15 is met",
+            "processArea": "Process Area 1",
+            "todTests": [
+              {
+                "step": "step_15",
+                "artefact": "artefact_15",
+                "evidences": [],
+                "_id": "6b545a9f-ffed-4686-9400-e880866548c2"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_15",
+                "artefact": "artefact_15",
+                "evidences": [],
+                "_id": "19875838-a438-443c-a4d0-9f217aef2420"
+              }
+            ],
+            "assignedTo": "88b94fc0-8f3a-46e8-8dee-0610b30038fb",
+            "reviewer": "741b7f8a-520e-4b30-8518-5408fe85ee63",
+            "approver": "515f2854-6dc3-4f20-a520-fc3e596ff031",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-27T13:22:20.196665Z",
+            "updatedAt": "2025-03-26T13:22:20.196671Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "43f3be42-961e-41fd-a29b-566e2a8304b7",
+            "user": "user_6018",
+            "email": "user16@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-016",
+            "name": "Control Name 16",
+            "description": "Description for control 16",
+            "status": "Effective",
+            "priority": "High",
+            "category": "Access Management",
+            "objective": "Ensure control objective 16 is met",
+            "processArea": "Process Area 3",
+            "todTests": [
+              {
+                "step": "step_16",
+                "artefact": "artefact_16",
+                "evidences": [],
+                "_id": "e127181d-ee2a-45f6-811d-60b15c4adfb0"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_16",
+                "artefact": "artefact_16",
+                "evidences": [],
+                "_id": "9e613b71-5578-49e8-b519-9b1eae554919"
+              }
+            ],
+            "assignedTo": "08b35fbd-218d-49e0-b6fb-a73151cc32f1",
+            "reviewer": "bc926415-6518-415e-821c-196a616f053c",
+            "approver": "2b809c5c-17c1-4cd6-9064-f4aae515ce66",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-27T13:22:20.196732Z",
+            "updatedAt": "2025-05-04T13:22:20.196737Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "4372cbb3-16c6-4700-b2f5-0a6d8baffdeb",
+            "user": "user_4205",
+            "email": "user17@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-017",
+            "name": "Control Name 17",
+            "description": "Description for control 17",
+            "status": "Effective",
+            "priority": "Medium",
+            "category": "Configuration",
+            "objective": "Ensure control objective 17 is met",
+            "processArea": "Process Area 1",
+            "todTests": [
+              {
+                "step": "step_17",
+                "artefact": "artefact_17",
+                "evidences": [],
+                "_id": "f13a5e10-c0f5-4bb8-a07b-254d522c0ffc"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_17",
+                "artefact": "artefact_17",
+                "evidences": [],
+                "_id": "3402f3c5-641d-40e7-ad38-b6824b464642"
+              }
+            ],
+            "assignedTo": "11f7ce3d-818e-404d-ae35-9ad1460f6409",
+            "reviewer": "4663f911-047f-4670-8643-a72569701b87",
+            "approver": "13ef5263-0dfa-4326-8c68-5403f67f9373",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-22T13:22:20.197961Z",
+            "updatedAt": "2025-04-09T13:22:20.197972Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "520eb904-41d1-4f3c-8c50-34826c508c7e",
+            "user": "user_4319",
+            "email": "user18@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-018",
+            "name": "Control Name 18",
+            "description": "Description for control 18",
+            "status": "Remediation In Progress",
+            "priority": "Low",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 18 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_18",
+                "artefact": "artefact_18",
+                "evidences": [],
+                "_id": "95628b89-7823-4504-ab34-9c30a927c435"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_18",
+                "artefact": "artefact_18",
+                "evidences": [],
+                "_id": "b1e5265d-c4a2-49a4-8a3a-fc19978aca7e"
+              }
+            ],
+            "assignedTo": "00033616-548a-4121-8ef2-d925f4f4772d",
+            "reviewer": "fe720e15-b8ac-4b81-b703-3ea8dc8559f6",
+            "approver": "7a28af16-ea4d-4c94-be40-c22d70b3602a",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-10T13:22:20.198034Z",
+            "updatedAt": "2025-04-09T13:22:20.198038Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "577dde5f-9621-48d6-8074-4b2aa5732170",
+            "user": "user_3022",
+            "email": "user19@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-019",
+            "name": "Control Name 19",
+            "description": "Description for control 19",
+            "status": "Ineffective",
+            "priority": "Low",
+            "category": "Access Management",
+            "objective": "Ensure control objective 19 is met",
+            "processArea": "Process Area 1",
+            "todTests": [
+              {
+                "step": "step_19",
+                "artefact": "artefact_19",
+                "evidences": [],
+                "_id": "8142f379-c361-4408-bfcc-7b6b330f2177"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_19",
+                "artefact": "artefact_19",
+                "evidences": [],
+                "_id": "1c629ddb-4174-44d1-8c69-1d44fff76971"
+              }
+            ],
+            "assignedTo": "964b0745-5882-436d-9f3c-341f27d62783",
+            "reviewer": "9414e37a-88c1-46cc-a80a-02478c70b903",
+            "approver": "4ef3c9b4-a64f-4983-9526-0ca4a759f60b",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-15T13:22:20.198104Z",
+            "updatedAt": "2025-04-26T13:22:20.198110Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "6be90579-c684-4bc9-9393-8b946a79a5d7",
+            "user": "user_5101",
+            "email": "user20@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-020",
+            "name": "Control Name 20",
+            "description": "Description for control 20",
+            "status": "Effective",
+            "priority": "Low",
+            "category": "Access Management",
+            "objective": "Ensure control objective 20 is met",
+            "processArea": "Process Area 1",
+            "todTests": [
+              {
+                "step": "step_20",
+                "artefact": "artefact_20",
+                "evidences": [],
+                "_id": "91260e7c-1305-4de6-b81c-6da97f6a34a1"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_20",
+                "artefact": "artefact_20",
+                "evidences": [],
+                "_id": "d8e33bad-e121-43ee-a3ff-3838438a696a"
+              }
+            ],
+            "assignedTo": "22c09c5e-2856-4c18-ae5e-a15e95472619",
+            "reviewer": "0f1a79df-88fe-46d5-b46e-6d18f01edae7",
+            "approver": "3ea72198-4e81-44ce-b7d0-2bf23b308f31",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-24T13:22:20.198196Z",
+            "updatedAt": "2025-03-26T13:22:20.198203Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "80c31eba-6c2c-4d5a-bf22-9f909a39c834",
+            "user": "user_4127",
+            "email": "user21@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-021",
+            "name": "Control Name 21",
+            "description": "Description for control 21",
+            "status": "Remediation In Progress",
+            "priority": "High",
+            "category": "Configuration",
+            "objective": "Ensure control objective 21 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_21",
+                "artefact": "artefact_21",
+                "evidences": [],
+                "_id": "37c3b444-740a-4cd8-8703-2b216a4006f2"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_21",
+                "artefact": "artefact_21",
+                "evidences": [],
+                "_id": "688cf4fd-4f67-401c-b01f-55130a0a847a"
+              }
+            ],
+            "assignedTo": "c49895b7-fc95-4861-b983-048ee7dedffe",
+            "reviewer": "1e5a5737-63ad-44e4-8e66-2967122d2c44",
+            "approver": "37b11ff8-9a00-412d-a5c7-c7a98e10d851",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-30T13:22:20.198430Z",
+            "updatedAt": "2025-05-07T13:22:20.198440Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "221201a5-4b73-4617-a6c5-064fe417caa7",
+            "user": "user_8078",
+            "email": "user22@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-022",
+            "name": "Control Name 22",
+            "description": "Description for control 22",
+            "status": "Effective",
+            "priority": "Low",
+            "category": "Configuration",
+            "objective": "Ensure control objective 22 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_22",
+                "artefact": "artefact_22",
+                "evidences": [],
+                "_id": "b6a252c3-a274-4752-aa86-8d52f497e513"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_22",
+                "artefact": "artefact_22",
+                "evidences": [],
+                "_id": "16e09a08-a0fb-4f04-a942-ceacde96221f"
+              }
+            ],
+            "assignedTo": "d0454deb-7abd-4671-939a-c14f28f4377e",
+            "reviewer": "5596da32-8cc8-43ff-b49d-1c90008e2e0b",
+            "approver": "2b755b8a-e85b-467b-8d28-96abe715818e",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-02-10T13:22:20.198502Z",
+            "updatedAt": "2025-04-19T13:22:20.198507Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "e064301e-e4a3-4b73-9e35-0711e100e7c6",
+            "user": "user_4335",
+            "email": "user23@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-023",
+            "name": "Control Name 23",
+            "description": "Description for control 23",
+            "status": "Remediation In Progress",
+            "priority": "High",
+            "category": "Configuration",
+            "objective": "Ensure control objective 23 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_23",
+                "artefact": "artefact_23",
+                "evidences": [],
+                "_id": "67209b00-77e2-4dc6-bde6-566020c5311b"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_23",
+                "artefact": "artefact_23",
+                "evidences": [],
+                "_id": "97b981fa-78c1-41e1-bffc-cb6257e53bda"
+              }
+            ],
+            "assignedTo": "fac82ebd-bc17-4d01-b439-2a3583c54b14",
+            "reviewer": "b9ad3d90-b210-47c8-b46c-56d6d83604d9",
+            "approver": "0de21b11-7fab-489a-95c4-95727dac8c22",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-08T13:22:20.198565Z",
+            "updatedAt": "2025-03-28T13:22:20.198570Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "faf52470-7cde-4ceb-b6ca-e2bca846413d",
+            "user": "user_5578",
+            "email": "user24@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-024",
+            "name": "Control Name 24",
+            "description": "Description for control 24",
+            "status": "Effective",
+            "priority": "Medium",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 24 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_24",
+                "artefact": "artefact_24",
+                "evidences": [],
+                "_id": "c487a891-df24-4c04-ae54-10fc2e68b8c0"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_24",
+                "artefact": "artefact_24",
+                "evidences": [],
+                "_id": "e0a32eca-1e8b-4b2a-be57-16c6cc7c2834"
+              }
+            ],
+            "assignedTo": "2e347382-8a4b-4bf4-8f7a-661a5e6a5b6d",
+            "reviewer": "a7f34dae-cd9c-4de2-86ca-d91c00804bb6",
+            "approver": "70ebfe25-bbaf-4475-82b4-42531b27f09b",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-02-07T13:22:20.198651Z",
+            "updatedAt": "2025-04-20T13:22:20.198657Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "37b027b0-1153-4710-905f-d5a426108279",
+            "user": "user_4281",
+            "email": "user25@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-025",
+            "name": "Control Name 25",
+            "description": "Description for control 25",
+            "status": "Ineffective",
+            "priority": "Low",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 25 is met",
+            "processArea": "Process Area 1",
+            "todTests": [
+              {
+                "step": "step_25",
+                "artefact": "artefact_25",
+                "evidences": [],
+                "_id": "f2d05731-651a-4551-a034-158c4444efd4"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_25",
+                "artefact": "artefact_25",
+                "evidences": [],
+                "_id": "136ce3a7-b991-4990-803d-79e59628c000"
+              }
+            ],
+            "assignedTo": "8a894dab-5975-450b-b9ad-020783fec2a8",
+            "reviewer": "01c0ec65-07f2-4435-ba73-26488b064086",
+            "approver": "bb78b726-cc9a-4ae5-983b-7e46d911e792",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-23T13:22:20.198714Z",
+            "updatedAt": "2025-03-30T13:22:20.198720Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "db14c54e-00ac-47bc-bcee-afd470f2441d",
+            "user": "user_9697",
+            "email": "user26@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-026",
+            "name": "Control Name 26",
+            "description": "Description for control 26",
+            "status": "Ineffective",
+            "priority": "Medium",
+            "category": "Access Management",
+            "objective": "Ensure control objective 26 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_26",
+                "artefact": "artefact_26",
+                "evidences": [],
+                "_id": "973987ac-ab0d-46e7-ad0b-7029b6b1641c"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_26",
+                "artefact": "artefact_26",
+                "evidences": [],
+                "_id": "1ae0a9ce-bf0a-4310-9f54-eb83367fd683"
+              }
+            ],
+            "assignedTo": "ed456505-e3c5-4b94-8554-bc51d3a82f2c",
+            "reviewer": "fbe70bf3-e740-4382-9725-ec82c14441ac",
+            "approver": "e3e5ff27-c71b-4478-86f4-7476cc7a80f9",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-02-14T13:22:20.198784Z",
+            "updatedAt": "2025-04-01T13:22:20.198791Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "fd52d2f3-1bd7-4917-b605-bfd7260c2f7d",
+            "user": "user_3139",
+            "email": "user27@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-027",
+            "name": "Control Name 27",
+            "description": "Description for control 27",
+            "status": "Ineffective",
+            "priority": "High",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 27 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_27",
+                "artefact": "artefact_27",
+                "evidences": [],
+                "_id": "cca6ba68-e331-484b-b171-bb31e5a59791"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_27",
+                "artefact": "artefact_27",
+                "evidences": [],
+                "_id": "66810c4c-9255-4e61-9e1b-a1a3c2da5f9a"
+              }
+            ],
+            "assignedTo": "d6afbcc1-fe35-40aa-82f9-c481ae1eeee1",
+            "reviewer": "bf9408bc-7738-4247-87f6-03674967e9a3",
+            "approver": "1ea7c513-6235-4698-a527-a20c18ea9038",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-02-04T13:22:20.198884Z",
+            "updatedAt": "2025-04-03T13:22:20.198889Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "25fd75b9-c2f3-43bb-bfbb-38f06d617040",
+            "user": "user_8505",
+            "email": "user28@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-028",
+            "name": "Control Name 28",
+            "description": "Description for control 28",
+            "status": "Effective",
+            "priority": "Low",
+            "category": "Configuration",
+            "objective": "Ensure control objective 28 is met",
+            "processArea": "Process Area 1",
+            "todTests": [
+              {
+                "step": "step_28",
+                "artefact": "artefact_28",
+                "evidences": [],
+                "_id": "5ea2d87a-e17e-46aa-bc5e-4412a811476d"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_28",
+                "artefact": "artefact_28",
+                "evidences": [],
+                "_id": "ef512c7d-5bcf-4ab9-858b-5183a25517e0"
+              }
+            ],
+            "assignedTo": "5dc0acd3-1558-4f8c-9c93-74ca968a1f88",
+            "reviewer": "f66bd85f-7e78-457c-99f3-6d98c3d5d5c4",
+            "approver": "8e6b7bea-d8b9-4d7f-9a64-7afc4c74093b",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-10T13:22:20.198933Z",
+            "updatedAt": "2025-05-03T13:22:20.198936Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "e0494b76-072b-448d-ab5d-d115f1895eda",
+            "user": "user_9142",
+            "email": "user29@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-029",
+            "name": "Control Name 29",
+            "description": "Description for control 29",
+            "status": "Remediation In Progress",
+            "priority": "High",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 29 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_29",
+                "artefact": "artefact_29",
+                "evidences": [],
+                "_id": "231d17db-ef12-4bcf-980e-648dc0d3e4a5"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_29",
+                "artefact": "artefact_29",
+                "evidences": [],
+                "_id": "06f5df09-1197-4e4b-8ccf-f70670906d0a"
+              }
+            ],
+            "assignedTo": "636a52eb-5bcf-4018-a8a9-5748d1f18583",
+            "reviewer": "1ffcc197-4f0d-4adb-82fd-8d4f314010c7",
+            "approver": "c1082dd0-08d7-427c-a2f9-12091f67e2f6",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-19T13:22:20.199000Z",
+            "updatedAt": "2025-04-17T13:22:20.199004Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "c67cd109-9e1b-4d4b-acd6-66021a2a32e1",
+            "user": "user_1779",
+            "email": "user30@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-030",
+            "name": "Control Name 30",
+            "description": "Description for control 30",
+            "status": "Effective",
+            "priority": "High",
+            "category": "Access Management",
+            "objective": "Ensure control objective 30 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_30",
+                "artefact": "artefact_30",
+                "evidences": [],
+                "_id": "ac4e093e-1373-4641-b0c3-be17fdf59795"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_30",
+                "artefact": "artefact_30",
+                "evidences": [],
+                "_id": "c4a88bb3-c464-49b7-8c43-29b7673e2c98"
+              }
+            ],
+            "assignedTo": "f37abdb7-842b-4e06-8232-f3bddbab4fc0",
+            "reviewer": "9ee58c91-4158-49a0-aae5-d98c2381d263",
+            "approver": "88f021a8-93e8-47fc-a9cf-e2d619d28081",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-07T13:22:20.199043Z",
+            "updatedAt": "2025-03-26T13:22:20.199046Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "459afa8c-37d1-4505-adde-de18933223b7",
+            "user": "user_7057",
+            "email": "user31@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-031",
+            "name": "Control Name 31",
+            "description": "Description for control 31",
+            "status": "Effective",
+            "priority": "High",
+            "category": "Configuration",
+            "objective": "Ensure control objective 31 is met",
+            "processArea": "Process Area 3",
+            "todTests": [
+              {
+                "step": "step_31",
+                "artefact": "artefact_31",
+                "evidences": [],
+                "_id": "7669ac9f-dd1c-45d4-8dac-9da422c75d6a"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_31",
+                "artefact": "artefact_31",
+                "evidences": [],
+                "_id": "22017388-69e9-4c2d-8039-4fc9e79ef142"
+              }
+            ],
+            "assignedTo": "201020fd-91fd-4d96-a07e-d066396bf9ff",
+            "reviewer": "4ee80060-99ce-49a7-84cb-3984ff4ffbde",
+            "approver": "2017518a-6be3-47ce-b4c0-242b8fbc7401",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-29T13:22:20.199086Z",
+            "updatedAt": "2025-04-03T13:22:20.199089Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "267063e1-ee89-42d8-ac45-ee95f0acc328",
+            "user": "user_4662",
+            "email": "user32@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-032",
+            "name": "Control Name 32",
+            "description": "Description for control 32",
+            "status": "Effective",
+            "priority": "Low",
+            "category": "Configuration",
+            "objective": "Ensure control objective 32 is met",
+            "processArea": "Process Area 2",
+            "todTests": [
+              {
+                "step": "step_32",
+                "artefact": "artefact_32",
+                "evidences": [],
+                "_id": "3f4bd576-4576-4315-b1dd-b5e60f7b92a7"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_32",
+                "artefact": "artefact_32",
+                "evidences": [],
+                "_id": "a7e9e6d3-fa38-48eb-86f9-57dd71cb399c"
+              }
+            ],
+            "assignedTo": "03220da4-5786-48d0-92f9-d833d7593072",
+            "reviewer": "8a70ce6e-d588-4249-90a5-3dbe3907169f",
+            "approver": "72fecbea-ab66-4ba5-91df-f961dbe9d2d0",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-25T13:22:20.199139Z",
+            "updatedAt": "2025-03-30T13:22:20.199143Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "0bf3b580-1bc9-43ec-b0dc-9d49822a0e70",
+            "user": "user_6489",
+            "email": "user33@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-033",
+            "name": "Control Name 33",
+            "description": "Description for control 33",
+            "status": "Remediation In Progress",
+            "priority": "Low",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 33 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_33",
+                "artefact": "artefact_33",
+                "evidences": [],
+                "_id": "0cee607e-50f3-461a-ab00-a3395a8c7482"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_33",
+                "artefact": "artefact_33",
+                "evidences": [],
+                "_id": "82db7dbd-4960-4ab8-ade1-6b97933271ba"
+              }
+            ],
+            "assignedTo": "411f8803-ddaa-4b58-9ec7-dac839c470ef",
+            "reviewer": "39f47e7d-7336-4612-a9aa-54e5b337f2cd",
+            "approver": "0cfbf098-6e39-4b1b-83c4-76338d3cf8e7",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-22T13:22:20.199186Z",
+            "updatedAt": "2025-04-14T13:22:20.199190Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "044f83fe-7826-41fb-b8ed-c80bfcecf62d",
+            "user": "user_5446",
+            "email": "user34@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-034",
+            "name": "Control Name 34",
+            "description": "Description for control 34",
+            "status": "Ineffective",
+            "priority": "Medium",
+            "category": "Access Management",
+            "objective": "Ensure control objective 34 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_34",
+                "artefact": "artefact_34",
+                "evidences": [],
+                "_id": "1a4418f2-6084-482f-93f5-368da0b535ce"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_34",
+                "artefact": "artefact_34",
+                "evidences": [],
+                "_id": "8bd6fe13-f6bf-4ebe-a956-6c55efd37255"
+              }
+            ],
+            "assignedTo": "46442944-74cb-4c1c-b3e6-fd9d6aa362a0",
+            "reviewer": "94221f7f-198a-48ff-bae8-7a2ee537b25c",
+            "approver": "9ef7ed91-7774-46ae-96e0-fbab81cdf48e",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-05T13:22:20.199230Z",
+            "updatedAt": "2025-03-30T13:22:20.199233Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "cd071edf-dd8b-4e45-ae16-701efa3e68c6",
+            "user": "user_7229",
+            "email": "user35@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-035",
+            "name": "Control Name 35",
+            "description": "Description for control 35",
+            "status": "Ineffective",
+            "priority": "High",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 35 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_35",
+                "artefact": "artefact_35",
+                "evidences": [],
+                "_id": "f9310172-8049-4982-9e11-738fd7453a89"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_35",
+                "artefact": "artefact_35",
+                "evidences": [],
+                "_id": "b9ea19ba-6d9e-433a-88e9-20b1d412fed1"
+              }
+            ],
+            "assignedTo": "25487ce9-e191-4e7d-ae3b-11fe9d229f49",
+            "reviewer": "fc8e85ab-4ae9-4258-bf2a-12aa05683aa6",
+            "approver": "e4af218b-5ccb-48f9-8e3e-22902a16ad4f",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-02-19T13:22:20.199284Z",
+            "updatedAt": "2025-05-08T13:22:20.199291Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "13669a78-1ab6-4561-b877-f04881690992",
+            "user": "user_1624",
+            "email": "user36@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-036",
+            "name": "Control Name 36",
+            "description": "Description for control 36",
+            "status": "Effective",
+            "priority": "Low",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 36 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_36",
+                "artefact": "artefact_36",
+                "evidences": [],
+                "_id": "7976f6ab-5ac7-4ea5-9d98-f35a167d7d3d"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_36",
+                "artefact": "artefact_36",
+                "evidences": [],
+                "_id": "df39bbcd-3120-4ab8-bc79-e2bf06abfc97"
+              }
+            ],
+            "assignedTo": "b006fe16-2075-4ee6-92ce-33fc2f88c6dc",
+            "reviewer": "11cdb619-f34f-4b45-86b0-fd639d4db9df",
+            "approver": "c9376521-cb22-4f6d-9031-5ec05b7cbd9a",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-02T13:22:20.199336Z",
+            "updatedAt": "2025-04-03T13:22:20.199340Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "80a9946f-d293-461e-a03b-4e992b15ce9f",
+            "user": "user_1803",
+            "email": "user37@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-037",
+            "name": "Control Name 37",
+            "description": "Description for control 37",
+            "status": "Effective",
+            "priority": "Low",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 37 is met",
+            "processArea": "Process Area 3",
+            "todTests": [
+              {
+                "step": "step_37",
+                "artefact": "artefact_37",
+                "evidences": [],
+                "_id": "8eb12e3c-3ba0-49eb-8bbc-f92a7c23cbe2"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_37",
+                "artefact": "artefact_37",
+                "evidences": [],
+                "_id": "6c1935c3-65ca-480f-8554-6ae700841f72"
+              }
+            ],
+            "assignedTo": "aa8cd025-e415-4603-9a1d-b5ba6115d89f",
+            "reviewer": "599c6829-621f-4f79-9ce4-6b47a9ce3ad3",
+            "approver": "d33ebb4e-d949-449a-aabc-59cce57879a1",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-16T13:22:20.199381Z",
+            "updatedAt": "2025-05-02T13:22:20.199385Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "2b3aba77-9c5c-44d1-8cee-8912f91dba18",
+            "user": "user_5045",
+            "email": "user38@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-038",
+            "name": "Control Name 38",
+            "description": "Description for control 38",
+            "status": "Ineffective",
+            "priority": "Medium",
+            "category": "Configuration",
+            "objective": "Ensure control objective 38 is met",
+            "processArea": "Process Area 3",
+            "todTests": [
+              {
+                "step": "step_38",
+                "artefact": "artefact_38",
+                "evidences": [],
+                "_id": "7bce8c79-3c7d-46ea-8a20-01719ed21143"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_38",
+                "artefact": "artefact_38",
+                "evidences": [],
+                "_id": "20a2df3d-733b-42ab-b120-1df342ee09ff"
+              }
+            ],
+            "assignedTo": "250f74e2-4608-4e32-93cf-215ace543094",
+            "reviewer": "bb95ca3a-bf5f-4704-911a-3d6b7fae18b6",
+            "approver": "71e97de3-339b-4242-bbf1-dfcc519cb96f",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-03T13:22:20.199432Z",
+            "updatedAt": "2025-04-26T13:22:20.199436Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "8a5e5c23-8f57-461e-8931-2b1f561e0efe",
+            "user": "user_1684",
+            "email": "user39@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-039",
+            "name": "Control Name 39",
+            "description": "Description for control 39",
+            "status": "Ineffective",
+            "priority": "High",
+            "category": "Access Management",
+            "objective": "Ensure control objective 39 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_39",
+                "artefact": "artefact_39",
+                "evidences": [],
+                "_id": "939bb529-377e-489c-8774-2f34556f299a"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_39",
+                "artefact": "artefact_39",
+                "evidences": [],
+                "_id": "0a8d8cc9-440d-451e-812b-dc3cb46277b3"
+              }
+            ],
+            "assignedTo": "c4005426-9f1e-4790-a639-d3667a95ba40",
+            "reviewer": "3f3d3f9a-9383-4fd0-b059-708e144010c7",
+            "approver": "ac29d37b-9373-4d7f-99cd-449961b33a29",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-13T13:22:20.199498Z",
+            "updatedAt": "2025-05-11T13:22:20.199504Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "0788e287-49cf-4e99-a5db-a88675263409",
+            "user": "user_1993",
+            "email": "user40@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-040",
+            "name": "Control Name 40",
+            "description": "Description for control 40",
+            "status": "Effective",
+            "priority": "High",
+            "category": "Configuration",
+            "objective": "Ensure control objective 40 is met",
+            "processArea": "Process Area 1",
+            "todTests": [
+              {
+                "step": "step_40",
+                "artefact": "artefact_40",
+                "evidences": [],
+                "_id": "a259055b-9c4e-47c7-8b92-fa31fca8cb03"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_40",
+                "artefact": "artefact_40",
+                "evidences": [],
+                "_id": "471a0840-73dc-463c-b99e-82a516b007c7"
+              }
+            ],
+            "assignedTo": "c0fb13c7-2733-4c62-a16a-733c439b15a0",
+            "reviewer": "a931dbca-fb45-4ace-a466-7bc9ac1c0724",
+            "approver": "8cb12f90-221d-4309-a4ab-bc8c6176ea0f",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-19T13:22:20.199774Z",
+            "updatedAt": "2025-05-02T13:22:20.199785Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "db1be230-f2b8-4c51-86e3-b1791e9046a9",
+            "user": "user_2235",
+            "email": "user41@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-041",
+            "name": "Control Name 41",
+            "description": "Description for control 41",
+            "status": "Remediation In Progress",
+            "priority": "Medium",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 41 is met",
+            "processArea": "Process Area 2",
+            "todTests": [
+              {
+                "step": "step_41",
+                "artefact": "artefact_41",
+                "evidences": [],
+                "_id": "18ae986e-53b0-44b2-aaef-ead0376d4c81"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_41",
+                "artefact": "artefact_41",
+                "evidences": [],
+                "_id": "df01051a-6078-499b-8e26-3e06e2665ef9"
+              }
+            ],
+            "assignedTo": "c6673ebb-e39d-44d0-bdc0-613aeecb53db",
+            "reviewer": "037cdae7-d6ea-4155-ac04-17ce7a8dd328",
+            "approver": "d6835b75-e004-45e9-bbde-2bdeb1dc9e90",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-01T13:22:20.200033Z",
+            "updatedAt": "2025-04-29T13:22:20.200043Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "00589c3a-90a2-40ce-a4ec-f9738ccd9e93",
+            "user": "user_8814",
+            "email": "user42@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-042",
+            "name": "Control Name 42",
+            "description": "Description for control 42",
+            "status": "Remediation In Progress",
+            "priority": "High",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 42 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_42",
+                "artefact": "artefact_42",
+                "evidences": [],
+                "_id": "1c513d4d-d9bb-4b83-9f19-58fc31d5f923"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_42",
+                "artefact": "artefact_42",
+                "evidences": [],
+                "_id": "4ce85e75-0b52-4539-a6a1-fdd540661e33"
+              }
+            ],
+            "assignedTo": "1a9225bd-f997-44d5-955d-9aea1868917b",
+            "reviewer": "dc949c1f-24eb-469d-b437-f1dea40bf240",
+            "approver": "5e85ec24-9a0b-4f86-8d3c-d628ec39ca19",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-30T13:22:20.200288Z",
+            "updatedAt": "2025-03-30T13:22:20.200297Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "e1052057-24d1-4668-ab1f-56ccb49458ec",
+            "user": "user_8963",
+            "email": "user43@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-043",
+            "name": "Control Name 43",
+            "description": "Description for control 43",
+            "status": "Effective",
+            "priority": "High",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 43 is met",
+            "processArea": "Process Area 4",
+            "todTests": [
+              {
+                "step": "step_43",
+                "artefact": "artefact_43",
+                "evidences": [],
+                "_id": "f78dcea4-fa18-4899-a59a-85df56bf0a0c"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_43",
+                "artefact": "artefact_43",
+                "evidences": [],
+                "_id": "9b81d2ba-19af-472e-91e0-0b6ad456a54c"
+              }
+            ],
+            "assignedTo": "e4ac3997-48fe-49f8-9d25-c2dfba7b108d",
+            "reviewer": "7a29e015-b934-496e-90b8-1d7fe89089f6",
+            "approver": "368683db-4efc-4058-9e5a-f1c76adcad0b",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-04T13:22:20.200640Z",
+            "updatedAt": "2025-05-09T13:22:20.200649Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "0dde4d25-99ff-4afe-a86b-e3368ba9ab47",
+            "user": "user_2748",
+            "email": "user44@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-044",
+            "name": "Control Name 44",
+            "description": "Description for control 44",
+            "status": "Ineffective",
+            "priority": "Medium",
+            "category": "Segregation of Duties",
+            "objective": "Ensure control objective 44 is met",
+            "processArea": "Process Area 3",
+            "todTests": [
+              {
+                "step": "step_44",
+                "artefact": "artefact_44",
+                "evidences": [],
+                "_id": "4b568c0a-e31d-45be-a0a1-9aa92239d6b5"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_44",
+                "artefact": "artefact_44",
+                "evidences": [],
+                "_id": "8565d281-2e5b-4cad-8d15-87e054e19ad5"
+              }
+            ],
+            "assignedTo": "f2a2ee83-1c8b-4ebb-ab8b-65d6b3876f98",
+            "reviewer": "18371a42-6700-4415-81ac-1ebe5e812ab3",
+            "approver": "592dcc67-ed2a-416d-bf31-3a2a058c7fa8",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-05-01T13:22:20.200873Z",
+            "updatedAt": "2025-03-29T13:22:20.200883Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "7d17d509-5965-49f3-b515-1514cf5b45bc",
+            "user": "user_5917",
+            "email": "user45@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-045",
+            "name": "Control Name 45",
+            "description": "Description for control 45",
+            "status": "Effective",
+            "priority": "Low",
+            "category": "Configuration",
+            "objective": "Ensure control objective 45 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_45",
+                "artefact": "artefact_45",
+                "evidences": [],
+                "_id": "65e280af-4d4b-4879-b5a2-d3b13ed63566"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_45",
+                "artefact": "artefact_45",
+                "evidences": [],
+                "_id": "04a79a8f-cf65-4cb8-bc0c-c11a647e4a3e"
+              }
+            ],
+            "assignedTo": "da564874-4f65-469b-a060-89a95d3229a7",
+            "reviewer": "fd872aa4-1930-4815-8e57-51b9cf2d631a",
+            "approver": "fd42abe2-076f-4661-9791-72bd5c739f73",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-08T13:22:20.201166Z",
+            "updatedAt": "2025-04-27T13:22:20.201176Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "801f5541-2f7a-4ef5-8dd7-e879a8f62da3",
+            "user": "user_1644",
+            "email": "user46@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-046",
+            "name": "Control Name 46",
+            "description": "Description for control 46",
+            "status": "Ineffective",
+            "priority": "Medium",
+            "category": "Configuration",
+            "objective": "Ensure control objective 46 is met",
+            "processArea": "Process Area 3",
+            "todTests": [
+              {
+                "step": "step_46",
+                "artefact": "artefact_46",
+                "evidences": [],
+                "_id": "7b7cd9b4-7e6f-441b-8dc4-090800956e87"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_46",
+                "artefact": "artefact_46",
+                "evidences": [],
+                "_id": "29046c88-030e-4449-a6a6-41d2f93ad6bb"
+              }
+            ],
+            "assignedTo": "1ec01b78-6a19-40b4-b3cb-02cd2dbfdb82",
+            "reviewer": "77f5af2a-6da6-425b-afd1-bb4e508fb92c",
+            "approver": "dd5de905-4b11-4d75-b539-79907b24863f",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-25T13:22:20.201417Z",
+            "updatedAt": "2025-04-25T13:22:20.201427Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "41f2ffd7-f3cb-458f-836c-62b9674cab9f",
+            "user": "user_2159",
+            "email": "user47@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-047",
+            "name": "Control Name 47",
+            "description": "Description for control 47",
+            "status": "Effective",
+            "priority": "Low",
+            "category": "Access Management",
+            "objective": "Ensure control objective 47 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_47",
+                "artefact": "artefact_47",
+                "evidences": [],
+                "_id": "3d557073-3014-41ca-b21e-eaa741a92aaf"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_47",
+                "artefact": "artefact_47",
+                "evidences": [],
+                "_id": "cff98fdb-2f50-4c19-aa7a-338fa839cd27"
+              }
+            ],
+            "assignedTo": "a23e9fea-c573-47ef-9278-7e44a4a112f2",
+            "reviewer": "d7c55fca-584e-4ab4-9d85-233d963f52b6",
+            "approver": "77dcf937-3256-4b06-bfab-35d000cabc28",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-16T13:22:20.201701Z",
+            "updatedAt": "2025-04-03T13:22:20.201712Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "36f0148b-99a0-4725-8186-51c4cd2b192f",
+            "user": "user_1041",
+            "email": "user48@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-048",
+            "name": "Control Name 48",
+            "description": "Description for control 48",
+            "status": "Ineffective",
+            "priority": "Medium",
+            "category": "Access Management",
+            "objective": "Ensure control objective 48 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_48",
+                "artefact": "artefact_48",
+                "evidences": [],
+                "_id": "1302ca93-4409-4a8b-9ed7-09be0dd32ae6"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_48",
+                "artefact": "artefact_48",
+                "evidences": [],
+                "_id": "69b139de-ce22-44d1-b0c6-b719b3bf8a71"
+              }
+            ],
+            "assignedTo": "b91172d3-2d6c-458f-b288-83c35361234a",
+            "reviewer": "9074825e-fd2c-46ae-944f-e55f24169f99",
+            "approver": "16f2fa1c-e9e9-4bfa-9f43-99f7446b4f90",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-02-17T13:22:20.201924Z",
+            "updatedAt": "2025-04-19T13:22:20.201930Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "77335b81-b083-459e-87d0-8a1e2a10404b",
+            "user": "user_8357",
+            "email": "user49@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-049",
+            "name": "Control Name 49",
+            "description": "Description for control 49",
+            "status": "Remediation In Progress",
+            "priority": "High",
+            "category": "Configuration",
+            "objective": "Ensure control objective 49 is met",
+            "processArea": "Process Area 1",
+            "todTests": [
+              {
+                "step": "step_49",
+                "artefact": "artefact_49",
+                "evidences": [],
+                "_id": "81bb09dc-6a54-4369-8fa1-c3dc96cc7638"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_49",
+                "artefact": "artefact_49",
+                "evidences": [],
+                "_id": "296eabcc-e95c-4e02-83bd-6023506be80a"
+              }
+            ],
+            "assignedTo": "1d7f0cff-7627-40b2-9883-ad0fe732405c",
+            "reviewer": "519c23f5-cc66-4ffc-857b-b6c73739c224",
+            "approver": "6e0ee740-392a-4f52-b74c-33bc1491d332",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-03-02T13:22:20.202020Z",
+            "updatedAt": "2025-04-05T13:22:20.202025Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          },
+          {
+            "_id": "efdc6216-7235-42f8-9531-4d85356c7ed5",
+            "user": "user_8435",
+            "email": "user50@example.com",
+            "programId": "68249868-c68b-f9bc-36c5-fff800000000",
+            "auditAreaId": "68258c7e-a299-97b4-171d-1baa00000000",
+            "controlID": "CTRL-050",
+            "name": "Control Name 50",
+            "description": "Description for control 50",
+            "status": "Ineffective",
+            "priority": "Low",
+            "category": "Configuration",
+            "objective": "Ensure control objective 50 is met",
+            "processArea": "Process Area 5",
+            "todTests": [
+              {
+                "step": "step_50",
+                "artefact": "artefact_50",
+                "evidences": [],
+                "_id": "e7b6bda8-8d17-43b6-aa4d-9e39abaf1e39"
+              }
+            ],
+            "toeTests": [
+              {
+                "step": "step_50",
+                "artefact": "artefact_50",
+                "evidences": [],
+                "_id": "2fde15bd-ec04-45f4-b1e8-2feeebc91b58"
+              }
+            ],
+            "assignedTo": "95884f74-ceb5-4ed1-8ca4-5e1b6bda9f52",
+            "reviewer": "04de0979-4114-4b8f-99cd-1ae5034b277b",
+            "approver": "41448969-2571-4211-a8f7-f441b33a476b",
+            "reviewerComments": null,
+            "approverComments": null,
+            "createdAt": "2025-04-07T13:22:20.202071Z",
+            "updatedAt": "2025-05-05T13:22:20.202075Z",
+            "__v": 0,
+            "universeId": "68258c7e-a299-97b4-171d-1baa00000000"
+          }
+        ],
+        "auditAreaPlanning": {
+          "_id": "6825a93b-6798-a4b3-6d9d-3c4700000000",
+          "user": "6814b357-8670-4369-3c43-180800000000",
+          "programID": "68249868-c68b-f9bc-36c5-fff800000000",
+          "auditTopic": "681dcfab-d762-3e99-49ed-456d00000000",
+          "auditPeriod": "2025-05",
+          "auditID": "RC-PL-001",
+          "auditScope": "Full Revue Cycle",
+          "location": "Mumbai Headquarters",
+          "auditCriteria": "SOX Compliance",
+          "managementStandard": "COSO",
+          "auditProgram": "FY2025 Revenue Cycle Audit",
+          "remoteTools": "Teams, Zoom",
+          "reviewPlan": "Detailed walkthrough",
+          "auditObjectives": "Assess key controls",
+          "auditCriteriaDetails": "Transactions > $10k",
+          "universeId": "68258c7e-a299-97b4-171d-1baa00000000",
+          "auditTeamMembers": [],
+          "auditeeTeamMembers": [],
+          "lead": {
+            "first_name": "Sarah",
+            "last_name": "Connor"
+          },
+          "manager": {
+            "first_name": "Kyle",
+            "last_name": "Reese"
+          },
+          "auditStatus": "In-Progress",
+          "comments": "Initial fieldwork underway",
+          "createdAt": "2025-05-15T08:43:39.482Z",
+          "updatedAt": "2025-05-15T08:43:39.482Z",
+          "__v": 0
+        }
+      },
+      {
+        "_id": "68258c93a29997b4171d1bc6",
+        "user": "6814b357867043693c431808",
+        "user_email": "anmol.s@kritikalhire.com",
+        "programID": "68249868c68bf9bc36c5fff8",
+        "type": "Type 2",
+        "unit": {
+          "_id": "6814573a645c57ca96a8129e",
+          "user": "6814b357867043693c431808",
+          "user_email": "info@grc.io",
+          "name": "Mumbai",
+          "head": "john doe",
+          "location": "Thane",
+          "code": "MUM-IT",
+          "description": "Test",
+          "status": "Active",
+          "departments": ["68145752645c57ca96a812a3"],
+          "is_deleted": false,
+          "createdAt": "2025-05-02T05:25:14.573Z",
+          "updatedAt": "2025-05-02T05:27:18.469Z",
+          "__v": 0
+        },
+        "department": {
+          "_id": "68145752645c57ca96a812a3",
+          "user": "6814b357867043693c431808",
+          "user_email": "info@grc.io",
+          "departmentName": "Risk Management & Compliance",
+          "departmentHead": "john Doe",
+          "departmentContact": "9876543210",
+          "departmentEmail": "dev@gmail.com",
+          "departmentEmployees": "15",
+          "departmentLocation": "Thane , India",
+          "departmentCode": "RMC-2025",
+          "departmentFunctions": "Test",
+          "departmentRiskLevel": "",
+          "departmentDescription": "",
+          "auditFrequency": "",
+          "complianceRequirements": "",
+          "departmentStatus": "",
+          "parentDepartment": "",
+          "riskMitigationMeasures": "",
+          "businessAreas": ["6814575d645c57ca96a812aa"],
+          "is_deleted": false,
+          "createdAt": "2025-05-02T05:25:38.108Z",
+          "updatedAt": "2025-05-02T05:27:28.830Z",
+          "__v": 0
+        },
+        "businessArea": {
+          "_id": "6814575d645c57ca96a812aa",
+          "user": "6814b357867043693c431808",
+          "user_email": "anmol.s@kritikalhire.com",
+          "name": "test buisness",
+          "head": null,
+          "code": "test",
+          "description": "Test",
+          "status": "Active",
+          "processAreas": ["681dcfabd7623e9949ed456d"],
+          "is_deleted": false,
+          "createdAt": "2025-05-02T05:25:49.504Z",
+          "updatedAt": "2025-05-09T09:49:41.732Z",
+          "__v": 0
+        },
+        "processArea": {
+          "_id": "681dcfabd7623e9949ed456d",
+          "user": "6814b357867043693c431808",
+          "user_email": "anmol.s@kritikalhire.com",
+          "name": "test",
+          "code": "test",
+          "description": "test",
+          "status": "Active",
+          "is_deleted": false,
+          "lastAuditDate": "2025-05-07T00:00:00.000Z",
+          "auditStartDate": "2025-04-10T00:00:00.000Z",
+          "auditEndDate": "2025-05-24T00:00:00.000Z",
+          "createdAt": "2025-05-09T09:49:31.979Z",
+          "updatedAt": "2025-05-15T06:42:18.342Z",
+          "__v": 0
+        },
+        "overallAssuranceRating": "Low",
+        "auditTopic": "test",
+        "residualRisk": "Low",
+        "__v": 0,
+        "createdAt": "2025-05-15T06:41:23.271Z",
+        "updatedAt": "2025-05-15T06:56:22.996Z",
+        "auditRef": "test",
+        "auditType": "test",
+        "budget": "test",
+        "days": "test",
+        "keyContracts": "test",
+        "objective": "test",
+        "reportOutcome": "test",
+        "riskCategory": "test",
+        "riskDescription": "test",
+        "riskRef": "test",
+        "scope": "test",
+        "area": "businessContextPriorities",
+        "finalPriority": "Low",
+        "justification": "etst",
+        "priorityArea": "two",
+        "strategyPriority": "Low",
+        "auditEndDate": "2025-05-24T00:00:00.000Z",
+        "auditStartDate": "2025-05-24T00:00:00.000Z",
+        "controls": [],
+        "auditAreaPlanning": {
+          "_id": "6825aab66bc9c010825b8331",
+          "user": "6814b357867043693c431808",
+          "programID": "68249868c68bf9bc36c5fff8",
+          "auditTopic": "681dcfabd7623e9949ed456d",
+          "auditPeriod": "2025-01",
+          "auditID": "two",
+          "auditScope": "two",
+          "location": "two",
+          "auditCriteria": "two",
+          "managementStandard": "two",
+          "auditProgram": "FY2025 Revenue Cycle Audit",
+          "remoteTools": "two",
+          "reviewPlan": "two",
+          "auditObjectives": "two",
+          "auditCriteriaDetails": "two",
+          "universeId": "68258c93a29997b4171d1bc6",
+          "auditTeamMembers": [
+            {
+              "teamId": {
+                "_id": "6824a35af061f3cd7138d513",
+                "name": "john-team",
+                "description": "john-team",
+                "teamType": "General",
+                "createdBy": "6814b357867043693c431808",
+                "departmentId": "68145752645c57ca96a812a3",
+                "teamLeadId": "6824a2037ccfad5b8cf32edd",
+                "domains": ["john-team"],
+                "createdAt": "2025-05-14T14:06:18.653Z",
+                "updatedAt": "2025-05-14T14:06:18.653Z",
+                "__v": 0
+              },
+              "userId": {
+                "_id": "6824a2037ccfad5b8cf32edd",
+                "__v": 0,
+                "address": null,
+                "admin_email": "anmol.s@kritikalhire.com",
+                "admin_uuid": "6814b357867043693c431808",
+                "afterLoginMfaVerified": null,
+                "client_uuid": null,
+                "contact_number": "8098789878",
+                "createdAt": "2025-05-14T14:00:35.286Z",
+                "date_joined": "2025-05-14T14:00:35.220000Z",
+                "email": "nafag51736@neuraxo.com",
+                "emailVerified": false,
+                "employeeId": "1",
+                "first_name": "john-employee",
+                "isPasswordChanged": false,
+                "is_active": true,
+                "is_deleted": false,
+                "is_staff": false,
+                "is_superuser": false,
+                "last_login": "2025-05-14T14:01:11.125591Z",
+                "last_name": "john-employee",
+                "mfaEnabled": false,
+                "resources": [],
+                "tprmClientSchedule": null,
+                "tprmVendorSchedule": null,
+                "updatedAt": "2025-05-14T14:01:11.134Z",
+                "user_designation": "Employee",
+                "user_id": 28,
+                "user_name": "john-employee john-employee",
+                "user_uuid": "6824a2037ccfad5b8cf32edd",
+                "vendor_uuid": null,
+                "admin": 22,
+                "profile_img_path": null
+              },
+              "_id": "6825aab66bc9c010825b8332"
+            },
+            {
+              "teamId": {
+                "_id": "6824a35af061f3cd7138d513",
+                "name": "john-team",
+                "description": "john-team",
+                "teamType": "General",
+                "createdBy": "6814b357867043693c431808",
+                "departmentId": "68145752645c57ca96a812a3",
+                "teamLeadId": "6824a2037ccfad5b8cf32edd",
+                "domains": ["john-team"],
+                "createdAt": "2025-05-14T14:06:18.653Z",
+                "updatedAt": "2025-05-14T14:06:18.653Z",
+                "__v": 0
+              },
+              "userId": {
+                "_id": "6824a2827ccfad5b8cf32ede",
+                "__v": 0,
+                "address": null,
+                "admin_email": "anmol.s@kritikalhire.com",
+                "admin_uuid": "6814b357867043693c431808",
+                "afterLoginMfaVerified": null,
+                "client_uuid": null,
+                "contact_number": "8989898989",
+                "createdAt": "2025-05-14T14:02:42.089Z",
+                "date_joined": "2025-05-14T14:02:42.042000Z",
+                "email": "voyomig920@neuraxo.com",
+                "emailVerified": false,
+                "employeeId": "1",
+                "first_name": "john-reviewer",
+                "isPasswordChanged": false,
+                "is_active": true,
+                "is_deleted": false,
+                "is_staff": false,
+                "is_superuser": false,
+                "last_login": "2025-05-14T14:17:09.626700Z",
+                "last_name": "john-reviewer",
+                "mfaEnabled": false,
+                "resources": [],
+                "tprmClientSchedule": null,
+                "tprmVendorSchedule": null,
+                "updatedAt": "2025-05-14T14:17:09.635Z",
+                "user_designation": "Reviewer",
+                "user_id": 29,
+                "user_name": "john-reviewer john-reviewer",
+                "user_uuid": "6824a2827ccfad5b8cf32ede",
+                "vendor_uuid": null,
+                "admin": 22,
+                "profile_img_path": null
+              },
+              "_id": "6825aab66bc9c010825b8333"
+            },
+            {
+              "teamId": {
+                "_id": "6824a35af061f3cd7138d513",
+                "name": "john-team",
+                "description": "john-team",
+                "teamType": "General",
+                "createdBy": "6814b357867043693c431808",
+                "departmentId": "68145752645c57ca96a812a3",
+                "teamLeadId": "6824a2037ccfad5b8cf32edd",
+                "domains": ["john-team"],
+                "createdAt": "2025-05-14T14:06:18.653Z",
+                "updatedAt": "2025-05-14T14:06:18.653Z",
+                "__v": 0
+              },
+              "userId": {
+                "_id": "6824a2de7ccfad5b8cf32edf",
+                "__v": 0,
+                "address": null,
+                "admin_email": "anmol.s@kritikalhire.com",
+                "admin_uuid": "6814b357867043693c431808",
+                "afterLoginMfaVerified": null,
+                "client_uuid": null,
+                "contact_number": "8989898989",
+                "createdAt": "2025-05-14T14:04:14.875Z",
+                "date_joined": "2025-05-14T14:04:14.841000Z",
+                "email": "micin40157@daupload.com",
+                "emailVerified": false,
+                "employeeId": "1",
+                "first_name": "john-approver",
+                "isPasswordChanged": false,
+                "is_active": true,
+                "is_deleted": false,
+                "is_staff": false,
+                "is_superuser": false,
+                "last_login": "2025-05-14T14:20:38.028737Z",
+                "last_name": "john-approver",
+                "mfaEnabled": false,
+                "resources": [],
+                "tprmClientSchedule": null,
+                "tprmVendorSchedule": null,
+                "updatedAt": "2025-05-14T14:20:38.037Z",
+                "user_designation": "Approver",
+                "user_id": 30,
+                "user_name": "john-approver john-approver",
+                "user_uuid": "6824a2de7ccfad5b8cf32edf",
+                "vendor_uuid": null,
+                "admin": 22,
+                "profile_img_path": null
+              },
+              "_id": "6825aab66bc9c010825b8334"
+            }
+          ],
+          "auditeeTeamMembers": [
+            {
+              "teamId": {
+                "_id": "6824a35af061f3cd7138d513",
+                "name": "john-team",
+                "description": "john-team",
+                "teamType": "General",
+                "createdBy": "6814b357867043693c431808",
+                "departmentId": "68145752645c57ca96a812a3",
+                "teamLeadId": "6824a2037ccfad5b8cf32edd",
+                "domains": ["john-team"],
+                "createdAt": "2025-05-14T14:06:18.653Z",
+                "updatedAt": "2025-05-14T14:06:18.653Z",
+                "__v": 0
+              },
+              "userId": {
+                "_id": "6824a2037ccfad5b8cf32edd",
+                "__v": 0,
+                "address": null,
+                "admin_email": "anmol.s@kritikalhire.com",
+                "admin_uuid": "6814b357867043693c431808",
+                "afterLoginMfaVerified": null,
+                "client_uuid": null,
+                "contact_number": "8098789878",
+                "createdAt": "2025-05-14T14:00:35.286Z",
+                "date_joined": "2025-05-14T14:00:35.220000Z",
+                "email": "nafag51736@neuraxo.com",
+                "emailVerified": false,
+                "employeeId": "1",
+                "first_name": "john-employee",
+                "isPasswordChanged": false,
+                "is_active": true,
+                "is_deleted": false,
+                "is_staff": false,
+                "is_superuser": false,
+                "last_login": "2025-05-14T14:01:11.125591Z",
+                "last_name": "john-employee",
+                "mfaEnabled": false,
+                "resources": [],
+                "tprmClientSchedule": null,
+                "tprmVendorSchedule": null,
+                "updatedAt": "2025-05-14T14:01:11.134Z",
+                "user_designation": "Employee",
+                "user_id": 28,
+                "user_name": "john-employee john-employee",
+                "user_uuid": "6824a2037ccfad5b8cf32edd",
+                "vendor_uuid": null,
+                "admin": 22,
+                "profile_img_path": null
+              },
+              "_id": "6825aab66bc9c010825b8335"
+            },
+            {
+              "teamId": {
+                "_id": "6824a35af061f3cd7138d513",
+                "name": "john-team",
+                "description": "john-team",
+                "teamType": "General",
+                "createdBy": "6814b357867043693c431808",
+                "departmentId": "68145752645c57ca96a812a3",
+                "teamLeadId": "6824a2037ccfad5b8cf32edd",
+                "domains": ["john-team"],
+                "createdAt": "2025-05-14T14:06:18.653Z",
+                "updatedAt": "2025-05-14T14:06:18.653Z",
+                "__v": 0
+              },
+              "userId": {
+                "_id": "6824a2827ccfad5b8cf32ede",
+                "__v": 0,
+                "address": null,
+                "admin_email": "anmol.s@kritikalhire.com",
+                "admin_uuid": "6814b357867043693c431808",
+                "afterLoginMfaVerified": null,
+                "client_uuid": null,
+                "contact_number": "8989898989",
+                "createdAt": "2025-05-14T14:02:42.089Z",
+                "date_joined": "2025-05-14T14:02:42.042000Z",
+                "email": "voyomig920@neuraxo.com",
+                "emailVerified": false,
+                "employeeId": "1",
+                "first_name": "john-reviewer",
+                "isPasswordChanged": false,
+                "is_active": true,
+                "is_deleted": false,
+                "is_staff": false,
+                "is_superuser": false,
+                "last_login": "2025-05-14T14:17:09.626700Z",
+                "last_name": "john-reviewer",
+                "mfaEnabled": false,
+                "resources": [],
+                "tprmClientSchedule": null,
+                "tprmVendorSchedule": null,
+                "updatedAt": "2025-05-14T14:17:09.635Z",
+                "user_designation": "Reviewer",
+                "user_id": 29,
+                "user_name": "john-reviewer john-reviewer",
+                "user_uuid": "6824a2827ccfad5b8cf32ede",
+                "vendor_uuid": null,
+                "admin": 22,
+                "profile_img_path": null
+              },
+              "_id": "6825aab66bc9c010825b8336"
+            },
+            {
+              "teamId": {
+                "_id": "6824a35af061f3cd7138d513",
+                "name": "john-team",
+                "description": "john-team",
+                "teamType": "General",
+                "createdBy": "6814b357867043693c431808",
+                "departmentId": "68145752645c57ca96a812a3",
+                "teamLeadId": "6824a2037ccfad5b8cf32edd",
+                "domains": ["john-team"],
+                "createdAt": "2025-05-14T14:06:18.653Z",
+                "updatedAt": "2025-05-14T14:06:18.653Z",
+                "__v": 0
+              },
+              "userId": {
+                "_id": "6824a2de7ccfad5b8cf32edf",
+                "__v": 0,
+                "address": null,
+                "admin_email": "anmol.s@kritikalhire.com",
+                "admin_uuid": "6814b357867043693c431808",
+                "afterLoginMfaVerified": null,
+                "client_uuid": null,
+                "contact_number": "8989898989",
+                "createdAt": "2025-05-14T14:04:14.875Z",
+                "date_joined": "2025-05-14T14:04:14.841000Z",
+                "email": "micin40157@daupload.com",
+                "emailVerified": false,
+                "employeeId": "1",
+                "first_name": "john-approver",
+                "isPasswordChanged": false,
+                "is_active": true,
+                "is_deleted": false,
+                "is_staff": false,
+                "is_superuser": false,
+                "last_login": "2025-05-14T14:20:38.028737Z",
+                "last_name": "john-approver",
+                "mfaEnabled": false,
+                "resources": [],
+                "tprmClientSchedule": null,
+                "tprmVendorSchedule": null,
+                "updatedAt": "2025-05-14T14:20:38.037Z",
+                "user_designation": "Approver",
+                "user_id": 30,
+                "user_name": "john-approver john-approver",
+                "user_uuid": "6824a2de7ccfad5b8cf32edf",
+                "vendor_uuid": null,
+                "admin": 22,
+                "profile_img_path": null
+              },
+              "_id": "6825aab66bc9c010825b8337"
+            }
+          ],
+          "lead": {
+            "_id": "6824a2037ccfad5b8cf32edd",
+            "__v": 0,
+            "address": null,
+            "admin_email": "anmol.s@kritikalhire.com",
+            "admin_uuid": "6814b357867043693c431808",
+            "afterLoginMfaVerified": null,
+            "client_uuid": null,
+            "contact_number": "8098789878",
+            "createdAt": "2025-05-14T14:00:35.286Z",
+            "date_joined": "2025-05-14T14:00:35.220000Z",
+            "email": "nafag51736@neuraxo.com",
+            "emailVerified": false,
+            "employeeId": "1",
+            "first_name": "john-employee",
+            "isPasswordChanged": false,
+            "is_active": true,
+            "is_deleted": false,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2025-05-14T14:01:11.125591Z",
+            "last_name": "john-employee",
+            "mfaEnabled": false,
+            "resources": [],
+            "tprmClientSchedule": null,
+            "tprmVendorSchedule": null,
+            "updatedAt": "2025-05-14T14:01:11.134Z",
+            "user_designation": "Employee",
+            "user_id": 28,
+            "user_name": "john-employee john-employee",
+            "user_uuid": "6824a2037ccfad5b8cf32edd",
+            "vendor_uuid": null,
+            "admin": 22,
+            "profile_img_path": null
+          },
+          "manager": {
+            "_id": "6824a2827ccfad5b8cf32ede",
+            "__v": 0,
+            "address": null,
+            "admin_email": "anmol.s@kritikalhire.com",
+            "admin_uuid": "6814b357867043693c431808",
+            "afterLoginMfaVerified": null,
+            "client_uuid": null,
+            "contact_number": "8989898989",
+            "createdAt": "2025-05-14T14:02:42.089Z",
+            "date_joined": "2025-05-14T14:02:42.042000Z",
+            "email": "voyomig920@neuraxo.com",
+            "emailVerified": false,
+            "employeeId": "1",
+            "first_name": "john-reviewer",
+            "isPasswordChanged": false,
+            "is_active": true,
+            "is_deleted": false,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2025-05-14T14:17:09.626700Z",
+            "last_name": "john-reviewer",
+            "mfaEnabled": false,
+            "resources": [],
+            "tprmClientSchedule": null,
+            "tprmVendorSchedule": null,
+            "updatedAt": "2025-05-14T14:17:09.635Z",
+            "user_designation": "Reviewer",
+            "user_id": 29,
+            "user_name": "john-reviewer john-reviewer",
+            "user_uuid": "6824a2827ccfad5b8cf32ede",
+            "vendor_uuid": null,
+            "admin": 22,
+            "profile_img_path": null
+          },
+          "auditStatus": "In-Process",
+          "comments": "two",
+          "createdAt": "2025-05-15T08:49:58.640Z",
+          "updatedAt": "2025-05-15T08:49:58.640Z",
+          "__v": 0
+        }
+      }
+    ]
+  }
+]
